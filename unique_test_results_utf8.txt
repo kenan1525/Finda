@@ -1,0 +1,17 @@
+﻿[
+  {
+    "source": "Oda Seramik",
+    "link": null,
+    "product_link": "https://www.google.com/search?ibp=oshop&q=handmade pottery bowl&prds=catalogid:4319387287021162819,headlineOfferDocid:4341857155052812308,imageDocid:7814771165949625888,gpcid:729451436571559742,pvt:hg&hl=tr&gl=tr&udm=28"
+  },
+  {
+    "source": "gharyan.ca",
+    "link": null,
+    "product_link": "https://www.google.com/search?ibp=oshop&q=handmade pottery bowl&prds=catalogid:14619177218280561331,headlineOfferDocid:10665278386449557312,imageDocid:740533672295921764,gpcid:21926541670062345,pvt:hg&hl=tr&gl=tr&udm=28"
+  },
+  {
+    "source": "Ceramicstoreart",
+    "link": null,
+    "product_link": "https://www.google.com/search?ibp=oshop&q=handmade pottery bowl&prds=productid:10135314923593056117,headlineOfferDocid:10135314923593056117,imageDocid:271488612031468622,pvt:hg&hl=tr&gl=tr&udm=28"
+  }
+]

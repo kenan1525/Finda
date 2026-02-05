@@ -1,0 +1,17 @@
+﻿{
+  "shopping_results": [],
+  "organic_results": [
+    {
+      "source": "MediaMarkt",
+      "link": "https://www.mediamarkt.com.tr/tr/product/_apple-iphone-15-128-gb-akilli-telefon-siyah-mtp03tua-1232435.html"
+    },
+    {
+      "source": "akakce.com",
+      "link": "https://www.akakce.com/cep-telefonu/en-ucuz-iphone-15-fiyati,1745758198.html"
+    },
+    {
+      "source": "Vatan Bilgisayar",
+      "link": "https://www.vatanbilgisayar.com/iphone-15-akilli-telefon.html"
+    }
+  ]
+}

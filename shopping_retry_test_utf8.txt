@@ -1,0 +1,17 @@
+﻿[
+  {
+    "title": "Apple iPhone 15",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRrtpC7eiY1_c4OG5RXSNiO_DR7G_1rFUGDSafK9WQTPI_DEQUK4v8NrIkrPdM71lFXOu75H6VoS4B6AEPuTDX4oZEF_vzu0595YCf9lH0qSsclwSMGCfY",
+    "offers": []
+  },
+  {
+    "title": "Apple iPhone 15 Pro Max Titanyum",
+    "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRU2wWi9MNYJ2s8acfOnkMHx35JpgYauo7tieeGCzwylxvFeILLX8OXIVheScC_edmESPMtXf18eeMueDvuPzK0N3JKid_44e1qR3qCf7B-hj5AU--FfueW",
+    "offers": []
+  },
+  {
+    "title": "Apple iPhone 15 Pro Titanyum",
+    "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTJZCOzGf77N-3LDUXr4E8-yAEeLSa6ZK69ekIJ8Nq7FerJAQztTWJ5eSGKnR5vKlnwHyZfbCEKjRBoXv1RWlonkcMYT-GONQ",
+    "offers": []
+  }
+]

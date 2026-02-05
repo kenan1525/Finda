@@ -1,0 +1,37 @@
+﻿[
+  {
+    "title": "Apple iPhone 15",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRrtpC7eiY1_c4OG5RXSNiO_DR7G_1rFUGDSafK9WQTPI_DEQUK4v8NrIkrPdM71lFXOu75H6VoS4B6AEPuTDX4oZEF_vzu0595YCf9lH0qSsclwSMGCfY",
+    "image": null,
+    "offers": 0,
+    "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=catalogid:16108807473559459361,headlineOfferDocid:9271113198580877904,imageDocid:4492066253246781332,rds:PC_6601648695432433635|PROD_PC_6601648695432433635,gpcid:6601648695432433635,mid:576462758755759090,pvt:hg&hl=tr&gl=tr&udm=28"
+  },
+  {
+    "title": "Apple iPhone 15 Pro Max Titanyum",
+    "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRU2wWi9MNYJ2s8acfOnkMHx35JpgYauo7tieeGCzwylxvFeILLX8OXIVheScC_edmESPMtXf18eeMueDvuPzK0N3JKid_44e1qR3qCf7B-hj5AU--FfueW",
+    "image": null,
+    "offers": 0,
+    "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=catalogid:17443053429785486366,headlineOfferDocid:12744871916744186047,imageDocid:14368104816062554941,rds:PC_17780781309483346961|PROD_PC_17780781309483346961,gpcid:17780781309483346961,mid:576462762041588434,pvt:hg&hl=tr&gl=tr&udm=28"
+  },
+  {
+    "title": "Apple iPhone 15 Pro Titanyum",
+    "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTJZCOzGf77N-3LDUXr4E8-yAEeLSa6ZK69ekIJ8Nq7FerJAQztTWJ5eSGKnR5vKlnwHyZfbCEKjRBoXv1RWlonkcMYT-GONQ",
+    "image": null,
+    "offers": 0,
+    "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=catalogid:15083238352665192162,headlineOfferDocid:13491718213999055866,imageDocid:10740886263954395481,rds:PC_11795796123145720151|PROD_PC_11795796123145720151,gpcid:11795796123145720151,mid:576462472968736074,pvt:hg&hl=tr&gl=tr&udm=28"
+  },
+  {
+    "title": "Apple iPhone 15 Pro Max 256GB Beyaz Titanyum",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTIugxBNoJNbwHFY-06UXQaTCSRetLZF6DwFMnqCVyIAcTWz8Jw0DaQt_Xlzp4qdP-A8MaYzGu3Rc05G2-BU1MuvvA_Z6BAlsgxko0eLuAu92ynxaHW7QK5",
+    "image": null,
+    "offers": 0,
+    "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=catalogid:11161361194816461573,headlineOfferDocid:84143335516490725,imageDocid:14098724278629692356,gpcid:10067341704833967664,pvt:hg&hl=tr&gl=tr&udm=28"
+  },
+  {
+    "title": "Apple iPhone 16 Pro Max Titanyum",
+    "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSoYGYaRQbkTk_0COZi7WhsOx4R7h-VYNv5-l-aNWaEbAwuouqpdHViOtKmCk8BQZwHY15Z7x1vdvEgn0vVFgs3rUmOfbOl",
+    "image": null,
+    "offers": 0,
+    "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=catalogid:10207910645717168799,headlineOfferDocid:7408956985747180178,imageDocid:15595435954740604477,rds:PC_5947667959674427990|PROD_PC_5947667959674427990,gpcid:5947667959674427990,mid:576462492849692868,pvt:hg&hl=tr&gl=tr&udm=28"
+  }
+]

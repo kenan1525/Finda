@@ -1,0 +1,15 @@
+﻿--- Inline Shopping Results (Ads) ---
+
+--- Shopping Results (Embedded) ---
+
+--- Organic Results ---
+Title: K¦MSEN¦N ANLATMADIKLARI ? iPHONE 15 inceleme ...
+Thumbnail: https://serpapi.com/searches/6983d729e6cb30bf5f7d4703/images/HRQ3fEKRXGvq8yCh5u1ydOhC2j-Z1AQkHO5DiajaGu4.jpeg
+Rich Snippet: None
+Keys: ['position', 'title', 'link', 'displayed_link', 'thumbnail', 'favicon', 'snippet', 'duration', 'key_moments', 'source']
+--------------------
+Title: Is the iPhone 15 Still Worth Buying? Surprising Result
+Thumbnail: https://serpapi.com/searches/6983d729e6cb30bf5f7d4703/images/HRQ3fEKRXGvq8yCh5u1ydMHOHw2e0273oeu9H2Dz-uw.jpeg
+Rich Snippet: None
+Keys: ['position', 'title', 'link', 'displayed_link', 'thumbnail', 'favicon', 'snippet', 'duration', 'video_link', 'source']
+--------------------

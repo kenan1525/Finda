@@ -1,0 +1,4 @@
+﻿{
+  "inline": [],
+  "organic_merchants": []
+}

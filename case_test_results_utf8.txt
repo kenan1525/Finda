@@ -1,0 +1,17 @@
+﻿[
+  {
+    "source": "trendyol.com",
+    "link": null,
+    "product_link": "https://www.google.com/search?ibp=oshop&q=samsung s24 ultra case trendyol&prds=catalogid:2049680464493304138,headlineOfferDocid:9144212930699700427,imageDocid:11671265151421791384,rds:PC_10854173934519361766|PROD_PC_10854173934519361766,gpcid:10854173934519361766,mid:576462775710413504,pvt:hg&hl=tr&gl=tr&udm=28"
+  },
+  {
+    "source": "trendyol.com",
+    "link": null,
+    "product_link": "https://www.google.com/search?ibp=oshop&q=samsung s24 ultra case trendyol&prds=productid:8322917252209388211,headlineOfferDocid:8322917252209388211,imageDocid:13814672748622853372,pvt:hg&hl=tr&gl=tr&udm=28"
+  },
+  {
+    "source": "trendyol.com",
+    "link": null,
+    "product_link": "https://www.google.com/search?ibp=oshop&q=samsung s24 ultra case trendyol&prds=productid:10539584392867397391,headlineOfferDocid:10539584392867397391,imageDocid:17629845430734591176,pvt:hg&hl=tr&gl=tr&udm=28"
+  }
+]

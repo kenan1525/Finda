@@ -1,0 +1,21 @@
+﻿Testing for query: iphone 15
+[
+  {
+    "title": "APPLE iPhone 15 128 GB Ak\u0131ll\u0131 ",
+    "has_image": true,
+    "is_direct": false,
+    "domain": "www.mediamarkt.com.tr"
+  },
+  {
+    "title": "Apple iPhone 15 Ak\u0131ll\u0131 Telefon",
+    "has_image": true,
+    "is_direct": false,
+    "domain": "www.vatanbilgisayar.com"
+  },
+  {
+    "title": "iPhone 15 Fiyatlar\u0131 ve Modelle",
+    "has_image": true,
+    "is_direct": false,
+    "domain": "www.teknosa.com"
+  }
+]

@@ -1,0 +1,1094 @@
+{
+    "search_metadata": {
+        "id": "6983c70ca4817c8824cc77a6",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/kPI12K96_DV7NvIp5-sZrg/6983c70ca4817c8824cc77a6.json",
+        "created_at": "2026-02-04 22:24:12 UTC",
+        "processed_at": "2026-02-04 22:24:12 UTC",
+        "google_shopping_url": "https://www.google.com/search?udm=28&q=iphone+15&hl=tr&gl=tr",
+        "raw_html_file": "https://serpapi.com/searches/kPI12K96_DV7NvIp5-sZrg/6983c70ca4817c8824cc77a6.html",
+        "total_time_taken": 1.57
+    },
+    "search_parameters": {
+        "engine": "google_shopping",
+        "q": "iphone 15",
+        "google_domain": "google.com",
+        "hl": "tr",
+        "gl": "tr",
+        "device": "desktop"
+    },
+    "search_information": {
+        "query_displayed": "iphone 15",
+        "total_results": 10,
+        "time_taken_displayed": 0.21,
+        "shopping_results_state": "Results for exact spelling"
+    },
+    "shopping_results": [
+        {
+            "position": 1,
+            "title": "Apple iPhone 15",
+            "product_id": "16108807473559459361",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=catalogid:16108807473559459361,headlineOfferDocid:9271113198580877904,imageDocid:4492066253246781332,rds:PC_6601648695432433635|PROD_PC_6601648695432433635,gpcid:6601648695432433635,mid:576462758755759090,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTYxMDg4MDc0NzM1NTk0NTkzNjEiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI5MjcxMTEzMTk4NTgwODc3OTA0IiwiaW1hZ2VEb2NpZCI6IjQ0OTIwNjYyNTMyNDY3ODEzMzIiLCJyZHMiOiJQQ182NjAxNjQ4Njk1NDMyNDMzNjM1fFBST0RfUENfNjYwMTY0ODY5NTQzMjQzMzYzNSIsInF1ZXJ5IjoiaXBob25lKzE1IiwiZ3BjaWQiOiI2NjAxNjQ4Njk1NDMyNDMzNjM1IiwibWlkIjoiNTc2NDYyNzU4NzU1NzU5MDkwIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InRyIiwiaGwiOiJ0ciJ9",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTYxMDg4MDc0NzM1NTk0NTkzNjEiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI5MjcxMTEzMTk4NTgwODc3OTA0IiwiaW1hZ2VEb2NpZCI6IjQ0OTIwNjYyNTMyNDY3ODEzMzIiLCJyZHMiOiJQQ182NjAxNjQ4Njk1NDMyNDMzNjM1fFBST0RfUENfNjYwMTY0ODY5NTQzMjQzMzYzNSIsInF1ZXJ5IjoiaXBob25lKzE1IiwiZ3BjaWQiOiI2NjAxNjQ4Njk1NDMyNDMzNjM1IiwibWlkIjoiNTc2NDYyNzU4NzU1NzU5MDkwIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InRyIiwiaGwiOiJ0ciJ9",
+            "source": "trendyol.com",
+            "source_icon": "https://serpapi.com/searches/6983c70ca4817c8824cc77a6/images/kr9Wo3LLQDQp27C01EGMVKVPnr1GWTn9lwSrotV9XUU.png",
+            "multiple_sources": true,
+            "price": "₺40.199,00",
+            "extracted_price": 40199.0,
+            "second_hand_condition": "i̇kinci el",
+            "rating": 5,
+            "reviews": 42000000000,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRrtpC7eiY1_c4OG5RXSNiO_DR7G_1rFUGDSafK9WQTPI_DEQUK4v8NrIkrPdM71lFXOu75H6VoS4B6AEPuTDX4oZEF_vzu0595YCf9lH0qSsclwSMGCfY",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/IZWeXnicDclJDoIwAADAF8mSUBESY5ClECJbRcFLo2WNCKUUjP7JB_kbnet8Pw3ndNJFsewJe1FeFit-6yWhnviVt0Qgw0OcmoHStq934_Z_uhEUGiQJ49RUyzaXMVFCCJIMBW2IrUSFWGZOCi10rXztHB8jD1t2nPrKsgmYd2dRcVDlzsnCWQXu-jQgZb827Gg-WpkyXGwHL-9ZAhrIzUrrXGlEE-me6ADNKv8BZz87lA",
+            "thumbnails": [
+                "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRrtpC7eiY1_c4OG5RXSNiO_DR7G_1rFUGDSafK9WQTPI_DEQUK4v8NrIkrPdM71lFXOu75H6VoS4B6AEPuTDX4oZEF_vzu0595YCf9lH0qSsclwSMGCfY",
+                "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS2KAy9ZlFmNvGn4bfNg3euu9DxRMXWmjClpu-iMhWwl9YZ0nGQf-4jRfwgK7jtTxVM3TlNzBZtLLAYObVzOvEDojq3EYM67xbLLUYupvU7pnvcxtPdwjFo",
+                "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRZ2zBztdZxVRABcROXcqOX8JUAsju9TDPNzcuqenxjZv5itRZHGHxHA7eH8xnx9UU0df75baff3WNW3KICYxWp25qLqwL1znoV7TnDa4Z3",
+                "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQVh9TaumbJNY7CVjSK2yxLx70DOqQHAO7lZh7_czESwX1BT64z2o0elVuqVH38m2zRetXEl_AiQDXFzBjNXWtCVcbDh2TLixKd6b2uqlvA8t25RbBFxTJEpA",
+                "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTiJe4I8oAZjCWoBIpyKRfGKUKsNAgBvn_GmEHrYuZVzDzfquWjQvVvk90n4dQ-WEe_MZVMMHHfQtWhioyE6Di0029w4k1b7gkk8QjwCAwYBGmmNM5g4DOd"
+            ],
+            "serpapi_thumbnails": [
+                "https://serpapi.com/images/url/IZWeXnicDclJDoIwAADAF8mSUBESY5ClECJbRcFLo2WNCKUUjP7JB_kbnet8Pw3ndNJFsewJe1FeFit-6yWhnviVt0Qgw0OcmoHStq934_Z_uhEUGiQJ49RUyzaXMVFCCJIMBW2IrUSFWGZOCi10rXztHB8jD1t2nPrKsgmYd2dRcVDlzsnCWQXu-jQgZb827Gg-WpkyXGwHL-9ZAhrIzUrrXGlEE-me6ADNKv8BZz87lA",
+                "https://serpapi.com/images/url/AArAKHicDclHDoJAFADQEwEqRAKJMShlQVOkCDsZ6gSGQT71UN7H2-jbvu-nAqCDzHE5Qe-VQp4xkJI9Ww7wghqxqGu5oeoorUl57k__kxUnkwz0OJjKKiWN3jqTQYS0cEo-H0dJXTz7GbX42tCRqe0qmhspTnbEuBeMgL1iLk0Rg7-ENu83znZJwLKU2E3DzZ00tcM9r8X2UVxSywrikU6BSMmEFrhlM9a7H1iXP40",
+                "https://serpapi.com/images/url/Ie4duXicDcnbCoIwAADQL0pLEy8QoQmuEo2Rl_amc96gubVZy8_pr_qbOq_n--mlZMLTdULx480kaVaypqbWCVnJAWt4uuuinxgbaLfnu_95ftK4EYbIWIJFNkjl0A8wTEvM09I5Zb4YZ_caXpIFz5xQNaKnNUiIQAQU8G0CHEWVm2XrprWtumpbs0gK83w83FTBDIvH_BVvFjrl9pWG1RaZP4cbOko",
+                "https://serpapi.com/images/url/UY7ZdHicDclJDoIwFADQEwlalcHEmDJp0EBAUtENsYVQDEORjwKn8jreRt_2fT8cQHQbWc5q9hwFZOkMaL2U8g7uUDCJNZXc8UaIos537fZ_G-yl-p4FhOvRva-o611VkzzORzQOp0GdW34bHLCvljeuJmyyz-94YUTKakLNPCtJ35LDUqvQFGYQ22WCi8CKncl4ePEFTMKoxVF0KoZjqlDUt-ULa4DWITWcIXJtgX-IdD45",
+                "https://serpapi.com/images/url/RAroJHicDcnbDkMwAADQL3JbbEOyLG7BhMWyEV5kiirRFkX4qP3P_mY7r-f7aRijkyYIFQbjRllVcqzAEg8n9mYI8ID0wtQQShGG1-HyP00PS9UBT3SrZE8hetaaCTE8uvmP2vFf_hTq0Fhw7vS2O6ZzFu_WXg9z0kZLvHSqiOUy4hK7yoMsDgLXrSOWNIhs9slConhQV7mTijPsOiVqV1NfU8Pp-zA4Qtm6lz9M3z4Q"
+            ]
+        },
+        {
+            "position": 2,
+            "title": "Apple iPhone 15 Pro Max Titanyum",
+            "product_id": "17443053429785486366",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=catalogid:17443053429785486366,headlineOfferDocid:12744871916744186047,imageDocid:14368104816062554941,rds:PC_17780781309483346961|PROD_PC_17780781309483346961,gpcid:17780781309483346961,mid:576462762041588434,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTc0NDMwNTM0Mjk3ODU0ODYzNjYiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMjc0NDg3MTkxNjc0NDE4NjA0NyIsImltYWdlRG9jaWQiOiIxNDM2ODEwNDgxNjA2MjU1NDk0MSIsInJkcyI6IlBDXzE3NzgwNzgxMzA5NDgzMzQ2OTYxfFBST0RfUENfMTc3ODA3ODEzMDk0ODMzNDY5NjEiLCJxdWVyeSI6ImlwaG9uZSsxNSIsImdwY2lkIjoiMTc3ODA3ODEzMDk0ODMzNDY5NjEiLCJtaWQiOiI1NzY0NjI3NjIwNDE1ODg0MzQiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidHIiLCJobCI6InRyIn0=",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTc0NDMwNTM0Mjk3ODU0ODYzNjYiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMjc0NDg3MTkxNjc0NDE4NjA0NyIsImltYWdlRG9jaWQiOiIxNDM2ODEwNDgxNjA2MjU1NDk0MSIsInJkcyI6IlBDXzE3NzgwNzgxMzA5NDgzMzQ2OTYxfFBST0RfUENfMTc3ODA3ODEzMDk0ODMzNDY5NjEiLCJxdWVyeSI6ImlwaG9uZSsxNSIsImdwY2lkIjoiMTc3ODA3ODEzMDk0ODMzNDY5NjEiLCJtaWQiOiI1NzY0NjI3NjIwNDE1ODg0MzQiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidHIiLCJobCI6InRyIn0%3D",
+            "source": "Teknosa",
+            "source_icon": "https://serpapi.com/searches/6983c70ca4817c8824cc77a6/images/kr9Wo3LLQDQp27C01EGMVKz-rlOwb9fvVaJN73veWic.png",
+            "multiple_sources": true,
+            "price": "₺68.999,00",
+            "extracted_price": 68999.0,
+            "second_hand_condition": "yenilenmiş",
+            "rating": 5,
+            "reviews": 21000000000,
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRU2wWi9MNYJ2s8acfOnkMHx35JpgYauo7tieeGCzwylxvFeILLX8OXIVheScC_edmESPMtXf18eeMueDvuPzK0N3JKid_44e1qR3qCf7B-hj5AU--FfueW",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/4a-IVnicDclJDoIwFADQE1VkMAKJMYojAhIMCiuC5ZfWAYp8nA7lfbyNvu37fjiibG1FgYreXhKhIHis1F7ZYo6C9mh9VVpeSymqctyM_mdPgsJa0ijWHgdh-UHqaq2ZU7atzv7qqQ9cWaZ5Vw9RACyd9-N1ed4XsPa8xNwm6z2HHXUyKK7zXehjwlQTwO9gdu_C96Yf6O5GFJlhgNpEeuOw4ZTw02ASE7JgHRx-VkE99w",
+            "thumbnails": [
+                "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRU2wWi9MNYJ2s8acfOnkMHx35JpgYauo7tieeGCzwylxvFeILLX8OXIVheScC_edmESPMtXf18eeMueDvuPzK0N3JKid_44e1qR3qCf7B-hj5AU--FfueW",
+                "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRdo85mf4ySbUW634-dL2PUHyoWmGbENeEHoWwTMXXue_bd3Vl92ot0biAsc-wOXyUPLnU-P8q0f5JLIFjBLBdEuWr8EQvbZkzOizfmA6bihtJVzBoTvnnO",
+                "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQkAcViorf9whl7lBigb4j7FTZhAf97-rijTACZS72w7-8Ow6gfSQeo4-kpKepe0YPoRknac7hKR5R_a58jO5slf_lVXHiCNzXeoQzr0PoJcC5fyQwPEVof_g",
+                "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQLMbJ8j_-X_XeCO2YCCYpmrxhvLyw5GrlmFAgBkCBxfKiP4ejQ7NsiM37vhIndHEPuZp4SNw-z_KKXdEJJEoPuW1jhdVTJt3HbI6eI13s",
+                "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT13pe9wUa6ifOK1PMeUgMqGpzyLp8twWHnj7XB8TF4IVpX1eywG1AmhzKZVD3Py_B4nuxjcWBb-rqdt1QnUfuMkak1JdIazbWp1FdHrY4AmRY7UC4NCi7T"
+            ],
+            "serpapi_thumbnails": [
+                "https://serpapi.com/images/url/4a-IVnicDclJDoIwFADQE1VkMAKJMYojAhIMCiuC5ZfWAYp8nA7lfbyNvu37fjiibG1FgYreXhKhIHis1F7ZYo6C9mh9VVpeSymqctyM_mdPgsJa0ijWHgdh-UHqaq2ZU7atzv7qqQ9cWaZ5Vw9RACyd9-N1ed4XsPa8xNwm6z2HHXUyKK7zXehjwlQTwO9gdu_C96Yf6O5GFJlhgNpEeuOw4ZTw02ASE7JgHRx-VkE99w",
+                "https://serpapi.com/images/url/-zdlpXicDclXDoIwAADQEzHCCpAYAwmCBAGVFX-MbRlVaRkFAofyPt5G3-_7fhrGutEUhJLAYe1YiTgGiMzXI3swDHlIW2FsaNdhUu_73f9MK0SGCy-I6mpbKesVpLkmKxwKpDj1Vpq3LnDC0vFoviSnopjKO0By9jYkykSArRFyS1SsaRyQlIv1XqxUPzgennZgI2fKB905z-D22iK8Va2lAdwwP9tsmsyERD8G6z5m",
+                "https://serpapi.com/images/url/IFTD0nicDclZCoJAAADQE7lQ2qgQYdJCgjti_oiOs6k5kw6InqrrdJt6v-_7oVKK2dE0NMJpFRK1imzGvUpmWUsGVchf2ky5EGwkp_fxf44btPYNxr0Lc8YnbC90AMOZkcbowDUrqYttoEysy1yvTMFuAYoVLgeC0xhxQ-mFjwTSnxFP-rGGgPqJmVS1aXWhOQ-4GvLizrxgKxCPt0mP-AN6Jl7jJbrkHFfkB6aFPyA",
+                "https://serpapi.com/images/url/FR6uwHicDcnbEkJAAADQL8JolTLTNBi5i6kpejGxm6Ww2XXrb_qs_qbO6_l-MGOEKoKAmrybCUOQY1kD-IKyGytzPm9rgeKWkLIpdq_t_xQ1gBszjzw_c9ZVysVpjPTDItH1hNTdhAdvHpdm96z3aqE9dG26u2UooSqSA1r6QB6w3UDLCPsrkY7ByL1T142h4ThGG_YXscLwfHIYsDJ7hWwR0B8h6jl2",
+                "https://serpapi.com/images/url/7otgdXicDclJDoIwFADQEwmpEhESYwDDIOIURjcG2soUygdqEA7lfbyNvu37fgrOYVBFkTLcT8ApWfCMLYV84CkvsYDbRhyKFqBk-a7b_k_VTkSxsI9WQJUxSNfl8-yii0eD3OssmKcjbPgY2aySY33jm5ITQozoNFpIa4rZvYf71WV66BJ7vSsc6dmi7whHVxY8X16d1uhAnHTOIkAmsftE0ppbIgeGdDJK2f8BPow-Hw"
+            ]
+        },
+        {
+            "position": 3,
+            "title": "Apple iPhone 15 Pro Titanyum",
+            "product_id": "15083238352665192162",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=catalogid:15083238352665192162,headlineOfferDocid:13491718213999055866,imageDocid:10740886263954395481,rds:PC_11795796123145720151|PROD_PC_11795796123145720151,gpcid:11795796123145720151,mid:576462472968736074,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTUwODMyMzgzNTI2NjUxOTIxNjIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMzQ5MTcxODIxMzk5OTA1NTg2NiIsImltYWdlRG9jaWQiOiIxMDc0MDg4NjI2Mzk1NDM5NTQ4MSIsInJkcyI6IlBDXzExNzk1Nzk2MTIzMTQ1NzIwMTUxfFBST0RfUENfMTE3OTU3OTYxMjMxNDU3MjAxNTEiLCJxdWVyeSI6ImlwaG9uZSsxNSIsImdwY2lkIjoiMTE3OTU3OTYxMjMxNDU3MjAxNTEiLCJtaWQiOiI1NzY0NjI0NzI5Njg3MzYwNzQiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidHIiLCJobCI6InRyIn0=",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTUwODMyMzgzNTI2NjUxOTIxNjIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMzQ5MTcxODIxMzk5OTA1NTg2NiIsImltYWdlRG9jaWQiOiIxMDc0MDg4NjI2Mzk1NDM5NTQ4MSIsInJkcyI6IlBDXzExNzk1Nzk2MTIzMTQ1NzIwMTUxfFBST0RfUENfMTE3OTU3OTYxMjMxNDU3MjAxNTEiLCJxdWVyeSI6ImlwaG9uZSsxNSIsImdwY2lkIjoiMTE3OTU3OTYxMjMxNDU3MjAxNTEiLCJtaWQiOiI1NzY0NjI0NzI5Njg3MzYwNzQiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidHIiLCJobCI6InRyIn0%3D",
+            "source": "PttAVM.com",
+            "source_icon": "https://serpapi.com/searches/6983c70ca4817c8824cc77a6/images/kr9Wo3LLQDQp27C01EGMVO6fYGCMx9oXobt3SvHsB2E.jpeg",
+            "multiple_sources": true,
+            "price": "₺69.255,00",
+            "extracted_price": 69255.0,
+            "old_price": "Genellikle ₺71.155",
+            "extracted_old_price": 71155,
+            "rating": 5,
+            "reviews": 15000000000,
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTJZCOzGf77N-3LDUXr4E8-yAEeLSa6ZK69ekIJ8Nq7FerJAQztTWJ5eSGKnR5vKlnwHyZfbCEKjRBoXv1RWlonkcMYT-GONQ",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/Y3nVUHicDclJDoIwAADAFwEhypoYg4hVihAWA3KDUhbBtkCDwZf4NX-jc53vp-WczaYkYYKmlXFcCbwkstjMvOAdEhF9SnNLGetIsx93_zMtvzIAStzcDt6g1jRf2HjHWzZtHV1YLQd7caHmUDVwf3F1f9ROeHKt8M2T1FVwDCCJlAUO5HVe87q0HfiIDjRb5CgdKOnR9Z4IIPDDH6v_NUg",
+            "thumbnails": [
+                "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTJZCOzGf77N-3LDUXr4E8-yAEeLSa6ZK69ekIJ8Nq7FerJAQztTWJ5eSGKnR5vKlnwHyZfbCEKjRBoXv1RWlonkcMYT-GONQ",
+                "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQRk5LwiHF9f8QHJPwOgEdNf4Mwu6fKauqLgxVEHP4pCH1ic3KEsnBz-ClYh4wbZ8xPpW16tOJaqcepmtG_hKnmZeUFgAjNPp2LZmjckta60Viw3lr2brR8",
+                "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS7eJi_nF5TFXfuYggeQyKun14-bgUKRN7X8Pvhsg6JN6M1uiMx16Dxm9q2VRD7DWbY4xLGr8VTFBqOBsmPtQIO3qFDD5uUfQdenGDZZPooYww0sZKDiWYx",
+                "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQhmQ1fAKMA91rJK7qtjb9D3nbh3IobvJtB08w2EQ_f33zjV3BzR4pezUDPwLy7nhP4dSLNFBSOxljXIy6BwgB6PGtK2UMHETm1WGH6bX9Qu5gYXiH57Oux",
+                "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSqriGvyNEWKTryDNNPuSyvQaXihDHk4SoL-XJQjl9PVKXatXuHhgvN7fPZilQle-Cy9SWSpQdH4QCyqhVo_2KPVbNj0qu61cXj_5o_WAsGSe-f-3VjROL8"
+            ],
+            "serpapi_thumbnails": [
+                "https://serpapi.com/images/url/Y3nVUHicDclJDoIwAADAFwEhypoYg4hVihAWA3KDUhbBtkCDwZf4NX-jc53vp-WczaYkYYKmlXFcCbwkstjMvOAdEhF9SnNLGetIsx93_zMtvzIAStzcDt6g1jRf2HjHWzZtHV1YLQd7caHmUDVwf3F1f9ROeHKt8M2T1FVwDCCJlAUO5HVe87q0HfiIDjRb5CgdKOnR9Z4IIPDDH6v_NUg",
+                "https://serpapi.com/images/url/JV39nnicDclvD0JAHADgT-RPkdHWmkwZErZqedPO4Zy4Dj879aH6Pn2bet4-308NwMe1opQMDy8OZSFBzlSZjICAYhk_O2Wsn5xTRrb95n9rOyqsA07SxyoU1NtblZl4fixOxC2iSj-KyagCNPUhmS-uF-vc8RYUa4E7st1bctpbrYs8M-eYXxcGnHzU45J3cLjXAeuy8rwndhPFfBlmXYMfgAz1QoXWDst8SM0fLjk-oQ",
+                "https://serpapi.com/images/url/tqo7O3icDclJDoIwAADAF8miLEJijKSBCMomynIxAqX0QFlapHzK__gbnet8Py1jAzVFEZJqWgcG6w0riSQgyl4MV0LVdyJt-2HABB3Hw__Mk18bTnXToYufxFYTO2vmHCEYrd5MZGVTorsX-3q2D98tRZrra1d5xlcua4B3xrh9xEAHaZkr_OJM-0diW2Ng0S5k0TnYjTYA6nxvohoSBxRF2Pf5ski08ABOc_4D-9I9rQ",
+                "https://serpapi.com/images/url/ha7XhnicDcnbEkJAGADgJ4q0Ic00jZ1ESeioq6Z1WiZr45fDQ_U-vU19t9_3QwF4PRfFmIVVzyGORkDYWEhreEAWCmFZiDUtOc9Yunwt_jfX95Fmhj4tfCnRbUfXpGprqy_IibZCjFC0Kcl7C3g8ayeGf08QGvILwsNhyuPhvPLaXa8y6k2j426_xke3e-bBpldwm2LFM8GenB3LOBXS1bQUEmh-I6e3ILNk1W26H9jpPKs",
+                "https://serpapi.com/images/url/XuPGB3icDcnbCoIwAADQL5pmd4UIyVBSlmuhoxexednM3NQp7Kf6n_6mzuv5fphScnRMs-zooKUqC6CenWXUo8oVpwYVb3NkQkre1cf-8D_HhYXtU9wP3J81PKfhfdAehPGE9YxywpkXvNZYRIBcUNPacRKSXJEpYPUMd1X84C1qS3DSNk6xREWwRifds0RkyzBOnrBZ9NPWoqTJNiJL3dHHJajAKmlu12j_A4cEPok"
+            ],
+            "tag": "DÜŞÜK FİYAT",
+            "extensions": [
+                "DÜŞÜK FİYAT"
+            ]
+        },
+        {
+            "position": 4,
+            "title": "Apple iPhone 15 Pro Max 256GB Beyaz Titanyum",
+            "product_id": "11161361194816461573",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=catalogid:11161361194816461573,headlineOfferDocid:84143335516490725,imageDocid:14098724278629692356,gpcid:10067341704833967664,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTExNjEzNjExOTQ4MTY0NjE1NzMiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI4NDE0MzMzNTUxNjQ5MDcyNSIsImltYWdlRG9jaWQiOiIxNDA5ODcyNDI3ODYyOTY5MjM1NiIsInJkcyI6IiIsInF1ZXJ5IjoiaXBob25lKzE1IiwiZ3BjaWQiOiIxMDA2NzM0MTcwNDgzMzk2NzY2NCIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ0ciIsImhsIjoidHIifQ==",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTExNjEzNjExOTQ4MTY0NjE1NzMiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI4NDE0MzMzNTUxNjQ5MDcyNSIsImltYWdlRG9jaWQiOiIxNDA5ODcyNDI3ODYyOTY5MjM1NiIsInJkcyI6IiIsInF1ZXJ5IjoiaXBob25lKzE1IiwiZ3BjaWQiOiIxMDA2NzM0MTcwNDgzMzk2NzY2NCIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ0ciIsImhsIjoidHIifQ%3D%3D",
+            "source": "MediaMarkt Türkiye",
+            "source_icon": "https://serpapi.com/searches/6983c70ca4817c8824cc77a6/images/kr9Wo3LLQDQp27C01EGMVOFA5mj96SAtfmwig3WEnTU.png",
+            "multiple_sources": true,
+            "price": "₺89.999,00",
+            "extracted_price": 89999.0,
+            "second_hand_condition": "yenilenmiş",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTIugxBNoJNbwHFY-06UXQaTCSRetLZF6DwFMnqCVyIAcTWz8Jw0DaQt_Xlzp4qdP-A8MaYzGu3Rc05G2-BU1MuvvA_Z6BAlsgxko0eLuAu92ynxaHW7QK5",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/IbMwwnicDcnbEkJAAADQL8J2k5ppmsWgCxOReDFrGUxaK7u5fFT_09_UeT3fT8kY7baSlBP8GinLM4GlBIhFxxCrsIibp9SVDaUVKfbt7n9b6GQbE_sHXgyq0xydtLeMSABycHeRr129nJ1jQ9Z7wyatdhsPEPvhpBx7oCOXJfd6oss2uwhQsVE0mXzhYbAy54IazGz-fsMkllVYd8XwaEB-5pBv5iMZkBWu3dPqBwNuPVQ",
+            "thumbnails": [
+                "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTIugxBNoJNbwHFY-06UXQaTCSRetLZF6DwFMnqCVyIAcTWz8Jw0DaQt_Xlzp4qdP-A8MaYzGu3Rc05G2-BU1MuvvA_Z6BAlsgxko0eLuAu92ynxaHW7QK5",
+                "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRxI_glEo4Yz9fVcKge95cyAzj4FfeL3qGZrzD75VaZuCL11y8Q_4DuGkRg2PYsoUuAcCd3Fy4VPynDWMl7u6PO1pqdJDGaCa0u5GLm2spE57PIcig5wtAXXQ",
+                "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSZ7xATQ4YIJACF9hDGJVNn22tA_sn6w8MaylFYyCQgDA-xPTJjVooHzvWxyMDBkccGlncMUV_qyJ8hK1DnN90nw_IuvxXXSN_BfbEwnA",
+                "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRCI2ToUsXguxTI9DyYTDiehiqurOiNTEVsms_YJL1ZIms6nlCGN0O7PCpsKb4BpzSHQGcqon8ZElErVJnexGxXz_biCz594nCmWDrm9w",
+                "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRxt_fo6rqC9YQZIu1E-aRhKGJs_aN-sFsn2-uiHu2iA2oVocCMLtInzQivDsNUNUjjYe5OkEFs6ZortJYctTcXxfnD2GSuC7luSEsWFypSoLVruf0N9lTC"
+            ],
+            "serpapi_thumbnails": [
+                "https://serpapi.com/images/url/IbMwwnicDcnbEkJAAADQL8J2k5ppmsWgCxOReDFrGUxaK7u5fFT_09_UeT3fT8kY7baSlBP8GinLM4GlBIhFxxCrsIibp9SVDaUVKfbt7n9b6GQbE_sHXgyq0xydtLeMSABycHeRr129nJ1jQ9Z7wyatdhsPEPvhpBx7oCOXJfd6oss2uwhQsVE0mXzhYbAy54IazGz-fsMkllVYd8XwaEB-5pBv5iMZkBWu3dPqBwNuPVQ",
+                "https://serpapi.com/images/url/Utmn2HicDcnbEkJAAADQL4rIJmaaxrjsKJXMJLwYLZYuLLs7tb6q3-lv6rye76dhjFBTlqsOjYKwqpyxa6dKmLKCtUhC_VOmTU9I2-HNsP6faR1KA6Lo7ef44fZaOhl1jHa4MgAS1nTTvLoKFgPMxsnRQVxk3A4URaxOueZweI-wGqa0P3ML2eXCE1ocis657B86X4ZHhQzl1oGFXcw5gMFTpcQFeuijFoMXs5Lk9AOe1j4g",
+                "https://serpapi.com/images/url/nBHU73icDcnhDkJQGADQJ0KsFbbWLjeisYxEf4xLKH3IDben6bV6mzp_z_dTUdoNqiAUQJ6so0XO0QxEvhxoSmvCk_YhDFXbdTWU237zPxW5uWIS_7KeUeAtY8tGuqFU2LRDFySJomSA1SQ7KWuMmOleiRE3HwP7Frbt_j2eZ-Zg7U6I2QBxTmHSM1uuDiIGV1nAlFivcY4i3020a7abAP0AuXQ5kg",
+                "https://serpapi.com/images/url/Q1-eMXicDcnbCoIwAADQL0oz7KIQUVOWFtrFTH2RnKIDd3GbpH5Nv9Xf1Hk930-jFJe2rlcUiZGrqpypghpaLdVLYaQhRnTZMM4xrXfd9n_2PigtiG7AW0TsIZO6HyLPcsY0cnDV4K4XIQ4iN5ZE5ql_NjKPyBVtAQzm4foCuDwV5oFP9-MVoo7RTea2roh9Wg1wSKa8wGBaWiYF5OkIYr1_GBI6bw",
+                "https://serpapi.com/images/url/RM3_gnicDclZDoIwEADQExWERAwmxhgEXGsQN_wxWECK2pbO1KiH8j7eRt_v-35qRAV92y4F0y-FZUHwLBzrApgjZxaTdxtqqRQXl2E7-F9_RAs_Zusnnirp6Tbws-Q4NU5I8nU9j2dwyimBCIRLDJ8Yl49cuZMsWC5wKt4Jf4yBbum2abKyu7qGEXhHqXGWMdyww7MSYzdOTdC7mTSEffRSqVzstKk61L9tgh9hdz8y"
+            ]
+        },
+        {
+            "position": 5,
+            "title": "Apple iPhone 16 Pro Max Titanyum",
+            "product_id": "10207910645717168799",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=catalogid:10207910645717168799,headlineOfferDocid:7408956985747180178,imageDocid:15595435954740604477,rds:PC_5947667959674427990|PROD_PC_5947667959674427990,gpcid:5947667959674427990,mid:576462492849692868,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTAyMDc5MTA2NDU3MTcxNjg3OTkiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI3NDA4OTU2OTg1NzQ3MTgwMTc4IiwiaW1hZ2VEb2NpZCI6IjE1NTk1NDM1OTU0NzQwNjA0NDc3IiwicmRzIjoiUENfNTk0NzY2Nzk1OTY3NDQyNzk5MHxQUk9EX1BDXzU5NDc2Njc5NTk2NzQ0Mjc5OTAiLCJxdWVyeSI6ImlwaG9uZSsxNSIsImdwY2lkIjoiNTk0NzY2Nzk1OTY3NDQyNzk5MCIsIm1pZCI6IjU3NjQ2MjQ5Mjg0OTY5Mjg2OCIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ0ciIsImhsIjoidHIifQ==",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTAyMDc5MTA2NDU3MTcxNjg3OTkiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI3NDA4OTU2OTg1NzQ3MTgwMTc4IiwiaW1hZ2VEb2NpZCI6IjE1NTk1NDM1OTU0NzQwNjA0NDc3IiwicmRzIjoiUENfNTk0NzY2Nzk1OTY3NDQyNzk5MHxQUk9EX1BDXzU5NDc2Njc5NTk2NzQ0Mjc5OTAiLCJxdWVyeSI6ImlwaG9uZSsxNSIsImdwY2lkIjoiNTk0NzY2Nzk1OTY3NDQyNzk5MCIsIm1pZCI6IjU3NjQ2MjQ5Mjg0OTY5Mjg2OCIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ0ciIsImhsIjoidHIifQ%3D%3D",
+            "source": "Vatan Bilgisayar",
+            "source_icon": "https://serpapi.com/searches/6983c70ca4817c8824cc77a6/images/kr9Wo3LLQDQp27C01EGMVI-JG8AWu4iPpDC9tmQHQgc.png",
+            "multiple_sources": true,
+            "price": "₺77.999,00",
+            "extracted_price": 77999.0,
+            "rating": 5,
+            "reviews": 27000000000,
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSoYGYaRQbkTk_0COZi7WhsOx4R7h-VYNv5-l-aNWaEbAwuouqpdHViOtKmCk8BQZwHY15Z7x1vdvEgn0vVFgs3rUmOfbOl",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/i8l7tHicDcltCoIwAADQE_lFiSVEmJhC4NDKmH9ibjaHOqeb0y7S3bpNvb_v-2mUEtK3rJrj6S1UTQxVccekUiHFsImH3pLNIATj9Dge_ucHKdnH-DrAGKI8q9pb-7RDUDLv0UiwbnOvMQqYatfoDJQ-UFQFyzzMoyBJwYC69GG7O2XlkkDHLb3V0URHlNu6OFO5me49eFWg-wGxmjZc",
+            "thumbnails": [
+                "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSoYGYaRQbkTk_0COZi7WhsOx4R7h-VYNv5-l-aNWaEbAwuouqpdHViOtKmCk8BQZwHY15Z7x1vdvEgn0vVFgs3rUmOfbOl",
+                "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTZOhnjfIAWvmAxlhw-zGpZSkbh_QEdvWkDAko2T7B84Skdxsrb3sGrQywD1JXkxzmIOQMmOM2b8r0r4R7KeSf5EFyk7DpCYcbdOoQ4VlnMtIjWWvCQUYiQ",
+                "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT_CVI0NQs-LKSd16NdmLCjm2CR10oCcA9TJz1x2Z3KldNyjc-13abkTATFDsFFCAs7KvVqCBOTz3ovGqSFkltajkAh5PiQI7kH8zaJ9FUx1zj8qqRAnjWZFw",
+                "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRwNenjLjZQmT5OeF94-sxTSy_B9EETVob348CFGa_oN-lmA-HjH3M33PDLQDiTQMHZMs0kEKJRb4v2eL8OsGoQJ_kzpaWEAb_z0UhrwTM0Hm8eYXdIXvoYBg",
+                "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ5imNxSOCywP_AtT3NHH8uhh4YVYO8Gf4hHCqHxW0Lo4Fzb1YIpvBwsvwG1avvFMYDU9cG6aKQCikhrIqM72cD6S6__9B5dtdNuR-RxCDGk8Qd-BoT1chQRg"
+            ],
+            "serpapi_thumbnails": [
+                "https://serpapi.com/images/url/i8l7tHicDcltCoIwAADQE_lFiSVEmJhC4NDKmH9ibjaHOqeb0y7S3bpNvb_v-2mUEtK3rJrj6S1UTQxVccekUiHFsImH3pLNIATj9Dge_ucHKdnH-DrAGKI8q9pb-7RDUDLv0UiwbnOvMQqYatfoDJQ-UFQFyzzMoyBJwYC69GG7O2XlkkDHLb3V0URHlNu6OFO5me49eFWg-wGxmjZc",
+                "https://serpapi.com/images/url/xEsIj3icDcnhEoEwAADgJ1IiF-6cS6WLSzch9cfZVlarNdsu5aG8j7fh-_t9P0QpLpe6njMkBq5yPFKQGdpDqrsqkYbaRpek5bxkj_Vz9b-lfcALH52yiLCqCOyka-y-Jq_R2-dZTCG5AQ93CXVt2k5O1mZuxhT3UsCp9AUYXq6xu9L-3QQRCJsonMC5GAvzaO3zuJh524FaLndSBHHUAvNSs1AFVZJ0DjinJfgBjxw_LQ",
+                "https://serpapi.com/images/url/JvAFdXicDclXDoIwAADQEzEKUUZiTK2pMoKrauKPgdYAZdY2CpzK63gbfb_v-ymU6qVvGI-WPsdePZimstbWc6lSVVKddo0hi67vyzZfisX_fJgwb0PJHV0CMzlILY5ODMwT1sSINxY6ArNDFHoknMBg3eyoZsnIqQbsNKsIJHgtMUZQOtHrItBqRya7e23ECVe1SnkFi9m-PAROtXWnNPTweQATd4U4wpZfb_j9AxogPYw",
+                "https://serpapi.com/images/url/D-0bM3icDclXDoIwAADQEzFiMQESY1AZIsNiHfBDGA1LaKUNqKfyOt5G3-_7fmrOKdMlCQ_F-KIclwLPByBWjGe8KcSC9BKrCaXNUK0fq__pRlBqdhHNAR5ar01gj5YhtjRFYE90eqUbzTTRheRAUbeWnaUkEO69ITitA3wAjjsP7hoEfSfxmdyZBzfKlWmBPTVkNoFu2r1pdjWNPH3L53qckS87vYrjW7m_TSTeVD9BWj2I",
+                "https://serpapi.com/images/url/Ghqa7XicDcnbEkJAAADQL0IKYaZpXMYyhVyq8WTYlTUGi3Xrq_qd_qbO6_l-MKVkVDmuaOGwEVoghuYtz5YjzWgFWdg13Ig7Qqq2PPen_6mahxQAA7FqvDXyjW25pRqND55tyxPGQvJIfBm8BGwbvb0-d9dOsN45nzhk1pdxXgCfzbPlJuZdgUDKLoFR1Xhweve4h6YUSWmq6CKiyJtCJlwNE9RygBi9i3mIg7D8AYuqPdE"
+            ]
+        },
+        {
+            "position": 6,
+            "title": "Apple iPhone 15 Plus",
+            "product_id": "14662177840944161756",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=catalogid:14662177840944161756,headlineOfferDocid:10191299539577053043,imageDocid:10248368651567382023,rds:PC_4702526954592161872|PROD_PC_4702526954592161872,gpcid:4702526954592161872,mid:576462756293218671,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTQ2NjIxNzc4NDA5NDQxNjE3NTYiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMDE5MTI5OTUzOTU3NzA1MzA0MyIsImltYWdlRG9jaWQiOiIxMDI0ODM2ODY1MTU2NzM4MjAyMyIsInJkcyI6IlBDXzQ3MDI1MjY5NTQ1OTIxNjE4NzJ8UFJPRF9QQ180NzAyNTI2OTU0NTkyMTYxODcyIiwicXVlcnkiOiJpcGhvbmUrMTUiLCJncGNpZCI6IjQ3MDI1MjY5NTQ1OTIxNjE4NzIiLCJtaWQiOiI1NzY0NjI3NTYyOTMyMTg2NzEiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidHIiLCJobCI6InRyIn0=",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTQ2NjIxNzc4NDA5NDQxNjE3NTYiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMDE5MTI5OTUzOTU3NzA1MzA0MyIsImltYWdlRG9jaWQiOiIxMDI0ODM2ODY1MTU2NzM4MjAyMyIsInJkcyI6IlBDXzQ3MDI1MjY5NTQ1OTIxNjE4NzJ8UFJPRF9QQ180NzAyNTI2OTU0NTkyMTYxODcyIiwicXVlcnkiOiJpcGhvbmUrMTUiLCJncGNpZCI6IjQ3MDI1MjY5NTQ1OTIxNjE4NzIiLCJtaWQiOiI1NzY0NjI3NTYyOTMyMTg2NzEiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidHIiLCJobCI6InRyIn0%3D",
+            "source": "EasyCep",
+            "source_icon": "https://serpapi.com/searches/6983c70ca4817c8824cc77a6/images/kr9Wo3LLQDQp27C01EGMVOnwotimoZAHY9qOgDOWTFY.png",
+            "multiple_sources": true,
+            "price": "₺61.099,00",
+            "extracted_price": 61099.0,
+            "second_hand_condition": "yenilenmiş",
+            "rating": 5,
+            "reviews": 11000000000,
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS2-Puxw3ETigYu_o0tMrwNTZw2V9Ub55eoPf4eHDgIL2lZ7IwEF4jzkFKOvm8RBuOTixgdhAbaKcCxQbHd24tAXHXUsPStCxvxPRyXoNDrUSXJ705hcuX4WA",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/ix8pn3icDcnbEoFAGADgJ6Kmw5AZY9JBOSQdWG6MtmyhNvWvNk_ldbwN3-33_eQAdTsRhKzCTV9Dlg4gqeQhaeECBR5iWgptTuu6qMjsOf3fRPdSbYFDaeAz3slWVJAjO1MRNk3nRadO2mtxoqoZ9a9K5pjEXUuP08jtLFu5ve_2avsqx8GcbaOCkzTXk8sKG3yXOKmkgI4cFLd-CAZ_cT_oEfXMJg7RciSqOWZIOeg_tsY-8A",
+            "thumbnails": [
+                "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS2-Puxw3ETigYu_o0tMrwNTZw2V9Ub55eoPf4eHDgIL2lZ7IwEF4jzkFKOvm8RBuOTixgdhAbaKcCxQbHd24tAXHXUsPStCxvxPRyXoNDrUSXJ705hcuX4WA",
+                "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcShSWqxhyHv6E36NkkUOPyNw-TOH_wFVI3ApCQ5J5o4Um-d-i0JT8pJhYrgzEn9vCCCkWZRk_ZTn4sLJjaHv44acZeOOIUUm73wvPlwX6bKSnd9fxeoppb7",
+                "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTSC2wcwTrYoEynyvV-IzylY3ttxGtnAcwDpGaxaObV0-N4EMj4fwkzZui0zNdfEUoqdAEGujk9gn5Mqp2weTWvdFugej3MH42vY5Cn-dvmqNW3W_mXiqbA",
+                "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRCiKV58cyWCuFRi2uifvqJViFUXFkoJWUwjYn9yj4x5binMsU-7lPRhYCTjELZtt0FJJwjk2DBpY7ZpQilS1HGJePWfglAfmbCLExBBkhL4XqswGO63KUG",
+                "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTiJe4I8oAZjCWoBIpyKRfGKUKsNAgBvn_GmEHrYuZVzDzfquWjQvVvk90n4dQ-WEe_MZVMMHHfQtWhioyE6Di0029w4k1b7gkk8QjwCAwYBGmmNM5g4DOd"
+            ],
+            "serpapi_thumbnails": [
+                "https://serpapi.com/images/url/ix8pn3icDcnbEoFAGADgJ6Kmw5AZY9JBOSQdWG6MtmyhNvWvNk_ldbwN3-33_eQAdTsRhKzCTV9Dlg4gqeQhaeECBR5iWgptTuu6qMjsOf3fRPdSbYFDaeAz3slWVJAjO1MRNk3nRadO2mtxoqoZ9a9K5pjEXUuP08jtLFu5ve_2avsqx8GcbaOCkzTXk8sKG3yXOKmkgI4cFLd-CAZ_cT_oEfXMJg7RciSqOWZIOeg_tsY-8A",
+                "https://serpapi.com/images/url/qEcloXicDc7vDkJAAADwJ0Kbf7G1ZqZQQyHli3HkJOdwu6OH6n16m3z-ffn9vpAQPOmCUCEwLphUJUcKJPL1RHLSAB70nTDBHuMG1ftht5pueKV2BCEMk2GGi00VS1S8to39YPEYF_l2xg43RzSweZFduZfijiu5ZuNGW-zCx1h_LKRR0zTbJL22WRohaTq7r9ymkpSDtPJ9J447VWQ0eLO7UpxCVGrPuVoPhfoHEWo-KQ",
+                "https://serpapi.com/images/url/Gynm_HicDclJDoIwFADQEzHIsIDEmAYRXYALEcSNgZZZSgsfChzK-3gbfdv3_VQAbLQVJad4WBnkRIKM7uRyhBRqLOO-U8aqZ6ym5YHv_2ejgFgeDm-OJrAIh6R3V7rOkXTZ1neiAyweUITFkXnpkl6zSJUCw_UboxDt9pxqdQtI4d57TpDrTU1rldT0OdNEHsYzOU1l3uj-2dDmxHSoROaOB7Eev7pHzTP0A8cRQB8",
+                "https://serpapi.com/images/url/wNwvPXicDcnbEoFAAADQL1IuhcwYo7RrVkh0fdPqsl22zW7ST_kff8N5Pd9PLgTjK1lOKH4OTCSPkYjpRMq4uAuCJdzUMs8bxgjNNu36f6vt6aFB7Bjk4KlLPPhGBxwy7Uj6apFHgBuAskG-2xch1YZCeasxoUfujhaV7eShcStMKxJiDBDqi3K601m4iNiFVNfJHqLE9tOs2qZ1bFjmW9fL3FKClvfwPJ8dXPgDWV4-WA",
+                "https://serpapi.com/images/url/RAroJHicDcnbDkMwAADQL3JbbEOyLG7BhMWyEV5kiirRFkX4qP3P_mY7r-f7aRijkyYIFQbjRllVcqzAEg8n9mYI8ID0wtQQShGG1-HyP00PS9UBT3SrZE8hetaaCTE8uvmP2vFf_hTq0Fhw7vS2O6ZzFu_WXg9z0kZLvHSqiOUy4hK7yoMsDgLXrSOWNIhs9slConhQV7mTijPsOiVqV1NfU8Pp-zA4Qtm6lz9M3z4Q"
+            ]
+        },
+        {
+            "position": 7,
+            "title": "Apple iPhone 15 Pro Max 256GB Siyah Titanyum",
+            "product_id": "18251850944688323858",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=catalogid:18251850944688323858,headlineOfferDocid:414942293245867702,imageDocid:1000742780454098312,gpcid:6597374602947168933,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTgyNTE4NTA5NDQ2ODgzMjM4NTgiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI0MTQ5NDIyOTMyNDU4Njc3MDIiLCJpbWFnZURvY2lkIjoiMTAwMDc0Mjc4MDQ1NDA5ODMxMiIsInJkcyI6IiIsInF1ZXJ5IjoiaXBob25lKzE1IiwiZ3BjaWQiOiI2NTk3Mzc0NjAyOTQ3MTY4OTMzIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InRyIiwiaGwiOiJ0ciJ9",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTgyNTE4NTA5NDQ2ODgzMjM4NTgiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI0MTQ5NDIyOTMyNDU4Njc3MDIiLCJpbWFnZURvY2lkIjoiMTAwMDc0Mjc4MDQ1NDA5ODMxMiIsInJkcyI6IiIsInF1ZXJ5IjoiaXBob25lKzE1IiwiZ3BjaWQiOiI2NTk3Mzc0NjAyOTQ3MTY4OTMzIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InRyIiwiaGwiOiJ0ciJ9",
+            "source": "n11",
+            "source_icon": "https://serpapi.com/searches/6983c70ca4817c8824cc77a6/images/kr9Wo3LLQDQp27C01EGMVIYx1FkQXUO46tsBfTCeXRU.png",
+            "multiple_sources": true,
+            "price": "₺68.079,08",
+            "extracted_price": 68079.08,
+            "old_price": "Genellikle ₺68.149",
+            "extracted_old_price": 68149,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSbd-89vZOEtoIwizwozz4LBof42tOr9vl-ITpty_dGFgj3--Cbuli3I2ngbbzxA3vjZrJsZDaGhegVJIy3Daegmsj5OEVjy_1LHViMWHn_cC-O9mN-g748eA",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/mVAOWnicDclRCoIwGADgEy1LjVKIMDUzSh8KA1_EzTUnuS33p-mpuk63qe_1-35qAKVdw6CCdKMCWiHAYj5jGkrgZEZka-haKsUF2z43_3O9pHIicsEVWjt9noYg44FPg5wm-7STd9uEtHP6B4qvCsaiivassRDy8evBrdgUDOPp7Vl9k3dHnQdlVFOWHePRCkrKWt0s0zBrxmJxOmT8fDuIgvgoddoEsZW9pt4P-fI_Iw",
+            "thumbnails": [
+                "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSbd-89vZOEtoIwizwozz4LBof42tOr9vl-ITpty_dGFgj3--Cbuli3I2ngbbzxA3vjZrJsZDaGhegVJIy3Daegmsj5OEVjy_1LHViMWHn_cC-O9mN-g748eA",
+                "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSYmUASBKX6uO4b3r_CGFPuKgsvdD9Eg7A7fiIS11W8GJsHYRJ6FwGe7YiB191gBbbP8iekS1qkNdUQETT2EWDGxNkBYgkIbC8wYJxSPvbl3kp5COIhF3fR",
+                "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSPKfC1QEKbD4IFvJq_CToqbKv9Uqa5xqiKhR7MpvCK6bRjm-2ehss19WgEnUv2r71D5Yf4UR7QCox6_Xe0fSY2v_1wtGJx8ppwVFFPxlmYsGA_yxJc6kmdzg",
+                "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcShD6GT9AGN8rFjSIyp78WoXyipJtlUXZbGQYNhrrARfbz06RyXjuvvkoTa9He4Slvsd2svVnxzF7KYpTj7cFG7PAf1YBbxRnFrBvA10Q",
+                "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQIogGY1JzXPxh7UAWc1MIyE4LiffDaMUKmAsjDMqWv5d3PkBFPsSWCEnhq2H1Fm9ck6IMcGVsLpwMWMuFX9icIbr5dGbF0sDD9-Z9AdneequUh2ZrpQ0zlsQ"
+            ],
+            "serpapi_thumbnails": [
+                "https://serpapi.com/images/url/mVAOWnicDclRCoIwGADgEy1LjVKIMDUzSh8KA1_EzTUnuS33p-mpuk63qe_1-35qAKVdw6CCdKMCWiHAYj5jGkrgZEZka-haKsUF2z43_3O9pHIicsEVWjt9noYg44FPg5wm-7STd9uEtHP6B4qvCsaiivassRDy8evBrdgUDOPp7Vl9k3dHnQdlVFOWHePRCkrKWt0s0zBrxmJxOmT8fDuIgvgoddoEsZW9pt4P-fI_Iw",
+                "https://serpapi.com/images/url/CKhlA3icDclJDoIwAADAFympqCyJMawVSAAtRHsylqU0Vai2Cn7K__gbnet8P51SQtqa1vTV4y1UU88U6cGcSnVRrJpXw02T3SAE6-n2vvmf7aS1BSuEb6WD3OS0fmZLoj_OHgzzZ0Llq_atgBqO0bIIAXA0YSx3-BCvwxE2BmYusAB1CclN1nAE7jyty31QFIvg6MMp5S6mPCKeOeJ4QvmLXHUuVl4WdaHeHn6oojw-",
+                "https://serpapi.com/images/url/EZl-LnicDclJDoIwAADAFwmCLEJiDGGLNBpAUTkRKKtKaW1Tqq_yO_5G5zrfT88YprYsNwg-X5g19YJVaCV1lJVsgBKcRpn2E8YD6rZk8z_bOdRWCI8xaF0l8UHlabuAR6RwTxOpALcyUuqCDKBPzT3mLjCq9DYu1KanVLEunY8yrj5NxdPzVstSM3EnYRTXZtkec5UXyszCSKwxns9BEIvHmNPQKV4igsZ9rN_dD4IQPwk",
+                "https://serpapi.com/images/url/ZjXVSnicDclXDoIwAADQE8kwhpUYU2OoIyEyVPCPllEQ29rWBjiN1_I2-n7f90OU4jIwzZpiMXFVVwuFqGW0UpWqwwZmT1MSxnlH281r_b8ARJUPcUp2Dsx8ACNPhH16mLjr3Vg-dfyohkt-RzAuIiIESBo0W04y5f1b6wfLSn9fr9JBy2op9ZWOc-ieCp71Lg6hewaNXWzRmNBQbDWwrfgHBVE57Q",
+                "https://serpapi.com/images/url/QvA5unicDcnbDoIgAADQL_LabbS1ZiFmRdM1s3xTULESUbCyr-p3-ps6r-f7YUoJOTeMnJNuECqnmsr4SC-lSlVFdNLUhmSNEBUvl-3if3PnQIFHQr8pvYu1fZ-DF5tFTkws7A_ueF8VBUxxtKsdeYW4jR8TOgpuKxTIY7x2OWvtjYVqQG5THxPvJPfiiWPcozOoiJ91E-plyJQQAi0BDuV53vYRs5NOhOb7LsMfgus-cA"
+            ],
+            "tag": "DÜŞÜK FİYAT",
+            "extensions": [
+                "DÜŞÜK FİYAT"
+            ]
+        },
+        {
+            "position": 8,
+            "title": "İkinci El iPhone 15 128 GB Siyah Cep Telefonu (1 Yıl Garantili)",
+            "product_id": "13511062521518017275",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=productid:13511062521518017275,headlineOfferDocid:13511062521518017275,imageDocid:5270926092426588954,rds:PC_6601648695432433635|PROD_PC_6601648695432433635,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiMTM1MTEwNjI1MjE1MTgwMTcyNzUiLCJjYXRhbG9naWQiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMzUxMTA2MjUyMTUxODAxNzI3NSIsImltYWdlRG9jaWQiOiI1MjcwOTI2MDkyNDI2NTg4OTU0IiwicmRzIjoiUENfNjYwMTY0ODY5NTQzMjQzMzYzNXxQUk9EX1BDXzY2MDE2NDg2OTU0MzI0MzM2MzUiLCJxdWVyeSI6ImlwaG9uZSsxNSIsImdwY2lkIjoiIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InRyIiwiaGwiOiJ0ciJ9",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiMTM1MTEwNjI1MjE1MTgwMTcyNzUiLCJjYXRhbG9naWQiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMzUxMTA2MjUyMTUxODAxNzI3NSIsImltYWdlRG9jaWQiOiI1MjcwOTI2MDkyNDI2NTg4OTU0IiwicmRzIjoiUENfNjYwMTY0ODY5NTQzMjQzMzYzNXxQUk9EX1BDXzY2MDE2NDg2OTU0MzI0MzM2MzUiLCJxdWVyeSI6ImlwaG9uZSsxNSIsImdwY2lkIjoiIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InRyIiwiaGwiOiJ0ciJ9",
+            "source": "Teknosa",
+            "source_icon": "https://serpapi.com/searches/6983c70ca4817c8824cc77a6/images/kr9Wo3LLQDQp27C01EGMVE7jzKU8lO_aiBlBjLfJm78.png",
+            "price": "₺40.199,00",
+            "extracted_price": 40199.0,
+            "second_hand_condition": "i̇kinci el",
+            "rating": 5,
+            "reviews": 43000000000,
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ5A19DfRkSvohiui8x81-QWB3GOr3iUdtLO1364uRy-IejF284s1DVsL8tvpykorIfFkhNMTQEBltQVUOt4IIgnIWdqFUk1txRUF8RLY7Opqg1E9dylCRYIQ",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/TYn5FHicDcndDkMwGADQJ0KKbSVZFvshTYy0G-JyU6NjlH5k3mqvs7fZzu35fmoAqVzDKLtiXCSUXIN7Z-qVghuIQi_6l6HqXkrRVbth-z_Xi7gTFHTlIef4YM1l7msxCfzGSKPZ3gri0RIJhzBG1tqe2KKR8umb2FbomKoQwyyXph_Jw2_q6Hylp30LNE1isAmpOpLxwU8aBG-W-JiF-SaWQ4VODl_aA8sJ_QFP7j3M"
+        },
+        {
+            "position": 9,
+            "title": "İkinci El IPHONE 15 256GB Mavi",
+            "product_id": "1605267564669391042",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=productid:1605267564669391042,headlineOfferDocid:1605267564669391042,imageDocid:41328217349930507,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiMTYwNTI2NzU2NDY2OTM5MTA0MiIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjE2MDUyNjc1NjQ2NjkzOTEwNDIiLCJpbWFnZURvY2lkIjoiNDEzMjgyMTczNDk5MzA1MDciLCJyZHMiOiIiLCJxdWVyeSI6ImlwaG9uZSsxNSIsImdwY2lkIjoiIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InRyIiwiaGwiOiJ0ciJ9",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiMTYwNTI2NzU2NDY2OTM5MTA0MiIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjE2MDUyNjc1NjQ2NjkzOTEwNDIiLCJpbWFnZURvY2lkIjoiNDEzMjgyMTczNDk5MzA1MDciLCJyZHMiOiIiLCJxdWVyeSI6ImlwaG9uZSsxNSIsImdwY2lkIjoiIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InRyIiwiaGwiOiJ0ciJ9",
+            "source": "Destek Bilişim Shop",
+            "source_icon": "https://serpapi.com/searches/6983c70ca4817c8824cc77a6/images/kr9Wo3LLQDQp27C01EGMVEd8QOkYW7zcmWnF0TdXzzM.png",
+            "price": "₺44.990,00",
+            "extracted_price": 44990.0,
+            "second_hand_condition": "yenilenmiş",
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR-kzb4vuuNL6baWrHBU3IsIcpDatVLAd95d7z2r15vTIW0ha5hUIcwONrGG7D2Kyphwq9OrzVGIvaMJc3Oy5A1bTEtZ_oCO2HT_QxVfTf5Dwg_Y0W---NB",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/NrF553icDcnbCoIwAADQL5rXlihEWIati1KYUi-yizmJdM2p6Uf1P_1Nndfz_XClROvpelFTOQpVMKBIbWtlq7CqqEabp97yRoiqLpevxf88P2JuSM_gMZFZ33XRYU5wJreri41aREWAVXrwmQuZM1nShH2CMoNjyC-IDnEkw9AJrP0o-PByYzmlIerxcUfteIS-SZKNuuXNOra2SX56p_fkDoOhzK9GBgCIVj8UcD0J"
+        },
+        {
+            "position": 10,
+            "title": "İki̇nci̇ El Apple Iphone 15 (12 Ay Garanti̇li̇)",
+            "product_id": "173631894264664983",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=catalogid:173631894264664983,headlineOfferDocid:12807244437973463378,imageDocid:15708235817093753569,gpcid:13846682798470380949,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTczNjMxODk0MjY0NjY0OTgzIiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiMTI4MDcyNDQ0Mzc5NzM0NjMzNzgiLCJpbWFnZURvY2lkIjoiMTU3MDgyMzU4MTcwOTM3NTM1NjkiLCJyZHMiOiIiLCJxdWVyeSI6ImlwaG9uZSsxNSIsImdwY2lkIjoiMTM4NDY2ODI3OTg0NzAzODA5NDkiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidHIiLCJobCI6InRyIn0=",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTczNjMxODk0MjY0NjY0OTgzIiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiMTI4MDcyNDQ0Mzc5NzM0NjMzNzgiLCJpbWFnZURvY2lkIjoiMTU3MDgyMzU4MTcwOTM3NTM1NjkiLCJyZHMiOiIiLCJxdWVyeSI6ImlwaG9uZSsxNSIsImdwY2lkIjoiMTM4NDY2ODI3OTg0NzAzODA5NDkiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidHIiLCJobCI6InRyIn0%3D",
+            "source": "ciceksepeti.com",
+            "source_icon": "https://serpapi.com/searches/6983c70ca4817c8824cc77a6/images/kr9Wo3LLQDQp27C01EGMVNM3sa7cec7sQHaN4hcqYVI.png",
+            "price": "₺43.331,00",
+            "extracted_price": 43331.0,
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRb1LEseuW0NjZ9QA9ab5rOeKZWtYxvOaKxL37AoiIQ2U76xpcjTIYPKNObldegjTCiNLJrncbR0AXohIzGWwd-0vbAr5d_2LpzuwJv3lPTfYVePcBXivh4",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/3Py_NXicDclZCoJAAADQE-WaiULEFCEuuGGZ_YSzpCM2Tjoudaju023q_b7vpxaCD7YsE4b6FxcErwRkqlQNohQUSah7yEPdcU5ZtXtu_2eDEFsOSqEaHAcy5krYXK0EWCU0-oj411wUyxSV_hLoJuiom2gnc7Nw1GRuEfthBFtMqiY70DDweoZgqoBLV7tvJ5_xSpkg6A180wL-Hmdv0ts4uxdnEqP9hU71-gcsET6l"
+        },
+        {
+            "position": 11,
+            "title": "Iphone 15 pro 128 gb yd",
+            "product_id": "12007849352669202891",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=productid:12007849352669202891,headlineOfferDocid:12007849352669202891,imageDocid:14123948016975700368,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiMTIwMDc4NDkzNTI2NjkyMDI4OTEiLCJjYXRhbG9naWQiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMjAwNzg0OTM1MjY2OTIwMjg5MSIsImltYWdlRG9jaWQiOiIxNDEyMzk0ODAxNjk3NTcwMDM2OCIsInJkcyI6IiIsInF1ZXJ5IjoiaXBob25lKzE1IiwiZ3BjaWQiOiIiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidHIiLCJobCI6InRyIn0=",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiMTIwMDc4NDkzNTI2NjkyMDI4OTEiLCJjYXRhbG9naWQiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMjAwNzg0OTM1MjY2OTIwMjg5MSIsImltYWdlRG9jaWQiOiIxNDEyMzk0ODAxNjk3NTcwMDM2OCIsInJkcyI6IiIsInF1ZXJ5IjoiaXBob25lKzE1IiwiZ3BjaWQiOiIiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidHIiLCJobCI6InRyIn0%3D",
+            "source": "letgo",
+            "source_icon": "https://serpapi.com/searches/6983c70ca4817c8824cc77a6/images/kr9Wo3LLQDQp27C01EGMVLzy0_LNUJvPb8DeKJskIiw.png",
+            "price": "₺28.000,00",
+            "extracted_price": 28000.0,
+            "second_hand_condition": "i̇kinci el",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRQ6GgFbCvOY_VzAw793GUFLKHKKtzU_JckyzHKq0uojt1F4HQtmamJUaJVc8bJ_R6RtjX7jVCq3JgTAvmYOtRinbG79p176ml1DSO5pLQ_4MplDnGxu4dt",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/lep1eXicDcnxDkJAHADgJ4qMiK0105wdZa5Y_jJOE7lz8qN4qN6nt6nv3-_7uQOIwZLlG6fPWcCtXEHB11I1QA41lWjH5OHeCVHzat_v_mfZp9JElEQ6qtzCmcI0Sxb7ZZgqit3A93wfljjD9DEvnt-vx64BxdW8CFjOcJzjhG4LnBGdQHM1msTpVVxd7ImlIZCaF8gwhWLorFUO53AjgijTjqI9cPQetRJ-FmM91A",
+            "thumbnails": [
+                "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRQ6GgFbCvOY_VzAw793GUFLKHKKtzU_JckyzHKq0uojt1F4HQtmamJUaJVc8bJ_R6RtjX7jVCq3JgTAvmYOtRinbG79p176ml1DSO5pLQ_4MplDnGxu4dt",
+                "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRXUc6az0dI2UxiFGl6OmwkU3HITKhZm8wqE8J_YKWCn6LoZ1NMRpist6PUfNoQDxJa2gtIW4M-y1mlReVylI9PBPw2axdmFupNV--PlipV"
+            ],
+            "serpapi_thumbnails": [
+                "https://serpapi.com/images/url/lep1eXicDcnxDkJAHADgJ4qMiK0105wdZa5Y_jJOE7lz8qN4qN6nt6nv3-_7uQOIwZLlG6fPWcCtXEHB11I1QA41lWjH5OHeCVHzat_v_mfZp9JElEQ6qtzCmcI0Sxb7ZZgqit3A93wfljjD9DEvnt-vx64BxdW8CFjOcJzjhG4LnBGdQHM1msTpVVxd7ImlIZCaF8gwhWLorFUO53AjgijTjqI9cPQetRJ-FmM91A",
+                "https://serpapi.com/images/url/OR1EknicDcndEkJAGADQJ0LUGMw0TX-0ZJNpKTeNltjJsvI16HF6q96mzu35fkoA0VmKktf0OQrIMwlutSoXHaTAqEwbrnRlIwSri0U7_5-1xJnp0PBMqJ6-JxnSyMBsp9IPvH-Q6Q6dvDLhRt9uDfd68eJ1re-bRMV-KFgHekDuuDluBjfVCkDxzJdGlVdhHo0VMoNV0GvpkHH7JXAkSUHFRPQDQYg58Q"
+            ]
+        },
+        {
+            "position": 12,
+            "title": "Yenilenmiş iPhone 15 256 GB Siyah Cep Telefonu (1 Yıl Garantili) - C Kalite",
+            "product_id": "1993427979073838026",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=productid:1993427979073838026,headlineOfferDocid:1993427979073838026,imageDocid:18078119130569325637,rds:PC_6601648695432433635|PROD_PC_6601648695432433635,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiMTk5MzQyNzk3OTA3MzgzODAyNiIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjE5OTM0Mjc5NzkwNzM4MzgwMjYiLCJpbWFnZURvY2lkIjoiMTgwNzgxMTkxMzA1NjkzMjU2MzciLCJyZHMiOiJQQ182NjAxNjQ4Njk1NDMyNDMzNjM1fFBST0RfUENfNjYwMTY0ODY5NTQzMjQzMzYzNSIsInF1ZXJ5IjoiaXBob25lKzE1IiwiZ3BjaWQiOiIiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidHIiLCJobCI6InRyIn0=",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiMTk5MzQyNzk3OTA3MzgzODAyNiIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjE5OTM0Mjc5NzkwNzM4MzgwMjYiLCJpbWFnZURvY2lkIjoiMTgwNzgxMTkxMzA1NjkzMjU2MzciLCJyZHMiOiJQQ182NjAxNjQ4Njk1NDMyNDMzNjM1fFBST0RfUENfNjYwMTY0ODY5NTQzMjQzMzYzNSIsInF1ZXJ5IjoiaXBob25lKzE1IiwiZ3BjaWQiOiIiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidHIiLCJobCI6InRyIn0%3D",
+            "source": "Teknosa",
+            "source_icon": "https://serpapi.com/searches/6983c70ca4817c8824cc77a6/images/kr9Wo3LLQDQp27C01EGMVPxvA2syC2biX8rTuCGzRRE.png",
+            "price": "₺44.390,00",
+            "extracted_price": 44390.0,
+            "second_hand_condition": "yenilenmiş",
+            "rating": 5,
+            "reviews": 43000000000,
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTsMeh322KL6kj9oHcD1hZPyiWky-efEz4D4XzuWM8rM0aTYBFO-dF_nYPC9I7WdXzq6ZzdWXKqn7SIQAUnzRzZJZR5c1ouPZenooqqN4M4",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/P5cU83icDclREkJAAADQEyESMdM0SkoiSYP9abS7IdOuZX3Y43SrblPv930_NefdYCsKJrCfOo6RxB9ElauBl7yBMqRvZahp1zWkWrPV_2wnQtYepkOI67mmBSejfVn0AF21BvHUZO0k4edO6K6eizELl304K9Ni450l5N1JEW8t38xQLpgBBMrygBHz6l-cGxGJAEeQLKBKxxhgQiljkR7qPynVOb0"
+        },
+        {
+            "position": 13,
+            "title": "iPhone 15 512 GB (Apple Türkiye Garantili) Sıfırdan Farksız Ürün",
+            "product_id": "1345681084884826484",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=productid:1345681084884826484,headlineOfferDocid:1345681084884826484,imageDocid:14742608280277198542,rds:PC_6601648695432433635|PROD_PC_6601648695432433635,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiMTM0NTY4MTA4NDg4NDgyNjQ4NCIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjEzNDU2ODEwODQ4ODQ4MjY0ODQiLCJpbWFnZURvY2lkIjoiMTQ3NDI2MDgyODAyNzcxOTg1NDIiLCJyZHMiOiJQQ182NjAxNjQ4Njk1NDMyNDMzNjM1fFBST0RfUENfNjYwMTY0ODY5NTQzMjQzMzYzNSIsInF1ZXJ5IjoiaXBob25lKzE1IiwiZ3BjaWQiOiIiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidHIiLCJobCI6InRyIn0=",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiMTM0NTY4MTA4NDg4NDgyNjQ4NCIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjEzNDU2ODEwODQ4ODQ4MjY0ODQiLCJpbWFnZURvY2lkIjoiMTQ3NDI2MDgyODAyNzcxOTg1NDIiLCJyZHMiOiJQQ182NjAxNjQ4Njk1NDMyNDMzNjM1fFBST0RfUENfNjYwMTY0ODY5NTQzMjQzMzYzNSIsInF1ZXJ5IjoiaXBob25lKzE1IiwiZ3BjaWQiOiIiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidHIiLCJobCI6InRyIn0%3D",
+            "source": "hepsiburada.com",
+            "source_icon": "https://serpapi.com/searches/6983c70ca4817c8824cc77a6/images/kr9Wo3LLQDQp27C01EGMVCYhaR7te1MuB1XxfT6yTek.png",
+            "price": "₺70.800,00",
+            "extracted_price": 70800.0,
+            "second_hand_condition": "i̇kinci el",
+            "rating": 5,
+            "reviews": 42000000000,
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQypBf6Ng1ZUvGO23EdNZxHk3jRBnw2WiVvP3yXPLjEw5VqcQZR_Vm1jcZyHUzt8Cqw8rkv1aQjxv9FpGouknyX3qSlZDzDSl5aQBAYW67iHdaeLwPDHXxh",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/2-jMj3icDclZDkNAAADQE5UgFEnTUMqHqCWWzk-jQ-1jMMU4VO_T27Tv930_FSF4Vlm2QHCimBT5gTwRz5QzyUgNGTj07FwNGNeoPI-n_6mamysW9CnWX5JbciBarBsvmLkLNrsVmkBHK5_U8eIJNPWcxlzFeIQ-CB5xzzUQUDvaiXwZV3lqFy7zm21Rrtga3i2iqTCGHTB2I-zEzNe1eyIdazvPCmf1DDvdqh9aET8o",
+            "thumbnails": [
+                "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQypBf6Ng1ZUvGO23EdNZxHk3jRBnw2WiVvP3yXPLjEw5VqcQZR_Vm1jcZyHUzt8Cqw8rkv1aQjxv9FpGouknyX3qSlZDzDSl5aQBAYW67iHdaeLwPDHXxh",
+                "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQEsC3Rcblz0Quqfo5LW5_Hcz8FWqfXpYDLSUByZt15tf5v9we89--siKMx6PWlo_cXPbgp9z_J4ctgrzV67mPflT0zPv5bn9BVWDikjhRJP_6GPg3bzTZebw",
+                "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS2I40HQX9x9YOIqcGMYEDljaJSz0VQyPJP8gbB33EfiK0QRHudQUFSwdmnE9aB4UmaSHqGDxTKxiGrr29fRJRLDu-8D-RgDNr18QK5WKn3IKNVlNgpcNfMJw",
+                "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcThoBR-m_J3nXn2fAmYgMYf-4Vpbd-WVhEOnqpAF-eMDtdx5iBWylmIMWex6Nv4kvlyhq2pfB2OTjEVaqmHL5C-7tduv5Jm6Q",
+                "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRUW6RVephyJP3QfNsgD_ZIGc9Ry1g4x0K6Bxh01JHTJAWcvTU72mMd5EocMVOs4-X4WuAukgZOL9njJmIeS7FVb_h-EUJ8sjyhdZPhfayycss10xuTf2X0fg"
+            ],
+            "serpapi_thumbnails": [
+                "https://serpapi.com/images/url/2-jMj3icDclZDkNAAADQE5UgFEnTUMqHqCWWzk-jQ-1jMMU4VO_T27Tv930_FSF4Vlm2QHCimBT5gTwRz5QzyUgNGTj07FwNGNeoPI-n_6mamysW9CnWX5JbciBarBsvmLkLNrsVmkBHK5_U8eIJNPWcxlzFeIQ-CB5xzzUQUDvaiXwZV3lqFy7zm21Rrtga3i2iqTCGHTB2I-zEzNe1eyIdazvPCmf1DDvdqh9aET8o",
+                "https://serpapi.com/images/url/fhK5sHicDcndEoFAGADQJ0oMG2vGGMnPJGYjRTeNXbVFP1v7CftUXsfbcG7P95MCCDnW9bhkzVtAfNWAlr0Ol3CBjHVYVegyrYTISj6tJ_8bz3ZXvGLuQs77e0Zz1XUfdVIhJ0DRmqnRMqiTkzhbzuFovkPoIUhQi5_xCGuazDbbl0GCvIrYiVAusIrsAQPeKN8YFiTJva4iLaIlNv3Ayu63dG-TyFgR3qfKC2P6_AHDwj9x",
+                "https://serpapi.com/images/url/XML7cXicDclJDoIwAADAF7EImFATYyRFlmq1RVyOUKBgpBYoEX2V3_E3Otf5fmql5LAwjFKw_iVVWWgqF5bOB5Wphuns0RpD_ZCyEXzVLf-3WOMCBCyxIscMyQVM4LqPOhbsrj6837I4eZsn8jrEB5fnnm37VYNMQsOxIOkmeRat8EHmOWmbJWEXwOmIpiboewtUNKZbOGou1CiHuJ-5BM3PSNgRwqc75pLhahc_fyMsPN0",
+                "https://serpapi.com/images/url/d_S6M3icDcndCoIwGADQJ5qGqZEQoWU_kkohmleh23SWm1t-ib5Jr9bb5Lk9vy8DkL2j61Tg9ySBEgSlWGh1DwU0WMMd13vWSdmIeqs28zluRNZHnLDOuyH-CJbiLozK5Xkd5hUyU1kSlKXMj4WS7gHRcA9ktBovm1p-DjM62tFgvoZ2YsqQlWfEydNPC8VPF2uHVkA-gxVw-_oHIMI2vg",
+                "https://serpapi.com/images/url/1_jf9HicDclJDoIwAADAF7GKKCTGYESlLiiyhQuBUlowQLXF0F_5HX-jc53vh3BOma0oqIcvQTmqJF72mowZL3gDZTh0CiMDpU2P18_V_2znUll7GESJGcSIEgGus1t9YXibZ94eWoHQsDGpR3MzEVUDhxA4CXyH0ULvztXcHeA59pkhpUYyOuMDZ_7J6lvQeei-2MVlTiQ3AkvWClJlV1IXQkDGNHUaw1pP1Rr_AGUePlw"
+            ]
+        },
+        {
+            "position": 14,
+            "title": "Apple Ikinci El iPhone 15 128 GB Siyah (12 Ay Garantili)",
+            "product_id": "8824929544236854684",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=productid:8824929544236854684,headlineOfferDocid:8824929544236854684,imageDocid:9889143328048988479,rds:PC_6601648695432433635|PROD_PC_6601648695432433635,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiODgyNDkyOTU0NDIzNjg1NDY4NCIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6Ijg4MjQ5Mjk1NDQyMzY4NTQ2ODQiLCJpbWFnZURvY2lkIjoiOTg4OTE0MzMyODA0ODk4ODQ3OSIsInJkcyI6IlBDXzY2MDE2NDg2OTU0MzI0MzM2MzV8UFJPRF9QQ182NjAxNjQ4Njk1NDMyNDMzNjM1IiwicXVlcnkiOiJpcGhvbmUrMTUiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ0ciIsImhsIjoidHIifQ==",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiODgyNDkyOTU0NDIzNjg1NDY4NCIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6Ijg4MjQ5Mjk1NDQyMzY4NTQ2ODQiLCJpbWFnZURvY2lkIjoiOTg4OTE0MzMyODA0ODk4ODQ3OSIsInJkcyI6IlBDXzY2MDE2NDg2OTU0MzI0MzM2MzV8UFJPRF9QQ182NjAxNjQ4Njk1NDMyNDMzNjM1IiwicXVlcnkiOiJpcGhvbmUrMTUiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ0ciIsImhsIjoidHIifQ%3D%3D",
+            "source": "Trendyol",
+            "source_icon": "https://serpapi.com/searches/6983c70ca4817c8824cc77a6/images/kr9Wo3LLQDQp27C01EGMVM-qL4MunJ36veLXMHlfPAQ.png",
+            "price": "₺55.999,00",
+            "extracted_price": 55999.0,
+            "rating": 5,
+            "reviews": 43000000000,
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ20f5JDZYBaoYz-HsneXeAYnR9h02vRYXVZZhjKh9M7wxguO4Xx5uqSIeVbS07jWeAnUqiT6PMxKfXkR9wXiT9qElT6TCtZSM2I2koceIN5LxfRUSe1TXpzQ",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/9CWZ6XicDcn_EoEwAADgJ0qJcnPnXH4cobCG1X-1VqtYy4b0VF7H2_D9-30_TCkhx7pOObm_haKpphI-6OVSxaogPVLfdMlqIQqeT5vJ_8aOn4IVOZpGZm0WUTiL67DT1pJTTJ2QQ8AM8wlDfI4iVm4Z8EavNn_sh7i1Hk3g0nMSGKPyQh1-agpkH7x2m-EKghcuEGiWV2SjuYoCz3TNqibU9a1dm8FTQPsIi-74A5elPrc",
+            "thumbnails": [
+                "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ20f5JDZYBaoYz-HsneXeAYnR9h02vRYXVZZhjKh9M7wxguO4Xx5uqSIeVbS07jWeAnUqiT6PMxKfXkR9wXiT9qElT6TCtZSM2I2koceIN5LxfRUSe1TXpzQ",
+                "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRIAHUKPDhbPeV1mTpLrWM5CW4fVBP8tvwDupgM5jDSExPVimCY_fcSBDJEvtsqUhwr6DhxeCghLk4WvT_QZIFBEdJRJL1bwLzHE7RnRMz0M3gY-FRJF-rwtA"
+            ],
+            "serpapi_thumbnails": [
+                "https://serpapi.com/images/url/9CWZ6XicDcn_EoEwAADgJ0qJcnPnXH4cobCG1X-1VqtYy4b0VF7H2_D9-30_TCkhx7pOObm_haKpphI-6OVSxaogPVLfdMlqIQqeT5vJ_8aOn4IVOZpGZm0WUTiL67DT1pJTTJ2QQ8AM8wlDfI4iVm4Z8EavNn_sh7i1Hk3g0nMSGKPyQh1-agpkH7x2m-EKghcuEGiWV2SjuYoCz3TNqibU9a1dm8FTQPsIi-74A5elPrc",
+                "https://serpapi.com/images/url/aZx-FnicDcnbEkJAGADgJ5IOdDDTNFgq0WidRjcmS7tqaPGHeqpep7ep7_b7fhgAbxVRzCvSvDjkmQBpNR3RFi5QkBF5lGLLHpwXFd3U6_8p6jFbbQneq7vg4CKWunk4KX1uN5Ej65F0DTV3CV2Pnpw68g15xuCGRanHyZV4GrKMDto6YH0zR2zIdcrsuxR1fnI6703NyCxs2ZO0t987Y4Er7LzHzozGgoktU2h6UH-pdT5_"
+            ]
+        },
+        {
+            "position": 15,
+            "title": "Apple İphone 15 Black 256Gb Yenilenmiş B Kalite (12 Ay Garantili)",
+            "product_id": "1261858532013016076",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=productid:1261858532013016076,headlineOfferDocid:1261858532013016076,imageDocid:7770720447493364483,rds:PC_6601648695432433635|PROD_PC_6601648695432433635,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiMTI2MTg1ODUzMjAxMzAxNjA3NiIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjEyNjE4NTg1MzIwMTMwMTYwNzYiLCJpbWFnZURvY2lkIjoiNzc3MDcyMDQ0NzQ5MzM2NDQ4MyIsInJkcyI6IlBDXzY2MDE2NDg2OTU0MzI0MzM2MzV8UFJPRF9QQ182NjAxNjQ4Njk1NDMyNDMzNjM1IiwicXVlcnkiOiJpcGhvbmUrMTUiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ0ciIsImhsIjoidHIifQ==",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiMTI2MTg1ODUzMjAxMzAxNjA3NiIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjEyNjE4NTg1MzIwMTMwMTYwNzYiLCJpbWFnZURvY2lkIjoiNzc3MDcyMDQ0NzQ5MzM2NDQ4MyIsInJkcyI6IlBDXzY2MDE2NDg2OTU0MzI0MzM2MzV8UFJPRF9QQ182NjAxNjQ4Njk1NDMyNDMzNjM1IiwicXVlcnkiOiJpcGhvbmUrMTUiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ0ciIsImhsIjoidHIifQ%3D%3D",
+            "source": "PttAVM.com",
+            "source_icon": "https://serpapi.com/searches/6983c70ca4817c8824cc77a6/images/kr9Wo3LLQDQp27C01EGMVM9V0OZAPi3hUU4RHmSj9Mk.jpeg",
+            "price": "₺70.902,00",
+            "extracted_price": 70902.0,
+            "rating": 5,
+            "reviews": 43000000000,
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRI3w1qf-PqE0VbQbZEbun_zPM0lgAZg4P_gZd9uzFIRsMwc0a9WW68pE-FtpFgLzrbDHiIEm2PYtAWqTt2H92Qtr2QYgPV651i7kGVJtE0G3mUyDRywaZg",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/ukNZuHicDclbCoJAFADQFfkuSyFCcHxExiil6I84o41S6qhXRBfVftpNnd_z_dQAfDIlqerouHKoSgFIp4lsggIaKtK-laa657zp2Hk4_c-0bqXh0sjXFmV4CnhAckxCkiEyd_mGA_nNrIztcM6y0pg3x4-mYKFyYSSJfuRIcIA77LqNxPYaH7UqTsFKhjuonqGGMKphynCs75Xm8HLjCyDZ1drHakfrUmTsBwzVPW4"
+        },
+        {
+            "position": 16,
+            "title": "Yenilenmiş IPHONE 15 PRO MAX 256GB -B Kalite- Mavi Titanyum",
+            "product_id": "8933786961401430425",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=productid:8933786961401430425,headlineOfferDocid:8933786961401430425,imageDocid:12909826991649306122,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiODkzMzc4Njk2MTQwMTQzMDQyNSIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6Ijg5MzM3ODY5NjE0MDE0MzA0MjUiLCJpbWFnZURvY2lkIjoiMTI5MDk4MjY5OTE2NDkzMDYxMjIiLCJyZHMiOiIiLCJxdWVyeSI6ImlwaG9uZSsxNSIsImdwY2lkIjoiIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InRyIiwiaGwiOiJ0ciJ9",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiODkzMzc4Njk2MTQwMTQzMDQyNSIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6Ijg5MzM3ODY5NjE0MDE0MzA0MjUiLCJpbWFnZURvY2lkIjoiMTI5MDk4MjY5OTE2NDkzMDYxMjIiLCJyZHMiOiIiLCJxdWVyeSI6ImlwaG9uZSsxNSIsImdwY2lkIjoiIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InRyIiwiaGwiOiJ0ciJ9",
+            "source": "ciceksepeti.com",
+            "source_icon": "https://serpapi.com/searches/6983c70ca4817c8824cc77a6/images/kr9Wo3LLQDQp27C01EGMVLo6jrNGdqwjEwhT9wx0f0I.png",
+            "price": "₺74.207,00",
+            "extracted_price": 74207.0,
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRtaAnTjkSwxDMoX9BTGy5fWERIt8qH7MIJwmKy-nbEdSuJcn5mfRDAHXqcvWUE5nwpYtzppbmSFvFFAdVZMrGldbcTVnTPC3pOv5R1DCkMi4E1xSei20YSINrl",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/vf2rNHicDcndEkJAGADQJ4ooU8w0jfxFQ42V0h27SFiLL9Jj9Ta9TZ3b8_3cAViv8HxKcTcxSMkMEipyeQ8xFJjDTc3394axgubbdvM_RfWIbGEfYpUGjxKNL91trvIusCYpuxi-Det2v3JtZ6wP04wmBkFPB1Opznxd3V9bPFzOhkRHFsGbsaRG5mCaKglvbmdVJMFBSIOTtmDHQfIFXSvdYmkIL5QW4jxCttdVP3aJQCM"
+        },
+        {
+            "position": 17,
+            "title": "Apple iPhone 15 - 128 GB - Sarı",
+            "product_id": "4903960767613354610",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=productid:4903960767613354610,headlineOfferDocid:4903960767613354610,imageDocid:15595444653241829326,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiNDkwMzk2MDc2NzYxMzM1NDYxMCIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjQ5MDM5NjA3Njc2MTMzNTQ2MTAiLCJpbWFnZURvY2lkIjoiMTU1OTU0NDQ2NTMyNDE4MjkzMjYiLCJyZHMiOiIiLCJxdWVyeSI6ImlwaG9uZSsxNSIsImdwY2lkIjoiIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InRyIiwiaGwiOiJ0ciJ9",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiNDkwMzk2MDc2NzYxMzM1NDYxMCIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjQ5MDM5NjA3Njc2MTMzNTQ2MTAiLCJpbWFnZURvY2lkIjoiMTU1OTU0NDQ2NTMyNDE4MjkzMjYiLCJyZHMiOiIiLCJxdWVyeSI6ImlwaG9uZSsxNSIsImdwY2lkIjoiIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InRyIiwiaGwiOiJ0ciJ9",
+            "source": "Getmobil",
+            "source_icon": "https://serpapi.com/searches/6983c70ca4817c8824cc77a6/images/kr9Wo3LLQDQp27C01EGMVN2Mg90Bsm8sAp3utvrItMg.png",
+            "price": "₺47.285,00",
+            "extracted_price": 47285.0,
+            "second_hand_condition": "yenilenmiş",
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT02twKUtTlJRgIqzSBhm52iRbw85K36PhN9LnSJDBRn3X0sWV1vAnU9L8y4_DYxqJfbXpyRQenzAcU07N29Uat7cARmQmpqeIIAsIGxDGIOY6IyW4zX17Q",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/7P0Y4HicDclbCoJAFADQFeUrHxlEjAgyKpZjpn6FjqZCjmNzKXVR7afd1Pk9308HwMVelhtGnwuHpt5AxTSpFVBCTyU6DrLoRs571h6nw__2KKptj14UDd5BCpeHT1o8rYnTDYbWk-q9M4Ktee4iO2SJ7zqEbXNFZFf1hVhqh7tFv7nFPPn3KucLiRu2IpoqVqTZaQkWRWSIBz41GCOBvdn18Kkw8ZLpa65a8Q_1aD0F"
+        },
+        {
+            "position": 18,
+            "title": "Apple Yenilenmis iPhone 15 Plus 128 GB Mavi Cep Telefonu (12 Ay Garantili) - A Kalite",
+            "product_id": "718493584252097348",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=productid:718493584252097348,headlineOfferDocid:718493584252097348,imageDocid:5154567477564579241,rds:PC_4702526954592161872|PROD_PC_4702526954592161872,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiNzE4NDkzNTg0MjUyMDk3MzQ4IiwiY2F0YWxvZ2lkIjoiIiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiNzE4NDkzNTg0MjUyMDk3MzQ4IiwiaW1hZ2VEb2NpZCI6IjUxNTQ1Njc0Nzc1NjQ1NzkyNDEiLCJyZHMiOiJQQ180NzAyNTI2OTU0NTkyMTYxODcyfFBST0RfUENfNDcwMjUyNjk1NDU5MjE2MTg3MiIsInF1ZXJ5IjoiaXBob25lKzE1IiwiZ3BjaWQiOiIiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidHIiLCJobCI6InRyIn0=",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiNzE4NDkzNTg0MjUyMDk3MzQ4IiwiY2F0YWxvZ2lkIjoiIiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiNzE4NDkzNTg0MjUyMDk3MzQ4IiwiaW1hZ2VEb2NpZCI6IjUxNTQ1Njc0Nzc1NjQ1NzkyNDEiLCJyZHMiOiJQQ180NzAyNTI2OTU0NTkyMTYxODcyfFBST0RfUENfNDcwMjUyNjk1NDU5MjE2MTg3MiIsInF1ZXJ5IjoiaXBob25lKzE1IiwiZ3BjaWQiOiIiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidHIiLCJobCI6InRyIn0%3D",
+            "source": "Trendyol",
+            "source_icon": "https://serpapi.com/searches/6983c70ca4817c8824cc77a6/images/kr9Wo3LLQDQp27C01EGMVOyB2rl5RxsWhTpLZVwu4cM.png",
+            "price": "₺48.999,00",
+            "extracted_price": 48999.0,
+            "second_hand_condition": "yenilenmiş",
+            "rating": 5,
+            "reviews": 12000000000,
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQd81r8-U-3yFLoIZD07e-q0_2Imb70DfN-LcMWLTeguaOu4rkqe3ww7Lr1SW_fJJezq-hViXBv8u9Zf26_iZspC7GPYF0jX2PO9PrZkdQyWsTO26ORZLsWYA",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/ZUyS3XicDclXDoIwAADQE5WlkZEY44gGUhkuoD8EShkSoLRFgqfyOt5G3-_7fiohKLdkmXSYzVSQHIisU6WSi1TUWMJ9K_Oqp7Tuys2w_p-1dXPzhIPcUJkB7mAxH2Fvo4OiEzAoiWa3ma4cChdAfA7hjZRj6o1L1gxkMU06ZOo1TArHIe8BVI862r2M0USFtkpqxOleP_nxUXlGmu-ZPkNNHswhv3nayrsgyMN4-wMepT0z"
+        },
+        {
+            "position": 19,
+            "title": "İkinci El Apple Iphone 15 256Gb (12 Ay Garantili)",
+            "product_id": "11011770962552364857",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=productid:11011770962552364857,headlineOfferDocid:11011770962552364857,imageDocid:12654351945475283851,rds:PC_6601648695432433635|PROD_PC_6601648695432433635,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiMTEwMTE3NzA5NjI1NTIzNjQ4NTciLCJjYXRhbG9naWQiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMTAxMTc3MDk2MjU1MjM2NDg1NyIsImltYWdlRG9jaWQiOiIxMjY1NDM1MTk0NTQ3NTI4Mzg1MSIsInJkcyI6IlBDXzY2MDE2NDg2OTU0MzI0MzM2MzV8UFJPRF9QQ182NjAxNjQ4Njk1NDMyNDMzNjM1IiwicXVlcnkiOiJpcGhvbmUrMTUiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ0ciIsImhsIjoidHIifQ==",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiMTEwMTE3NzA5NjI1NTIzNjQ4NTciLCJjYXRhbG9naWQiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMTAxMTc3MDk2MjU1MjM2NDg1NyIsImltYWdlRG9jaWQiOiIxMjY1NDM1MTk0NTQ3NTI4Mzg1MSIsInJkcyI6IlBDXzY2MDE2NDg2OTU0MzI0MzM2MzV8UFJPRF9QQ182NjAxNjQ4Njk1NDMyNDMzNjM1IiwicXVlcnkiOiJpcGhvbmUrMTUiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ0ciIsImhsIjoidHIifQ%3D%3D",
+            "source": "PttAVM.com",
+            "source_icon": "https://serpapi.com/searches/6983c70ca4817c8824cc77a6/images/kr9Wo3LLQDQp27C01EGMVOFL9dQK4lB44gmE0T1dKaU.jpeg",
+            "price": "₺53.099,00",
+            "extracted_price": 53099.0,
+            "rating": 5,
+            "reviews": 43000000000,
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSm6KgXWJkHjuc1d6Q4ucrfYcDmLz1SXsHjWWMHUlNvCW5YrWPWWIzWy7JqZoO6yCmgg5_GoWi0LfxOrU5d1QtBkk0A-AH6UKSrtUa3cl4WkVZCZl5O1_Exig",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/0G-KenicDcntDkJQGADgK_I10bK1JjVCyUwv_pgOju-P49RwVd1Od1PP3-f7KSgdJoXjsg6RZaBZytBnJ7J4ogktEYv6lpuKfhjKDh_G_f8U9ZbudOS1soUDMGujeiEhld3NC5E8RKfWXgUvmIwK4Gr4ze2tgRQSuANcVli25hj1jrxoLcZSrPdQ8nY-O8SXUsGlx7rmVUY1ZN_yCPUTETUbqB-RFjWSI8TnucQ_yAA-0w"
+        },
+        {
+            "position": 20,
+            "title": "İkinci El Apple iPhone 15 Black 128GB (12 Ay Garantili)",
+            "product_id": "12864721249221916541",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=productid:12864721249221916541,headlineOfferDocid:12864721249221916541,imageDocid:8734794916159296873,rds:PC_6117243721673475641|PROD_PC_6117243721673475641,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiMTI4NjQ3MjEyNDkyMjE5MTY1NDEiLCJjYXRhbG9naWQiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMjg2NDcyMTI0OTIyMTkxNjU0MSIsImltYWdlRG9jaWQiOiI4NzM0Nzk0OTE2MTU5Mjk2ODczIiwicmRzIjoiUENfNjExNzI0MzcyMTY3MzQ3NTY0MXxQUk9EX1BDXzYxMTcyNDM3MjE2NzM0NzU2NDEiLCJxdWVyeSI6ImlwaG9uZSsxNSIsImdwY2lkIjoiIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InRyIiwiaGwiOiJ0ciJ9",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiMTI4NjQ3MjEyNDkyMjE5MTY1NDEiLCJjYXRhbG9naWQiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxMjg2NDcyMTI0OTIyMTkxNjU0MSIsImltYWdlRG9jaWQiOiI4NzM0Nzk0OTE2MTU5Mjk2ODczIiwicmRzIjoiUENfNjExNzI0MzcyMTY3MzQ3NTY0MXxQUk9EX1BDXzYxMTcyNDM3MjE2NzM0NzU2NDEiLCJxdWVyeSI6ImlwaG9uZSsxNSIsImdwY2lkIjoiIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InRyIiwiaGwiOiJ0ciJ9",
+            "source": "senatech.com",
+            "source_icon": "https://serpapi.com/searches/6983c70ca4817c8824cc77a6/images/kr9Wo3LLQDQp27C01EGMVGxJCYWIWrD6KEjqxk4Ir1k.png",
+            "price": "₺49.999,00",
+            "extracted_price": 49999.0,
+            "rating": 5,
+            "reviews": 117,
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQMFxkxjpPXbR2V0Tm-h9wK1Oe-yGQqXSr2lBpvCCV8Yxal5vDvYzRoyHfmohftExOE53VPCDNtpDn6tKt_ymvPwJv4QFN0SleZKUNhwfw54wwKJo7Px1LIOA",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/GnlW7HicDclJDoIwFADQEzEKTokxCOKAQhEl6sbIZFWgFX7a4qm8jrfRt33fDwag7VhR8jptOgp5JkFSa_KthSvcUzklldJiQum9vk1fk_-NLT8bLdJw64qneFB0THZ6rO4rCY-4pwW51C3C1zFq9HJGmW3Hw5O4liZz2Om9I92yqAguYC6CudmLke34QJ26Dx5cuoohvmZG6PpqVOZn7-BjXnDT4NxbkwES2mYVWD_oZz-i",
+            "thumbnails": [
+                "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQMFxkxjpPXbR2V0Tm-h9wK1Oe-yGQqXSr2lBpvCCV8Yxal5vDvYzRoyHfmohftExOE53VPCDNtpDn6tKt_ymvPwJv4QFN0SleZKUNhwfw54wwKJo7Px1LIOA",
+                "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS4gdHiqDZWWpc1Xxq6MdCaT2v69dRqG4bReNWluTp1L9GLaUVKTFKYcU4avTbeNSKWrO-8N9V5GFea8ImlAJ7wtklYS80GxuxddCLQFfMzMEm8GVsGeONw",
+                "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT63ynutij712PfVv3SVKjQppqG9-qp31D7bHVxeIV_GAjYValjcqJw9htWwmZFFPaZU_qIT0OJFZuq0D2AWQOs39JxZXxznkRhcyiRsJhkxoBRJ0LB6Wuciw"
+            ],
+            "serpapi_thumbnails": [
+                "https://serpapi.com/images/url/GnlW7HicDclJDoIwFADQEzEKTokxCOKAQhEl6sbIZFWgFX7a4qm8jrfRt33fDwag7VhR8jptOgp5JkFSa_KthSvcUzklldJiQum9vk1fk_-NLT8bLdJw64qneFB0THZ6rO4rCY-4pwW51C3C1zFq9HJGmW3Hw5O4liZz2Om9I92yqAguYC6CudmLke34QJ26Dx5cuoohvmZG6PpqVOZn7-BjXnDT4NxbkwES2mYVWD_oZz-i",
+                "https://serpapi.com/images/url/tLE3SnicDcnhEoEwAADgJ1JySXXnXBcN1TqaJv_WNulUthriobyPt-H7-30_F6VE7-o6b2n3EoqzkSrasVb2iqiKavTW6P3lJkTVlgs5_5_rQeYAmpolW1dyecJYUOM4SCtmPkGTh-WwvQRmsecQ13ckjMgBETlkIQrCnB5M8kAFh2mIu2RkQyebgoATe9PU3nb2VNc6T-0xGO4DY360C87xO141Nsh6wBP4_AH9yz1u",
+                "https://serpapi.com/images/url/1vjRrnicDcltDoIgAADQE5UfbDrdWrM5TWpZVlj-aYYmWCIEpnaqrtNt6v193w9RiktX00qGnyNXZTFRV6ZPK6lyRfEUt40mScs5ZdVczP7nepvCCfHBAiPrFK1tw9ze0Avs0arecS5CZyI4MHz7ukRDGaFL6NVnlD9qLGDvEJX2TRYE2zw7XkR00GMYZJ3QfdNLd7EEDhyy0_Bm94TgkSYSkvvQLhKorxdW2mHa_wC4XT-B"
+            ]
+        },
+        {
+            "position": 21,
+            "title": "Apple Yenilenmis iPhone 15 Pro 128 GB Beyaz Titanyum Cep Telefonu (12 Ay Garantili) - A Kalite",
+            "product_id": "4179044445845274919",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=productid:4179044445845274919,headlineOfferDocid:4179044445845274919,imageDocid:4218697982123034917,rds:PC_11795796123145720151|PROD_PC_11795796123145720151,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiNDE3OTA0NDQ0NTg0NTI3NDkxOSIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjQxNzkwNDQ0NDU4NDUyNzQ5MTkiLCJpbWFnZURvY2lkIjoiNDIxODY5Nzk4MjEyMzAzNDkxNyIsInJkcyI6IlBDXzExNzk1Nzk2MTIzMTQ1NzIwMTUxfFBST0RfUENfMTE3OTU3OTYxMjMxNDU3MjAxNTEiLCJxdWVyeSI6ImlwaG9uZSsxNSIsImdwY2lkIjoiIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InRyIiwiaGwiOiJ0ciJ9",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiNDE3OTA0NDQ0NTg0NTI3NDkxOSIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjQxNzkwNDQ0NDU4NDUyNzQ5MTkiLCJpbWFnZURvY2lkIjoiNDIxODY5Nzk4MjEyMzAzNDkxNyIsInJkcyI6IlBDXzExNzk1Nzk2MTIzMTQ1NzIwMTUxfFBST0RfUENfMTE3OTU3OTYxMjMxNDU3MjAxNTEiLCJxdWVyeSI6ImlwaG9uZSsxNSIsImdwY2lkIjoiIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InRyIiwiaGwiOiJ0ciJ9",
+            "source": "Trendyol",
+            "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn%3AANd9GcRrDDFczhbh9JgoWGERMc0x8gkwkZCvuZhlix-CuCZIOjxU8R9eU9RV1vBxiuqW5uPMC-GeaF9NecYAqhxyO67qH76VyWekhyUZ",
+            "price": "₺62.149,00",
+            "extracted_price": 62149.0,
+            "second_hand_condition": "yenilenmiş",
+            "rating": 5,
+            "reviews": 15000000000,
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRjQQdh2kWoApjfgb33bwsE0NNWSBSuBfYObCwm3sdaB2_97cjvcKjCD7CxSAHlO7x-PQIiq7LiaK61uEE0YVqv1mgFLjRLy5Fluors7hceDHlrYRXTqnct_88",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/un7m53icDcnbEkJAAADQLxIytWWmaZAukyE0yVPDrvYSa9ml-qw-p7-p83q-H6KUkLauVxz2b6EqpKmSmxMsVaEonMC20SVphaAcr7vV_2wnRMsdTFgcIzJ9ZK0j2B2XllU-pW-EYZa66eDe86j0no0lUeFOb0sA2QiPzNsA75U6-zoCL-0UH2gHAloc5-bg-0Z-6UazwduAJcF7tq2HtpeAwGqzr_s8uZ47DtVtsfgB5Yc_QQ",
+            "thumbnails": [
+                "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRjQQdh2kWoApjfgb33bwsE0NNWSBSuBfYObCwm3sdaB2_97cjvcKjCD7CxSAHlO7x-PQIiq7LiaK61uEE0YVqv1mgFLjRLy5Fluors7hceDHlrYRXTqnct_88",
+                "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQt5SpHTP6CSGpwiZeRdx5n7zjqJ9CMgVUsb-Kg9KL2xWYl-ZdpcYMSSgH0lFlNjASII83CHfX_wYbFRXQtK_4qWqyq6HuJAvf38jd-BkcYrweJYWHW-0MPOA",
+                "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQWmyqgBftR4_UNz_tYcCZ2xTdvbncS0t0WHdIfVO9Dxc6_9334u_-1FWfWmDDQanNi8VEV6qXibUa14XTTU21w_FWgYvO_otLnyF-9LjMfRXudqCgL0TVeMg"
+            ],
+            "serpapi_thumbnails": [
+                "https://serpapi.com/images/url/un7m53icDcnbEkJAAADQLxIytWWmaZAukyE0yVPDrvYSa9ml-qw-p7-p83q-H6KUkLauVxz2b6EqpKmSmxMsVaEonMC20SVphaAcr7vV_2wnRMsdTFgcIzJ9ZK0j2B2XllU-pW-EYZa66eDe86j0no0lUeFOb0sA2QiPzNsA75U6-zoCL-0UH2gHAloc5-bg-0Z-6UazwduAJcF7tq2HtpeAwGqzr_s8uZ47DtVtsfgB5Yc_QQ",
+                "https://serpapi.com/images/url/rtyyLnicDcnhEoEwAADgJ5q6EnLnXLrTlKiGmj9OW6YkW43KU3kdb8P39_t-rlLyZqooWUXqnsuMAplW2oA18ixzMiCPu9JcH5znFZuL2f-m1oaaDgmlgTjcBSMbObzNj1lEO6MavwvhmrbPDvsmBR4zvbXWxbgER8oJ9hFiUC2X5aaw0Go10W14SU4tTpdREkrvNBSx6MUIPl3rddEnBQWLG8F1m7k4hjFQ_WBr_QCfmz45",
+                "https://serpapi.com/images/url/QGouL3icDclvD0JAHADgT-RfzGJrrUi1oaXj6M2NO442h_wq-lR9nb5NPW-f76cG6EdbUUpB73MPJZOgELrMR8ihoTLtWmWsu75vBF8Pq__Zm5BZe3rG7TzwbQWRQeLwTSCjznUxIfYsBL2ooOIDO1bJyXInahJL140HkTQPV7h13XMuwmaZ7BJzSJsizjUjRSheaC_iYZ49T6QDX8yeZPm3oIrSBxsc7qsoKQP-A7dsPp8"
+            ]
+        },
+        {
+            "position": 22,
+            "title": "iPhone 15 5G 6/256 Gb Black (Siyah)",
+            "product_id": "14672082133381036378",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=productid:14672082133381036378,headlineOfferDocid:14672082133381036378,imageDocid:4631764850582452248,rds:PC_6601648695432433635|PROD_PC_6601648695432433635,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiMTQ2NzIwODIxMzMzODEwMzYzNzgiLCJjYXRhbG9naWQiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNDY3MjA4MjEzMzM4MTAzNjM3OCIsImltYWdlRG9jaWQiOiI0NjMxNzY0ODUwNTgyNDUyMjQ4IiwicmRzIjoiUENfNjYwMTY0ODY5NTQzMjQzMzYzNXxQUk9EX1BDXzY2MDE2NDg2OTU0MzI0MzM2MzUiLCJxdWVyeSI6ImlwaG9uZSsxNSIsImdwY2lkIjoiIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InRyIiwiaGwiOiJ0ciJ9",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiMTQ2NzIwODIxMzMzODEwMzYzNzgiLCJjYXRhbG9naWQiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNDY3MjA4MjEzMzM4MTAzNjM3OCIsImltYWdlRG9jaWQiOiI0NjMxNzY0ODUwNTgyNDUyMjQ4IiwicmRzIjoiUENfNjYwMTY0ODY5NTQzMjQzMzYzNXxQUk9EX1BDXzY2MDE2NDg2OTU0MzI0MzM2MzUiLCJxdWVyeSI6ImlwaG9uZSsxNSIsImdwY2lkIjoiIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InRyIiwiaGwiOiJ0ciJ9",
+            "source": "Özden Kılcan",
+            "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn%3AANd9GcTWGdEGUck9WWTDox71m3kZC-s3JgDj2jLiZ7ENYksD4XmHCMtg8e7uL4K-YtJ3zEhiS8YXL8p4rWaqoW19piywfa2KTg",
+            "price": "₺58.499,00",
+            "extracted_price": 58499.0,
+            "rating": 5,
+            "reviews": 42000000000,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRknq3cutGysGG_tG3M3iUHh6vnI21ILo34wP81OodkoxBLzWd4LDoezAclSYqZzjGEXnx9Z6Yzm0SRpNsMGAOYqD95iLCk",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/V2LYXXicDcnbCoIwAADQL8pLM0khwjKWMDWMKH2J2kSXuUtbpfuQ_q2_qfN6vp9Wa6FC264ZfoxC12Sir8yxGqUvmmIL895WLReCsmYpF_8Lo4wEEBcdkwA_NRwVhGcNQQroYdv6L5ZM3QRx4L13czfnpOPDCpkj8VDMaxPh-76UlbnBzYkNQeWXpnf2hchUCqO8lHEwo2jd_QC_rDYU"
+        },
+        {
+            "position": 23,
+            "title": "İkinci El Apple Iphone 15 Plus 128Gb (12 Ay Garantili)",
+            "product_id": "17424506235784083830",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=productid:17424506235784083830,headlineOfferDocid:17424506235784083830,imageDocid:11129941022722703629,rds:PC_4702526954592161872|PROD_PC_4702526954592161872,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiMTc0MjQ1MDYyMzU3ODQwODM4MzAiLCJjYXRhbG9naWQiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNzQyNDUwNjIzNTc4NDA4MzgzMCIsImltYWdlRG9jaWQiOiIxMTEyOTk0MTAyMjcyMjcwMzYyOSIsInJkcyI6IlBDXzQ3MDI1MjY5NTQ1OTIxNjE4NzJ8UFJPRF9QQ180NzAyNTI2OTU0NTkyMTYxODcyIiwicXVlcnkiOiJpcGhvbmUrMTUiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ0ciIsImhsIjoidHIifQ==",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiMTc0MjQ1MDYyMzU3ODQwODM4MzAiLCJjYXRhbG9naWQiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNzQyNDUwNjIzNTc4NDA4MzgzMCIsImltYWdlRG9jaWQiOiIxMTEyOTk0MTAyMjcyMjcwMzYyOSIsInJkcyI6IlBDXzQ3MDI1MjY5NTQ1OTIxNjE4NzJ8UFJPRF9QQ180NzAyNTI2OTU0NTkyMTYxODcyIiwicXVlcnkiOiJpcGhvbmUrMTUiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ0ciIsImhsIjoidHIifQ%3D%3D",
+            "source": "PttAVM.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn%3AANd9GcStAXx4dCj2mIl6dmX2ElgV1In6_LUt26f1kIvNNFUzLKFIGgSz6BoESTw49agR64luGWEbcUeF_3-77Lxzsn_hJS1y9FfUnQ",
+            "price": "₺55.599,00",
+            "extracted_price": 55599.0,
+            "rating": 5,
+            "reviews": 11000000000,
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRc7N-Yr8OH24pPfSeNSIziXyC3JDt0Hi3C9oZAihucbThMNwKg_hsQcsyXrgqc0l4AVI70Fe5HSFLKGu6DpYYINKHvC_4jIAn1eBd_6wqHv4rU0FRXuKzD",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/9tw_KHicDcnhEoEwAADgJ1IhUXfOpS7LGApX_nRas81Rq61cHsr7eBu-v9_3w5QS0tF1UuKmF4oUA5WXQ41KdVUca7h66pJVQvCSLur5_xwXFfYKR3iKBmkz24GRKfa3mKA4fPOk98ZrXxmAjz27urictTg_si16QZoxecCyTxpaY-NhuudwagRkAuJgA1et5Ys0DREEnZeZ99Ath2RZZNarBp3ZnIwgSlr49n_wxT0z"
+        },
+        {
+            "position": 24,
+            "title": "Yenilenmiş IPHONE 15 256GB -C Kalite- Siyah",
+            "product_id": "2938280107924521019",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=productid:2938280107924521019,headlineOfferDocid:2938280107924521019,imageDocid:13507347755899579832,rds:PC_6601648695432433635|PROD_PC_6601648695432433635,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiMjkzODI4MDEwNzkyNDUyMTAxOSIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjI5MzgyODAxMDc5MjQ1MjEwMTkiLCJpbWFnZURvY2lkIjoiMTM1MDczNDc3NTU4OTk1Nzk4MzIiLCJyZHMiOiJQQ182NjAxNjQ4Njk1NDMyNDMzNjM1fFBST0RfUENfNjYwMTY0ODY5NTQzMjQzMzYzNSIsInF1ZXJ5IjoiaXBob25lKzE1IiwiZ3BjaWQiOiIiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidHIiLCJobCI6InRyIn0=",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiMjkzODI4MDEwNzkyNDUyMTAxOSIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjI5MzgyODAxMDc5MjQ1MjEwMTkiLCJpbWFnZURvY2lkIjoiMTM1MDczNDc3NTU4OTk1Nzk4MzIiLCJyZHMiOiJQQ182NjAxNjQ4Njk1NDMyNDMzNjM1fFBST0RfUENfNjYwMTY0ODY5NTQzMjQzMzYzNSIsInF1ZXJ5IjoiaXBob25lKzE1IiwiZ3BjaWQiOiIiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidHIiLCJobCI6InRyIn0%3D",
+            "source": "Destek Bilişim Shop",
+            "source_icon": "https://encrypted-tbn1.gstatic.com/favicon-tbn?q=tbn%3AANd9GcRCA63wCqjzDn_XMrUgG8Yi2c4iyYbMJ177iixgFwvclA_FFhmQOB1ifiboyrByOksRYXD9mUzUe4tPBJRgkuX42ZbBc45t0o5mQzL7M7Q7",
+            "price": "₺44.390,00",
+            "extracted_price": 44390.0,
+            "second_hand_condition": "yenilenmiş",
+            "rating": 5,
+            "reviews": 42000000000,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRMJhm6zVZkYfU2OtbHxIaLGOiz1Ag4Uf_qmJeSGai_r-Q9hFAgKsMv5nCI9ePkynImGmLrWSJh52BctEK4brDFHfwgwv4K0AqTagnTHz0C2gd3laU9JXP_",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/wJPmRnicDclJDoIwAADAF7GIYIKJMYiyiqCA24WUAi3Blq0B4VH-x9_oXOf7wYw1_VoQcgq7qWF5xrGUijzqGWAl5GFNhB7XTVNStG03_1trp0w14cVzMFnN12f1KGLJZ6n1tsHR9Mt5oSE5LpKWOHlogjLpuLOKDQ25vTcoVLfVPKgmahOTHLtb6GBF2kF2cOW02xtWMaJxkF1RayOAaGTNoi6hbPkCsercg-QHRfg-HA"
+        },
+        {
+            "position": 25,
+            "title": "iPhone 15 Pro Max 256 GB White Titanium İkinci El (12 Ay Garantili)",
+            "product_id": "1291400576657466197",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=productid:1291400576657466197,headlineOfferDocid:1291400576657466197,imageDocid:15334810163467498411,rds:PC_17780781309483346961|PROD_PC_17780781309483346961,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiMTI5MTQwMDU3NjY1NzQ2NjE5NyIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjEyOTE0MDA1NzY2NTc0NjYxOTciLCJpbWFnZURvY2lkIjoiMTUzMzQ4MTAxNjM0Njc0OTg0MTEiLCJyZHMiOiJQQ18xNzc4MDc4MTMwOTQ4MzM0Njk2MXxQUk9EX1BDXzE3NzgwNzgxMzA5NDgzMzQ2OTYxIiwicXVlcnkiOiJpcGhvbmUrMTUiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ0ciIsImhsIjoidHIifQ==",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiMTI5MTQwMDU3NjY1NzQ2NjE5NyIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjEyOTE0MDA1NzY2NTc0NjYxOTciLCJpbWFnZURvY2lkIjoiMTUzMzQ4MTAxNjM0Njc0OTg0MTEiLCJyZHMiOiJQQ18xNzc4MDc4MTMwOTQ4MzM0Njk2MXxQUk9EX1BDXzE3NzgwNzgxMzA5NDgzMzQ2OTYxIiwicXVlcnkiOiJpcGhvbmUrMTUiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ0ciIsImhsIjoidHIifQ%3D%3D",
+            "source": "senatech.com",
+            "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn%3AANd9GcSKcaPp-qmVD8Hl4rydSrT1oAuGVyxtW-EvYGbreMbJ7i8y-sEAuzUh-NYLq9IYT_BzEkBsNLC0pzKPA4TvFDutIoKs9ao",
+            "price": "₺80.699,00",
+            "extracted_price": 80699.0,
+            "rating": 5,
+            "reviews": 21000000000,
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSiREfmm04IewiKOURzjpb93PA5HS8tHYROUbz2uHXJxLDonzi7w38HyZ2l-eYqP7QdGHzyo1ck3S-DNGlaMrNcsFU1Fz75eNRk-ZdMI3p1QtgHlfK3Szkg",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/GEyCInicDcltDoIgAADQE5kZOauttbZS-tAK5lb-U0AkFTFoJYfqPt2m3t_3_VTGKL1wXSbJY1CGUccUEoy4NrkRZES61tVVp5SQfNUv_7dYJ3QeESzQtmzb8XTHXuJwSpG9q2IOzmsf4pmBN3RKCzt5wuv-fdx00orgBWZwyCaNw279ObjQCNqh80gNsLNJoiaPHwnRYeqFNvBZgmono_EOKO9iOGzKA8C25j8Wxz2e",
+            "thumbnails": [
+                "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSiREfmm04IewiKOURzjpb93PA5HS8tHYROUbz2uHXJxLDonzi7w38HyZ2l-eYqP7QdGHzyo1ck3S-DNGlaMrNcsFU1Fz75eNRk-ZdMI3p1QtgHlfK3Szkg",
+                "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQI0EdtwBhlXS8JYuNmGwmgrDuu2gExb3eb6KsY3ObHszKq0FoAeGjAW4ev1ekfWDWAG3GwuSD1otKyhZakflepFR98Gv3TzPTA-CVm9O2X",
+                "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRCEqAV0h88HSLxR3cc1XWqg94ypMR8eLRC20Vo7NgxXTgr_xhkUJc1tmRE9hpYiP3ULWZoYhAOHSVIhYteyIqEJ2fm3tw4Ojov_XaZczkI"
+            ],
+            "serpapi_thumbnails": [
+                "https://serpapi.com/images/url/GEyCInicDcltDoIgAADQE5kZOauttbZS-tAK5lb-U0AkFTFoJYfqPt2m3t_3_VTGKL1wXSbJY1CGUccUEoy4NrkRZES61tVVp5SQfNUv_7dYJ3QeESzQtmzb8XTHXuJwSpG9q2IOzmsf4pmBN3RKCzt5wuv-fdx00orgBWZwyCaNw279ObjQCNqh80gNsLNJoiaPHwnRYeqFNvBZgmono_EOKO9iOGzKA8C25j8Wxz2e",
+                "https://serpapi.com/images/url/FwFSGHicDclJDoIwAADAF7HWGCAxpgpUJQEVIuCNpSyyFVpAeI6_8jc61_l-CsYI1QQBt8mwEIZTjsWtzOeURaxM-KRrBFp0hJRtvu93_9OgnaoouZ1FI2XzoagDV7mEo92guckHfRzl3HjHAMdbi4bAiU90tXrR7CBGL-hv8CThKvN1HyKA5tHVpY5ZS_GMqqzGxLyrCpqAt149yB0fjerIwQ93ezoJ",
+                "https://serpapi.com/images/url/y9irknicDclbCoJAFADQFeUbUiFCRFIxjTGfP2KjzZjojHopbTntqt3U-T3fDwXgiymK7YjnjUPb7OA2SgJZoIYOC5gN4kIZ591IjtPhf6YVNsYJI9uZrFSiuu7GwYpUjOU8m4ihbfyM9DZAtiKlbB-SNb-SuVppn_hYhgE5BuVFd1GTICtZQa3IjVOPFtBu3uT4yn1Q4aVFD_as8rrE7977ASDMOjI"
+            ]
+        },
+        {
+            "position": 26,
+            "title": "İkinci El Apple Iphone 15 Pro 512Gb (12 Ay Garantili)",
+            "product_id": "6144225997626270154",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=productid:6144225997626270154,headlineOfferDocid:6144225997626270154,imageDocid:6515505862906749049,rds:PC_11795796123145720151|PROD_PC_11795796123145720151,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiNjE0NDIyNTk5NzYyNjI3MDE1NCIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjYxNDQyMjU5OTc2MjYyNzAxNTQiLCJpbWFnZURvY2lkIjoiNjUxNTUwNTg2MjkwNjc0OTA0OSIsInJkcyI6IlBDXzExNzk1Nzk2MTIzMTQ1NzIwMTUxfFBST0RfUENfMTE3OTU3OTYxMjMxNDU3MjAxNTEiLCJxdWVyeSI6ImlwaG9uZSsxNSIsImdwY2lkIjoiIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InRyIiwiaGwiOiJ0ciJ9",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiNjE0NDIyNTk5NzYyNjI3MDE1NCIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjYxNDQyMjU5OTc2MjYyNzAxNTQiLCJpbWFnZURvY2lkIjoiNjUxNTUwNTg2MjkwNjc0OTA0OSIsInJkcyI6IlBDXzExNzk1Nzk2MTIzMTQ1NzIwMTUxfFBST0RfUENfMTE3OTU3OTYxMjMxNDU3MjAxNTEiLCJxdWVyeSI6ImlwaG9uZSsxNSIsImdwY2lkIjoiIiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InRyIiwiaGwiOiJ0ciJ9",
+            "source": "PttAVM.com",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn%3AANd9GcStAXx4dCj2mIl6dmX2ElgV1In6_LUt26f1kIvNNFUzLKFIGgSz6BoESTw49agR64luGWEbcUeF_3-77Lxzsn_hJS1y9FfUnQ",
+            "price": "₺80.099,00",
+            "extracted_price": 80099.0,
+            "rating": 5,
+            "reviews": 15000000000,
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTicQN9BsJpIm1WDA4ct7XIaMIw3uvaacmthEjg56_FqqhAH-Rc2ZgWBLsUBmwE4rTM8UdyeKoLKoA1v5gAWjpwihuOp9tk4BV5CnX_7m9XSI1FOPpykiGULg",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/cUINynicDclLDoIwFADAEwlBQcTEmFYBUcAfCHFDsJC2mkKxTwm38jreRmc73w8DkGqu63VDnoOEuhrBrTE0qqAETjTSCl2xVkre0GW3-N8cxZXjk4STY-xgtZWBMLI1MgnYeVBGQT95vcuSCGDunVrTwus6hjajExlfaYZDlWLRu-YziWZpNdS7Nty1yHhbFGV32XP22ksHHia-WKsmL2zh5OfA8PYHOTy4n4b0B6elPtA"
+        },
+        {
+            "position": 27,
+            "title": "Everyday Case | İphone 15 Pro Max V2 - Redwood",
+            "product_id": "11134342953549489263",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=catalogid:11134342953549489263,headlineOfferDocid:91911472467488424,imageDocid:89498813351080398,rds:PC_9766174561624566286|PROD_PC_9766174561624566286,gpcid:9766174561624566286,mid:576462853964108428,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTExMzQzNDI5NTM1NDk0ODkyNjMiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI5MTkxMTQ3MjQ2NzQ4ODQyNCIsImltYWdlRG9jaWQiOiI4OTQ5ODgxMzM1MTA4MDM5OCIsInJkcyI6IlBDXzk3NjYxNzQ1NjE2MjQ1NjYyODZ8UFJPRF9QQ185NzY2MTc0NTYxNjI0NTY2Mjg2IiwicXVlcnkiOiJpcGhvbmUrMTUiLCJncGNpZCI6Ijk3NjYxNzQ1NjE2MjQ1NjYyODYiLCJtaWQiOiI1NzY0NjI4NTM5NjQxMDg0MjgiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidHIiLCJobCI6InRyIn0=",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTExMzQzNDI5NTM1NDk0ODkyNjMiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI5MTkxMTQ3MjQ2NzQ4ODQyNCIsImltYWdlRG9jaWQiOiI4OTQ5ODgxMzM1MTA4MDM5OCIsInJkcyI6IlBDXzk3NjYxNzQ1NjE2MjQ1NjYyODZ8UFJPRF9QQ185NzY2MTc0NTYxNjI0NTY2Mjg2IiwicXVlcnkiOiJpcGhvbmUrMTUiLCJncGNpZCI6Ijk3NjYxNzQ1NjE2MjQ1NjYyODYiLCJtaWQiOiI1NzY0NjI4NTM5NjQxMDg0MjgiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidHIiLCJobCI6InRyIn0%3D",
+            "source": "Elcobilmarket",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn%3AANd9GcQxIgwKD4IwDB22YMdUvgmkRdYXhgT3oDf24A5wpneuaxkS1fkui1G3N9-wJpO6lsJkceGG5MOyfAzZkMR0sZfkDqWOwV-YyfzlUg",
+            "price": "₺2.374,05",
+            "extracted_price": 2374.05,
+            "rating": 5,
+            "reviews": 23,
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ1aRb8iozMop1_YqHHVKFiTPPkfZf28VGmbERNo7gkokHMd1YVRUWXErbiJ41PFyIgAwgKzOqIE9gm76pyca0UXy9Ba4eb6a91K_a4zHiLxeq_70uLDwyJ",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/bdi7fXicDcltCoIwAADQE5VORDOIMPIjNTNJy_7INm0N0U1d2DxU9-k29f6-7-cpBB_XilJ3eJBc1NVCoE5bklFAQfESs1YZn4xz2pFtv_nf2o4ry8NnAFO0omw-Mg7Kovf9PHTpJUmax_2hrXKvRU4aM5M0rPGPFSjyNLvenAHRQAeJKw_Enkg4n_qDY5HWNLjEUM1u0tpBvUYGtEBYQn32afSu-9JUX9F-ksEPJ_w97g",
+            "thumbnails": [
+                "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ1aRb8iozMop1_YqHHVKFiTPPkfZf28VGmbERNo7gkokHMd1YVRUWXErbiJ41PFyIgAwgKzOqIE9gm76pyca0UXy9Ba4eb6a91K_a4zHiLxeq_70uLDwyJ",
+                "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTTK3q82hlTMCI45eA4izYevH2H4VMV19peHG7IprXuW_e4N_WKflLTKhulOwdKoSCLl-4mUnZ6sm0xxhVsN3nVKwruGhWi31ZJ8wWzva-ENh2CHr-06edm",
+                "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR7xMfkRwCFh0wg_OuSydK_HnCA7bI-R2QGSnrERIlW8hEf2QhpCtEkJSO_Elc3rWHfFp30q6sdb0y3T_xZwr8BqhFXwlsEPc6cxyPHllts79dktWFga1Fl",
+                "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQFBg6EQYqL5QcLsHGjx6i8w9cphFG3is16yiSJSO3oorEVyhXngUaWTNcEzUJvBSn9lhR1ar0BsL2osWf3vdz2RUQ3rs9Lz53BbYx5uMugoImsqgcXKTZC",
+                "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSC1k1pyqKFelG3vE82SdyGQOGMr_uzsrN87AjZ0w5VKLiI_j15a8k79d6drmtBBf7_j801uRFkHB89qsdQ5j_Bs1D1Zw_-rkl9hzkRQJO6OJXqAGodeg0vMw"
+            ],
+            "serpapi_thumbnails": [
+                "https://serpapi.com/images/url/bdi7fXicDcltCoIwAADQE5VORDOIMPIjNTNJy_7INm0N0U1d2DxU9-k29f6-7-cpBB_XilJ3eJBc1NVCoE5bklFAQfESs1YZn4xz2pFtv_nf2o4ry8NnAFO0omw-Mg7Kovf9PHTpJUmax_2hrXKvRU4aM5M0rPGPFSjyNLvenAHRQAeJKw_Enkg4n_qDY5HWNLjEUM1u0tpBvUYGtEBYQn32afSu-9JUX9F-ksEPJ_w97g",
+                "https://serpapi.com/images/url/YRf9tXicDcnbDkMwAADQL3LvDMmyiCxYsYcZmxcxOpVQpXWZj9r_7G-283q-H8w5ZZYkIVKOb8pRJfAnkcWa8YI3pVj2ncRwT2lD6uNw-J9lR5XplnEMtcFQcRuHjg92yAbN9kCzp3ogCRPFpMhz9z4d71OaIxDlKXy1QQzx1F6WCvZXJ2gF0N1IprNOXlecsEgjCVzGycVpoynZ2VjSbS6EU4RVxxsFWUdV9wPoED1w",
+                "https://serpapi.com/images/url/-WY-n3icDcndCoIwGADQJzItQTOIKNnUoh81MLoZuqkL15ruC91L9T69TZ3b8_1wAKVXtl1LOhgFNbOgks6s1VDCg87o62lr_lLqIdtNv_7fantiQUQzfzo2XTaGmDtjS87v3LADiWW49avEyhZplMsBZYkolhw1i5SrEFC3z88ECeoORdxg5Tq9p1nlGPdKpvs4LHc9x7dRaHShHp3MJRYCtB-wDgrclnMsfjSpPrc",
+                "https://serpapi.com/images/url/_tQWp3icDclLDoIwFADAEylKAxESY8QAfhADiIo7LNrWSFt4BYFDeR9vo7Od74cqJcHWtDvHdS_VvRipG0djAipXDI-xKDWgQkrGyaKa_89ehoXl48hziOlGWRUYEQ5g7T87k83eFpbU8xGDqdmzZJsckBC1e-rphZM0Px9D7A7ptnUSbr1oPM3riQOBLuD8QG0x6HEaoRqsYDCQc8s6o9k3RGxKqAi-7I7X1Q8soj6h",
+                "https://serpapi.com/images/url/_WBBQHicDcltCoIwAADQE6XOMKcQ4SpXmokKEf4Z5cyPlc5tJXaqrtNt6v1930-tFJeurpddISauSjpT187UKqkuqim0on_osu45b7pqNSz_53pH6uAiWwMG-DSEfnnH89cWmhmdcBLjSJDnW4ojtL02N0brFB6aPWmBdYHMduiCiodC6GaTFhrgmfpsh6AzSJpYLUESbEA-kplgd6d-szQJ4kUcnAcP97SsjFc0_gBlYD3g"
+            ]
+        },
+        {
+            "position": 28,
+            "title": "Uyumlu İphone 15 Pro Dolu Kasa Çıkma Ürün Bataryasız Hatasız - Beyaz",
+            "product_id": "8874004794988088210",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=catalogid:8874004794988088210,headlineOfferDocid:12400600354721671399,imageDocid:12546617964889728068,gpcid:11281487331438996086,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiODg3NDAwNDc5NDk4ODA4ODIxMCIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjEyNDAwNjAwMzU0NzIxNjcxMzk5IiwiaW1hZ2VEb2NpZCI6IjEyNTQ2NjE3OTY0ODg5NzI4MDY4IiwicmRzIjoiIiwicXVlcnkiOiJpcGhvbmUrMTUiLCJncGNpZCI6IjExMjgxNDg3MzMxNDM4OTk2MDg2IiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InRyIiwiaGwiOiJ0ciJ9",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiODg3NDAwNDc5NDk4ODA4ODIxMCIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjEyNDAwNjAwMzU0NzIxNjcxMzk5IiwiaW1hZ2VEb2NpZCI6IjEyNTQ2NjE3OTY0ODg5NzI4MDY4IiwicmRzIjoiIiwicXVlcnkiOiJpcGhvbmUrMTUiLCJncGNpZCI6IjExMjgxNDg3MzMxNDM4OTk2MDg2IiwibWlkIjoiIiwicHZ0IjoiaGciLCJ1dWxlIjpudWxsLCJnbCI6InRyIiwiaGwiOiJ0ciJ9",
+            "source": "Trendyol",
+            "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn%3AANd9GcRrDDFczhbh9JgoWGERMc0x8gkwkZCvuZhlix-CuCZIOjxU8R9eU9RV1vBxiuqW5uPMC-GeaF9NecYAqhxyO67qH76VyWekhyUZ",
+            "price": "₺10.850,00",
+            "extracted_price": 10850.0,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT_OwEgTaXRLLu2kEZXUkPnPNNmwSplKZSdZ72To-VeqeV-aHuQRqHX1hh8Snr5E7cyQZaWPk9M-kY89qirdCOHoH2ZhWC1hl3jpQ8cCC_1GQGlbx7-dx1-1Q",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/0sX1Z3icDcnbCoIwAADQL5o2I7xARIgoZObU0vYStokzbRddaH_V7_Q3dV7P98O0lpNnmg0n41vqhgJ95yujnXStO2IQ8TQnJqTseLtT2_95-4S6ISlupzloi7rK4vhl9QGuzn3K0yR5zrkcDjin2LYKAS6Nai6gjl4oU1EFGXNyPm4Cm7wRrsu0d4-gvzqu6kbqnyIRWZiVPmTD-iGRQ3z_BkMUDvfFBnSBAKIfsd095A"
+        },
+        {
+            "position": 29,
+            "title": "apple Iphone 17",
+            "product_id": "17651967415161032276",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=catalogid:17651967415161032276,headlineOfferDocid:7048857672956738703,imageDocid:3736274628603918672,rds:PC_6027158597472037202|PROD_PC_6027158597472037202,gpcid:14739022971413544759,mid:576462880251207542,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTc2NTE5Njc0MTUxNjEwMzIyNzYiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI3MDQ4ODU3NjcyOTU2NzM4NzAzIiwiaW1hZ2VEb2NpZCI6IjM3MzYyNzQ2Mjg2MDM5MTg2NzIiLCJyZHMiOiJQQ182MDI3MTU4NTk3NDcyMDM3MjAyfFBST0RfUENfNjAyNzE1ODU5NzQ3MjAzNzIwMiIsInF1ZXJ5IjoiaXBob25lKzE1IiwiZ3BjaWQiOiIxNDczOTAyMjk3MTQxMzU0NDc1OSIsIm1pZCI6IjU3NjQ2Mjg4MDI1MTIwNzU0MiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ0ciIsImhsIjoidHIifQ==",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTc2NTE5Njc0MTUxNjEwMzIyNzYiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiI3MDQ4ODU3NjcyOTU2NzM4NzAzIiwiaW1hZ2VEb2NpZCI6IjM3MzYyNzQ2Mjg2MDM5MTg2NzIiLCJyZHMiOiJQQ182MDI3MTU4NTk3NDcyMDM3MjAyfFBST0RfUENfNjAyNzE1ODU5NzQ3MjAzNzIwMiIsInF1ZXJ5IjoiaXBob25lKzE1IiwiZ3BjaWQiOiIxNDczOTAyMjk3MTQxMzU0NDc1OSIsIm1pZCI6IjU3NjQ2Mjg4MDI1MTIwNzU0MiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ0ciIsImhsIjoidHIifQ%3D%3D",
+            "source": "Apple",
+            "source_icon": "https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn%3AANd9GcSj93SfVdMRaV2LRFmWls8gnO6X9kaG7wUAjRql9Td6zkQUdWRAdzBVnM8KaRH7KWTA_Vph0VtmHyIcBjTtRLT1ktjPRsUm",
+            "multiple_sources": true,
+            "price": "₺89.999,00",
+            "extracted_price": 89999.0,
+            "rating": 5,
+            "reviews": 9700000000,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRT4olyC9qJFhjwlgHT0gjl66spa8ck_H07hf_T1LAT8jeFv1wxlRBABUM_FYR28bOXT79h9BkzBsD06ozCUO5imDfnfZJ8Ok8BQBPak_doXrstTbgsoJxsQg",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/VBylMHicDcnbCoIwAADQL8pLlM4gwikmUpmywHoRnbp53XIjta_qd_qbOq_n-6FScrFT1XLA48JlWaxkPmgKETKTNVYw61VBGef1QA7P_f929qWwjjhGG9YtjvUMPNpMHfGRRprOMATPAG5TXzNplSL9ZCPQlN5Ln-Yuhja8nVPvHq9BHibItKgF2zcUrmawt3MLt3XvVkP1CEDYAhjBa9amBUtGIVFOBAtmEZEfjwE-6g",
+            "thumbnails": [
+                "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRT4olyC9qJFhjwlgHT0gjl66spa8ck_H07hf_T1LAT8jeFv1wxlRBABUM_FYR28bOXT79h9BkzBsD06ozCUO5imDfnfZJ8Ok8BQBPak_doXrstTbgsoJxsQg",
+                "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ7RkVpX1jufQ4BJHKXf4Jnp2lg0eYg4z-L_qI2OI34HAIKJNpJ2e-Xp-KQ9Ja2wfmVjLSwJzBpGk6IsUq8Z0H4oj9c3DGA-n0hQYtX5fMGAPGSL35Vr-Qs",
+                "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTMRUlI6vF899lULdd2SZAv6EUhVHCXhyFgu2qSB8ZhGXzRxh_xpJjTEEtEAbfMC0xr_72Jbq8jq3pWClx13C-GeG86q9FJqF6urdjE8qKR83Blu5UepX7o",
+                "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRv1vGGXgLU4Q26hGoAYQQunpXyzKGgmuJCE93vlYhNths--XYS_ZyXcR1uEtajtaoT1leUusVT30rfDfzmIaP8X8h88aTM9jGO_g6XxvQSB5tG7kvz6GyQtQ",
+                "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRdfSWpWMMpwzXpPQ4-U3Vi3OMVtY8cxgcssXQmYClL7MBad5kKa0FF2MBul6XkXAfELlsE7fel2ikixukw1MZmGQm9wupzUUlJFJ6-R52cwTFlZs963KQN"
+            ],
+            "serpapi_thumbnails": [
+                "https://serpapi.com/images/url/VBylMHicDcnbCoIwAADQL8pLlM4gwikmUpmywHoRnbp53XIjta_qd_qbOq_n-6FScrFT1XLA48JlWaxkPmgKETKTNVYw61VBGef1QA7P_f929qWwjjhGG9YtjvUMPNpMHfGRRprOMATPAG5TXzNplSL9ZCPQlN5Ln-Yuhja8nVPvHq9BHibItKgF2zcUrmawt3MLt3XvVkP1CEDYAhjBa9amBUtGIVFOBAtmEZEfjwE-6g",
+                "https://serpapi.com/images/url/DQWfzXicDclJDoIwFADQExWw1AESYzAmhYJDJRJwY7Qya_nQGqOH8j7eRt_2fT-V1qBc08ylGF6g8yvSF4mNUumzroUhurupqg6gluWin__P9TZXhwo-3bcJpKPmUXCyZH6YFoRJwLfSyrOSvFF06gO8DWzie0HINsBwjlJAIXfYGT-Le9JE8ZO9l0DbSaAO_exo-aRrHGGvqIekVfFMp-NiTb0djSN7nAyIqx-mkzuE",
+                "https://serpapi.com/images/url/JelUenicDcldEkJAAADgE6GY1q6ZpsEspfTgp4wXEyvLiF2WoUN1n25T3-v3_VAh2GgoStkVw8pESSSRd5pcjeIh6kIu-pcy0p6xuqsOfP8_w7wS5BaRH8TtCcwORKiNL4SoYWrOAMf0drQTujrVpPLQgil1k3ew0GxhXhNhLLCZP317swyZrno5hw3X2N1ul61mS27pQsCR43EHTANpMOTnAGpWO-3ikiV6_wPymz0B",
+                "https://serpapi.com/images/url/_pkZU3icDclJDoIwFADQEwEiimBijFMaJ7SCprgxtWILMlT7aYRTeR1vo2_7vh8BINXQspKSvRoJyc2Aa-mYXAGFlJmsKiwlKinTko-fo_8NJ8HNR-ygbY0Q4ZtjD3ddgapJjHFdStK0a8SLejVb-I7OYxGAUIZB4vBybgg72PUCaAa0iuw8OdbqFDmd131-b4sl3XvEE55Ho62fod2Fu-StcTjtAxo8dOuiBgP-Ac92P2M",
+                "https://serpapi.com/images/url/pqpIw3icDcnbEkJAAADQL0IRYqZpaDCDVZTrm9Ztx2Jr11Af1f_0N3Vez_fTMUaoLgj1CJ8vwuqKY_dR4lvKSoYgD6dBoN1ECBrb4-PwP90IKs2BUdVcU5ICQJZ3Ri7hjoulBElnkLB8D9cWUpqFQ37CvgrMspJ7r9zYtgjMGStZnxmN5WNqqU2NRdSjde6XLSgGJxy0ZSbvOMau7SpcJItwudm4oJoieWHwA0lWPgs"
+            ]
+        },
+        {
+            "position": 30,
+            "title": "İkinci El iPhone 15 128GB",
+            "product_id": "4283547069599780064",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=productid:4283547069599780064,headlineOfferDocid:4283547069599780064,imageDocid:6898515330313916832,rds:PC_6601648695432433635|PROD_PC_6601648695432433635,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiNDI4MzU0NzA2OTU5OTc4MDA2NCIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjQyODM1NDcwNjk1OTk3ODAwNjQiLCJpbWFnZURvY2lkIjoiNjg5ODUxNTMzMDMxMzkxNjgzMiIsInJkcyI6IlBDXzY2MDE2NDg2OTU0MzI0MzM2MzV8UFJPRF9QQ182NjAxNjQ4Njk1NDMyNDMzNjM1IiwicXVlcnkiOiJpcGhvbmUrMTUiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ0ciIsImhsIjoidHIifQ==",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiNDI4MzU0NzA2OTU5OTc4MDA2NCIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjQyODM1NDcwNjk1OTk3ODAwNjQiLCJpbWFnZURvY2lkIjoiNjg5ODUxNTMzMDMxMzkxNjgzMiIsInJkcyI6IlBDXzY2MDE2NDg2OTU0MzI0MzM2MzV8UFJPRF9QQ182NjAxNjQ4Njk1NDMyNDMzNjM1IiwicXVlcnkiOiJpcGhvbmUrMTUiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ0ciIsImhsIjoidHIifQ%3D%3D",
+            "source": "HB Bilişim",
+            "source_icon": "https://encrypted-tbn1.gstatic.com/favicon-tbn?q=tbn%3AANd9GcSsioXzCNo1ic5n2dDrj2ZT8P86Mb9AljntcRJ-xhzQGjPA-hCho3xbi6lQygSPPYyQlJmrgFasMGEp4xCzNwmDfCYDMjf3Al7K",
+            "price": "₺40.499,00",
+            "extracted_price": 40499.0,
+            "rating": 5,
+            "reviews": 43000000000,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTsKMF1LRqqPRIM2cWdIbV8lv8ESjMBRRdVc12S0Mv4Pfx6u-Ct4vAiflCCi618horlbqXswJjJlf8Oik99kzxbcKBjc7Xc7bkiTaPKiTSs",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/HAcPj3icDclJDoIwFADQEzGGMCXGAFEDiBIgyJb-MhQQCq2IHsdbeRt92_f9tJxTZktSNcLyorzCAkejLDaMl5yACNNdYu1EKRmb_bz7n-1csHWCjIXRUTkn8xwnfqTCDfsoN4fVPKRd5CYJzkFRUzlatbje9IfgcW11SD14HtEVs52WAc0FewZdMNTmlfSW1b83BKHbgVGAgXqSlXFIspT9ACYYOf4"
+        },
+        {
+            "position": 31,
+            "title": "Apple Iphone 15 512 Gb Yeşil Cep Telefonu (Apple Türkiye Garantili) Akıllı Telefon",
+            "product_id": "8049330453890918066",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=productid:8049330453890918066,headlineOfferDocid:8049330453890918066,imageDocid:4109837059512002834,rds:PC_8493647584196617899|PROD_PC_8493647584196617899,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiODA0OTMzMDQ1Mzg5MDkxODA2NiIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjgwNDkzMzA0NTM4OTA5MTgwNjYiLCJpbWFnZURvY2lkIjoiNDEwOTgzNzA1OTUxMjAwMjgzNCIsInJkcyI6IlBDXzg0OTM2NDc1ODQxOTY2MTc4OTl8UFJPRF9QQ184NDkzNjQ3NTg0MTk2NjE3ODk5IiwicXVlcnkiOiJpcGhvbmUrMTUiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ0ciIsImhsIjoidHIifQ==",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiODA0OTMzMDQ1Mzg5MDkxODA2NiIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjgwNDkzMzA0NTM4OTA5MTgwNjYiLCJpbWFnZURvY2lkIjoiNDEwOTgzNzA1OTUxMjAwMjgzNCIsInJkcyI6IlBDXzg0OTM2NDc1ODQxOTY2MTc4OTl8UFJPRF9QQ184NDkzNjQ3NTg0MTk2NjE3ODk5IiwicXVlcnkiOiJpcGhvbmUrMTUiLCJncGNpZCI6IiIsIm1pZCI6IiIsInB2dCI6ImhnIiwidXVsZSI6bnVsbCwiZ2wiOiJ0ciIsImhsIjoidHIifQ%3D%3D",
+            "source": "Kolay Fırsat",
+            "source_icon": "https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn%3AANd9GcRE8VU2B4ChO8hb3AwP2ywYEX70RUklEBVHYCX3_Wr_1q-XzUsf_Khs7n6R6r1kZp3jXzeyFsFQpG_wvL7mcmYbtgm0RerSDgY2UIXE",
+            "price": "₺70.416,92",
+            "extracted_price": 70416.92,
+            "rating": 5,
+            "reviews": 2,
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRssyu7TeMEVELNKha_CAybbqvsgyohQ8aeSSPHqvcG36uaeuyJN0FH7Rlv9LQJD-8PRmoZ3apjbgCBPvwNhEEWNo0kkC3PRKZEh6v6ux8bDzxzLMN4woTvsg",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/qfmlm3icDcxRCoIwAADQE6WRYRpElC2ldKhJQT-xzeGsdLPN5TpV1-k2-f3g_b5MKSGXtk1b8jJC0XKicDuzKqmQqolFeGNLxoWo22rdrUZbbmDphySX0vSLgibgDGJ4ZOgWbAzGnZaV4SzzED2d0qjTJHTcHtHeHOB0Hy3yp_bj7LCbeGne8KuDxB1XwTbVb8gAuEA-fTwCJ82PV8Bc7faDh3ef4RMncP7mxZj_AfZJP9c"
+        },
+        {
+            "position": 32,
+            "title": "iPhone 15 128GB Sarı iPhone Telefon Modelleri",
+            "product_id": "7440454716298079120",
+            "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15&prds=productid:7440454716298079120,headlineOfferDocid:7440454716298079120,imageDocid:15552054702567582502,rds:PC_6601648695432433635|PROD_PC_6601648695432433635,pvt:hg&hl=tr&gl=tr&udm=28",
+            "immersive_product_page_token": "eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiNzQ0MDQ1NDcxNjI5ODA3OTEyMCIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6Ijc0NDA0NTQ3MTYyOTgwNzkxMjAiLCJpbWFnZURvY2lkIjoiMTU1NTIwNTQ3MDI1Njc1ODI1MDIiLCJyZHMiOiJQQ182NjAxNjQ4Njk1NDMyNDMzNjM1fFBST0RfUENfNjYwMTY0ODY5NTQzMjQzMzYzNSIsInF1ZXJ5IjoiaXBob25lKzE1IiwiZ3BjaWQiOiIiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidHIiLCJobCI6InRyIn0=",
+            "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkRNZURhWlhfRkstdjQtRVA5TnpJaVFzIiwicHJvZHVjdGlkIjoiNzQ0MDQ1NDcxNjI5ODA3OTEyMCIsImNhdGFsb2dpZCI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6Ijc0NDA0NTQ3MTYyOTgwNzkxMjAiLCJpbWFnZURvY2lkIjoiMTU1NTIwNTQ3MDI1Njc1ODI1MDIiLCJyZHMiOiJQQ182NjAxNjQ4Njk1NDMyNDMzNjM1fFBST0RfUENfNjYwMTY0ODY5NTQzMjQzMzYzNSIsInF1ZXJ5IjoiaXBob25lKzE1IiwiZ3BjaWQiOiIiLCJtaWQiOiIiLCJwdnQiOiJoZyIsInV1bGUiOm51bGwsImdsIjoidHIiLCJobCI6InRyIn0%3D",
+            "source": "bekoeskisehir.com",
+            "source_icon": "https://encrypted-tbn1.gstatic.com/favicon-tbn?q=tbn%3AANd9GcSedKqop6Kam-QqoYG5nP4TDd4gTNOF7ZOG6Bs2b0w0u46AK1YkvwXv__vbykNTjlLVtk7jUUSoTMNuwWbTiBF_N0VsA-YqvgVtSg",
+            "price": "₺54.899,00",
+            "extracted_price": 54899.0,
+            "rating": 5,
+            "reviews": 42000000000,
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRK9TLie0DENmWTRb6HAE_JNHSV1YV9eyQJgDWYZiNVQAi4Ruxom2ZpHaWB2ub2upGw9tw7KIyFv_IU5k6TFQ2IC83iWk9sqFw1R1Wummsfn7wiFeHxK-Kk",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/ysCTn3icDcnbCoIwAADQL0pzlTYhwvJuCJo56kW8LB0ynW2m_lT_09_UeT3fTyME47os4658LUzgaiWKDkg1F7kgpVT2VOZNzxjp6uNw-J9uhBV0yjiAyYXgtWmFFCVxobqGlfmhe02VewrxEvm1ie4PEqaRQbbxOPcUPJiboxMYCzAyZ4Ji0gJvsd-Zd9u1amJHwDvvNwS1kA_2pMQKGinlz06biI3dOVgF7Q_UET1E",
+            "thumbnails": [
+                "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRK9TLie0DENmWTRb6HAE_JNHSV1YV9eyQJgDWYZiNVQAi4Ruxom2ZpHaWB2ub2upGw9tw7KIyFv_IU5k6TFQ2IC83iWk9sqFw1R1Wummsfn7wiFeHxK-Kk",
+                "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTysbPq0CYRbH-P4xEFlWUt6JYehd4FtWezkz-Gos8hR9uSyq4RHMN_YtafBljHyNju8mM_ChIe2vCU64IF7kQnT9AqLd6FrnrWB-Dgx5Ch3zTJcDBVV849",
+                "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTWehbARehsK0xYxGS7_3Amwx-SWth_IZg1YhYKgyayVugi5gwYZvBrvbF546p2argRWUeqtD-qsl49BjtLZL8ffL3FPxs6c4ZUrx74tfeiHOYZy15k4o3R"
+            ],
+            "serpapi_thumbnails": [
+                "https://serpapi.com/images/url/ysCTn3icDcnbCoIwAADQL0pzlTYhwvJuCJo56kW8LB0ynW2m_lT_09_UeT3fTyME47os4658LUzgaiWKDkg1F7kgpVT2VOZNzxjp6uNw-J9uhBV0yjiAyYXgtWmFFCVxobqGlfmhe02VewrxEvm1ie4PEqaRQbbxOPcUPJiboxMYCzAyZ4Ji0gJvsd-Zd9u1amJHwDvvNwS1kA_2pMQKGinlz06biI3dOVgF7Q_UET1E",
+                "https://serpapi.com/images/url/AeDEhXicDcndEkJAGADQJ0KjTZhpmhBqYkp-xpVhbRa1fvariYfqfXqbOrfn-6EAPdcliTA8Tj2QUoCCyWLFIYcai7h7SJx2fV-zajts_qfv_FJzcDjx4jwszDQoXOGM3nv7nkSgHFNCS2RDQuZ2FpyOqzTQntdpQIHr-VkK-c24N-7kN0_14WUmPRD5ZUYKOtjr9sJCbTecSsUe2ZgYglW9VyZdzuERW0Ycq0j7AUDdPYg",
+                "https://serpapi.com/images/url/h5ujQXicDclLDoIwFADAEyEiRcTEGIzxE4kaEEm7MVBLix8o9IntpbyPt9HZzvcjAKSa2jaraWcksKsFRT0ccAU5VHRAm6etRCNlVfN5O_vfNNxfgzU9ZUwUYcyE2g011uvEv7jh862tJANx2RLuYIF33OTm_OKVx9-Y9IuuL1YeGstR3vE4S1kLS6tVDxQsbhCRaFKWkbs6ajWmiKSd9hGUrNocMDGOd0eNG_8Ag48-5g"
+            ]
+        }
+    ],
+    "filters": [
+        {
+            "type": "Sonuçları hassaslaştır",
+            "input_type": "link",
+            "options": [
+                {
+                    "text": "Yeni",
+                    "shoprs": "CAEYCioJaXBob25lIDE1MggIChIEWWVuaViJqiBgAg",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=yeni+iphone+15&shoprs=CAEYCioJaXBob25lIDE1MggIChIEWWVuaViJqiBgAg"
+                },
+                {
+                    "text": "İkinci el",
+                    "shoprs": "CAEYCioJaXBob25lIDE1Mg4IChIKxLBraW5jaSBlbFiJqiBgAg",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=ikinci+el+iphone+15&shoprs=CAEYCioJaXBob25lIDE1Mg4IChIKxLBraW5jaSBlbFiJqiBgAg"
+                },
+                {
+                    "text": "İndirimli",
+                    "shoprs": "CAESBEoCCAEYBioJaXBob25lIDE1MhYIBhIKxLBuZGlyaW1saRgCIgRKAggBWImqIGAC",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=iphone+15+indirim&shoprs=CAESBEoCCAEYBioJaXBob25lIDE1MhYIBhIKxLBuZGlyaW1saRgCIgRKAggBWImqIGAC"
+                }
+            ]
+        },
+        {
+            "type": "Sıralama ölçütü:",
+            "input_type": "link",
+            "options": [
+                {
+                    "text": "Alaka düzeyi",
+                    "shoprs": "CAEYFyoJaXBob25lIDE1MgoIFyoEEAEYAVAEYAI",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=iphone+15&shoprs=CAEYFyoJaXBob25lIDE1MgoIFyoEEAEYAVAEYAI"
+                },
+                {
+                    "text": "Fiyat: düşükten yükseğe",
+                    "shoprs": "CAEYFyoJaXBob25lIDE1MigIFxIcRml5YXQ6IGTDvMWfw7xrdGVuIHnDvGtzZcSfZSoEEAEYAVABYAKIAQE",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=iphone+15&shoprs=CAEYFyoJaXBob25lIDE1MigIFxIcRml5YXQ6IGTDvMWfw7xrdGVuIHnDvGtzZcSfZSoEEAEYAVABYAKIAQE"
+                },
+                {
+                    "text": "Fiyat: yüksekten düşüğe",
+                    "shoprs": "CAEYFyoJaXBob25lIDE1MigIFxIcRml5YXQ6IHnDvGtzZWt0ZW4gZMO8xZ_DvMSfZSoEEAEYAVACYAKIAQI",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=iphone+15&shoprs=CAEYFyoJaXBob25lIDE1MigIFxIcRml5YXQ6IHnDvGtzZWt0ZW4gZMO8xZ_DvMSfZSoEEAEYAVACYAKIAQI"
+                },
+                {
+                    "text": "Puan: Yüksekten düşüğe",
+                    "shoprs": "CAEYFyoJaXBob25lIDE1MicIFxIbUHVhbjogWcO8a3Nla3RlbiBkw7zFn8O8xJ9lKgQQARgBUANgAogBAw",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=iphone+15&shoprs=CAEYFyoJaXBob25lIDE1MicIFxIbUHVhbjogWcO8a3Nla3RlbiBkw7zFn8O8xJ9lKgQQARgBUANgAogBAw"
+                }
+            ]
+        },
+        {
+            "type": "Marka",
+            "input_type": "checkbox",
+            "options": [
+                {
+                    "text": "Apple",
+                    "shoprs": "CAEYASoJaXBob25lIDE1MhUIARIFQXBwbGU6CgiD8zwQmd49MAFYiaogYAI",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=apple+iphone+15&shoprs=CAEYASoJaXBob25lIDE1MhUIARIFQXBwbGU6CgiD8zwQmd49MAFYiaogYAI"
+                },
+                {
+                    "text": "mavi",
+                    "shoprs": "CAEYASoJaXBob25lIDE1MhQIARIEbWF2aToKCIPzPBCg9T4wAViJqiBgAg",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=mavi+iphone+15&shoprs=CAEYASoJaXBob25lIDE1MhQIARIEbWF2aToKCIPzPBCg9T4wAViJqiBgAg"
+                },
+                {
+                    "text": "ÇiçekSepeti",
+                    "shoprs": "CAEYASoJaXBob25lIDE1Mh4IARINw4dpw6dla1NlcGV0aToLCIPzPBCZ9ucBMAFYiaogYAI",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=%C3%87i%C3%A7eksepeti+iphone+15&shoprs=CAEYASoJaXBob25lIDE1Mh4IARINw4dpw6dla1NlcGV0aToLCIPzPBCZ9ucBMAFYiaogYAI"
+                },
+                {
+                    "text": "Peak Design",
+                    "shoprs": "CAEYASoJaXBob25lIDE1MhsIARILUGVhayBEZXNpZ246CgiD8zwQ-KFFMAFYiaogYAI",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=peak+design+iphone+15&shoprs=CAEYASoJaXBob25lIDE1MhsIARILUGVhayBEZXNpZ246CgiD8zwQ-KFFMAFYiaogYAI"
+                }
+            ]
+        },
+        {
+            "type": "Fiyat",
+            "input_type": "price_range",
+            "options": [
+                {
+                    "text": "En yüksek ₺30.000",
+                    "shoprs": "CAESDRILEQAAAICO8BtCGAEYBSoJaXBob25lIDE1Mi0IBRIURW4gecO8a3NlayDigrozMC4wMDAYAiINEgsRAAAAgI7wG0IYASoCGAFYiaogYAI",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=%E2%82%BA30.000+ve+alt%C4%B1+iphone+15&shoprs=CAESDRILEQAAAICO8BtCGAEYBSoJaXBob25lIDE1Mi0IBRIURW4gecO8a3NlayDigrozMC4wMDAYAiINEgsRAAAAgI7wG0IYASoCGAFYiaogYAI"
+                },
+                {
+                    "text": "₺30.000 - ₺60.000",
+                    "shoprs": "CAESFhIUCQAAAICO8BtCEQAAAICO8CtCGAEYBSoJaXBob25lIDE1MjcIBRIV4oK6MzAuMDAwIC0g4oK6NjAuMDAwGAIiFhIUCQAAAICO8BtCEQAAAICO8CtCGAEqAhgBWImqIGAC",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=%E2%82%BA30.000+-+%E2%82%BA60.000+aras%C4%B1nda+iphone+15&shoprs=CAESFhIUCQAAAICO8BtCEQAAAICO8CtCGAEYBSoJaXBob25lIDE1MjcIBRIV4oK6MzAuMDAwIC0g4oK6NjAuMDAwGAIiFhIUCQAAAICO8BtCEQAAAICO8CtCGAEqAhgBWImqIGAC"
+                },
+                {
+                    "text": "₺60.000 üzeri",
+                    "shoprs": "CAESDRILCQAAAICO8CtCGAEYBSoJaXBob25lIDE1MikIBRIQ4oK6NjAuMDAwIMO8emVyaRgCIg0SCwkAAACAjvArQhgBKgIYAViJqiBgAg",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=%E2%82%BA60.000+ve+%C3%BCzeri+iphone+15&shoprs=CAESDRILCQAAAICO8CtCGAEYBSoJaXBob25lIDE1MikIBRIQ4oK6NjAuMDAwIMO8emVyaRgCIg0SCwkAAACAjvArQhgBKgIYAViJqiBgAg"
+                }
+            ]
+        },
+        {
+            "type": "Mağazalar",
+            "input_type": "link",
+            "options": [
+                {
+                    "text": "MediaMarkt Türkiye",
+                    "shoprs": "CAEYAioJaXBob25lIDE1MhcIAhITTWVkaWFNYXJrdCBUw7xya2l5ZViJqiBgAg",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=mediamarkt+t%C3%BCrkiye+iphone+15&shoprs=CAEYAioJaXBob25lIDE1MhcIAhITTWVkaWFNYXJrdCBUw7xya2l5ZViJqiBgAg"
+                },
+                {
+                    "text": "Teknosa",
+                    "shoprs": "CAEYAioJaXBob25lIDE1MgsIAhIHVGVrbm9zYViJqiBgAg",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=teknosa+iphone+15&shoprs=CAEYAioJaXBob25lIDE1MgsIAhIHVGVrbm9zYViJqiBgAg"
+                },
+                {
+                    "text": "trendyol.com",
+                    "shoprs": "CAEYAioJaXBob25lIDE1MhAIAhIMdHJlbmR5b2wuY29tWImqIGAC",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=trendyol.com+iphone+15&shoprs=CAEYAioJaXBob25lIDE1MhAIAhIMdHJlbmR5b2wuY29tWImqIGAC"
+                },
+                {
+                    "text": "Turkcell Pasaj",
+                    "shoprs": "CAEYAioJaXBob25lIDE1MhIIAhIOVHVya2NlbGwgUGFzYWpYiaogYAI",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=turkcell+pasaj+iphone+15&shoprs=CAEYAioJaXBob25lIDE1MhIIAhIOVHVya2NlbGwgUGFzYWpYiaogYAI"
+                },
+                {
+                    "text": "ciceksepeti.com",
+                    "shoprs": "CAEYAioJaXBob25lIDE1MhMIAhIPY2ljZWtzZXBldGkuY29tWImqIGAC",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=ciceksepeti.com+iphone+15&shoprs=CAEYAioJaXBob25lIDE1MhMIAhIPY2ljZWtzZXBldGkuY29tWImqIGAC"
+                },
+                {
+                    "text": "dr.com.tr",
+                    "shoprs": "CAEYAioJaXBob25lIDE1Mg0IAhIJZHIuY29tLnRyWImqIGAC",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=dr.com.tr+iphone+15&shoprs=CAEYAioJaXBob25lIDE1Mg0IAhIJZHIuY29tLnRyWImqIGAC"
+                },
+                {
+                    "text": "EasyCep",
+                    "shoprs": "CAEYAioJaXBob25lIDE1MgsIAhIHRWFzeUNlcFiJqiBgAg",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=easycep+iphone+15&shoprs=CAEYAioJaXBob25lIDE1MgsIAhIHRWFzeUNlcFiJqiBgAg"
+                },
+                {
+                    "text": "Getmobil",
+                    "shoprs": "CAEYAioJaXBob25lIDE1MgwIAhIIR2V0bW9iaWxYiaogYAI",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=getmobil+iphone+15&shoprs=CAEYAioJaXBob25lIDE1MgwIAhIIR2V0bW9iaWxYiaogYAI"
+                },
+                {
+                    "text": "n11",
+                    "shoprs": "CAEYAioJaXBob25lIDE1MgcIAhIDbjExWImqIGAC",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=n11+iphone+15&shoprs=CAEYAioJaXBob25lIDE1MgcIAhIDbjExWImqIGAC"
+                },
+                {
+                    "text": "PttAVM.com",
+                    "shoprs": "CAEYAioJaXBob25lIDE1Mg4IAhIKUHR0QVZNLmNvbViJqiBgAg",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=pttavm.com+iphone+15&shoprs=CAEYAioJaXBob25lIDE1Mg4IAhIKUHR0QVZNLmNvbViJqiBgAg"
+                },
+                {
+                    "text": "senatech.com",
+                    "shoprs": "CAEYAioJaXBob25lIDE1MhAIAhIMc2VuYXRlY2guY29tWImqIGAC",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=senatech.com+iphone+15&shoprs=CAEYAioJaXBob25lIDE1MhAIAhIMc2VuYXRlY2guY29tWImqIGAC"
+                },
+                {
+                    "text": "Trendyol",
+                    "shoprs": "CAEYAioJaXBob25lIDE1MgwIAhIIVHJlbmR5b2xYiaogYAI",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=trendyol+iphone+15&shoprs=CAEYAioJaXBob25lIDE1MgwIAhIIVHJlbmR5b2xYiaogYAI"
+                },
+                {
+                    "text": "Vatan Bilgisayar",
+                    "shoprs": "CAEYAioJaXBob25lIDE1MhQIAhIQVmF0YW4gQmlsZ2lzYXlhcliJqiBgAg",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=vatan+bilgisayar+iphone+15&shoprs=CAEYAioJaXBob25lIDE1MhQIAhIQVmF0YW4gQmlsZ2lzYXlhcliJqiBgAg"
+                }
+            ]
+        },
+        {
+            "type": "Ürün Derecelendirmesi",
+            "input_type": "link",
+            "options": [
+                {
+                    "text": "4 ve üzeri",
+                    "shoprs": "CAESBWIDCJADGB4qCWlwaG9uZSAxNTIYCB4SCzQgdmUgw7x6ZXJpIgViAwiQA0AEYAI",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=iphone+15&shoprs=CAESBWIDCJADGB4qCWlwaG9uZSAxNTIYCB4SCzQgdmUgw7x6ZXJpIgViAwiQA0AEYAI"
+                }
+            ]
+        },
+        {
+            "type": "Özellikler",
+            "input_type": "checkbox",
+            "options": [
+                {
+                    "text": "Akıllı Telefon",
+                    "shoprs": "CAEYASoJaXBob25lIDE1MiAIARIQQWvEsWxsxLEgVGVsZWZvbjoKCLvdLBC83SwwA1iJqiBgAg",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=ak%C4%B1ll%C4%B1+telefon+iphone+15&shoprs=CAEYASoJaXBob25lIDE1MiAIARIQQWvEsWxsxLEgVGVsZWZvbjoKCLvdLBC83SwwA1iJqiBgAg"
+                },
+                {
+                    "text": "Suya Dayanıklı",
+                    "shoprs": "CAEYASoJaXBob25lIDE1MiAIARIQU3V5YSBEYXlhbsSxa2zEsToKCLH9aRCy_WkwA1iJqiBgAg",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=suya+dayan%C4%B1kl%C4%B1+iphone+15&shoprs=CAEYASoJaXBob25lIDE1MiAIARIQU3V5YSBEYXlhbsSxa2zEsToKCLH9aRCy_WkwA1iJqiBgAg"
+                },
+                {
+                    "text": "Kablosuz Şarj Destekli",
+                    "shoprs": "CAEYASoJaXBob25lIDE1MicIARIXS2FibG9zdXogxZ5hcmogRGVzdGVrbGk6Cgi9_WkQvv1pMANYiaogYAI",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=kablosuz+%C5%9Earj+destekli+iphone+15&shoprs=CAEYASoJaXBob25lIDE1MicIARIXS2FibG9zdXogxZ5hcmogRGVzdGVrbGk6Cgi9_WkQvv1pMANYiaogYAI"
+                }
+            ]
+        },
+        {
+            "type": "Ekran Boyutu",
+            "input_type": "link",
+            "options": [
+                {
+                    "text": "Ekran Boyutu: 6,1 – 6,3 inç",
+                    "shoprs": "CAESGioYCKX9PBISCQAAAKDt_C5AEQAAACCDADBAGAEqCWlwaG9uZSAxNTJwCAESHkVrcmFuIEJveXV0dTogNiwxIOKAkyA2LDMgaW7DpyIaKhgIpf08EhIJAAAAoO38LkARAAAAIIMAMEAqJgoiRWtyYW4gQm95dXR1OiA2LDEgaW7DpyB0byA2LDMgaW7DpxgBOggIpf08EAAwBliJqiBgAg",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=ekran+boyutu%3A+6%2C1+in%C3%A7+to+6%2C3+in%C3%A7+iphone+15&shoprs=CAESGioYCKX9PBISCQAAAKDt_C5AEQAAACCDADBAGAEqCWlwaG9uZSAxNTJwCAESHkVrcmFuIEJveXV0dTogNiwxIOKAkyA2LDMgaW7DpyIaKhgIpf08EhIJAAAAoO38LkARAAAAIIMAMEAqJgoiRWtyYW4gQm95dXR1OiA2LDEgaW7DpyB0byA2LDMgaW7DpxgBOggIpf08EAAwBliJqiBgAg"
+                },
+                {
+                    "text": "Ekran Boyutu: 6,3 – 6,9 inç",
+                    "shoprs": "CAESGioYCKX9PBISCQAAACCDADBAEQAAAOCnhjFAGAEqCWlwaG9uZSAxNTJwCAESHkVrcmFuIEJveXV0dTogNiwzIOKAkyA2LDkgaW7DpyIaKhgIpf08EhIJAAAAIIMAMEARAAAA4KeGMUAqJgoiRWtyYW4gQm95dXR1OiA2LDMgaW7DpyB0byA2LDkgaW7DpxgBOggIpf08EAAwBliJqiBgAg",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=ekran+boyutu%3A+6%2C3+in%C3%A7+to+6%2C9+in%C3%A7+iphone+15&shoprs=CAESGioYCKX9PBISCQAAACCDADBAEQAAAOCnhjFAGAEqCWlwaG9uZSAxNTJwCAESHkVrcmFuIEJveXV0dTogNiwzIOKAkyA2LDkgaW7DpyIaKhgIpf08EhIJAAAAIIMAMEARAAAA4KeGMUAqJgoiRWtyYW4gQm95dXR1OiA2LDMgaW7DpyB0byA2LDkgaW7DpxgBOggIpf08EAAwBliJqiBgAg"
+                },
+                {
+                    "text": "> Ekran Boyutu: 6,9 inç",
+                    "shoprs": "CAESESoPCKX9PBIJCQAAAOCnhjFAGAEqCWlwaG9uZSAxNTI9CAESGD4gRWtyYW4gQm95dXR1OiA2LDkgaW7DpyIRKg8Ipf08EgkJAAAA4KeGMUAqAhgBOggIpf08EAAwBliJqiBgAg",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=%3E+ekran+boyutu%3A+6%2C9+in%C3%A7+iphone+15&shoprs=CAESESoPCKX9PBIJCQAAAOCnhjFAGAEqCWlwaG9uZSAxNTI9CAESGD4gRWtyYW4gQm95dXR1OiA2LDkgaW7DpyIRKg8Ipf08EgkJAAAA4KeGMUAqAhgBOggIpf08EAAwBliJqiBgAg"
+                }
+            ]
+        },
+        {
+            "type": "Ağırlık",
+            "input_type": "link",
+            "options": [
+                {
+                    "text": "171 gram",
+                    "shoprs": "CAESGioYCKqEPRISCQAAAAAAYGVAEQAAAAAAYGVAGAEqCWlwaG9uZSAxNTI2CAESCDE3MSBncmFtIhoqGAiqhD0SEgkAAAAAAGBlQBEAAAAAAGBlQCoCGAE6CAiqhD0QADAGWImqIGAC",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=171+gram+iphone+15&shoprs=CAESGioYCKqEPRISCQAAAAAAYGVAEQAAAAAAYGVAGAEqCWlwaG9uZSAxNTI2CAESCDE3MSBncmFtIhoqGAiqhD0SEgkAAAAAAGBlQBEAAAAAAGBlQCoCGAE6CAiqhD0QADAGWImqIGAC"
+                },
+                {
+                    "text": "187 gram",
+                    "shoprs": "CAESGioYCKqEPRISCQAAAAAAYGdAEQAAAAAAYGdAGAEqCWlwaG9uZSAxNTI2CAESCDE4NyBncmFtIhoqGAiqhD0SEgkAAAAAAGBnQBEAAAAAAGBnQCoCGAE6CAiqhD0QADAGWImqIGAC",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=187+gram+iphone+15&shoprs=CAESGioYCKqEPRISCQAAAAAAYGdAEQAAAAAAYGdAGAEqCWlwaG9uZSAxNTI2CAESCDE4NyBncmFtIhoqGAiqhD0SEgkAAAAAAGBnQBEAAAAAAGBnQCoCGAE6CAiqhD0QADAGWImqIGAC"
+                },
+                {
+                    "text": "221 gram",
+                    "shoprs": "CAESGioYCKqEPRISCQAAAAAAoGtAEQAAAAAAoGtAGAEqCWlwaG9uZSAxNTI2CAESCDIyMSBncmFtIhoqGAiqhD0SEgkAAAAAAKBrQBEAAAAAAKBrQCoCGAE6CAiqhD0QADAGWImqIGAC",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=221+gram+iphone+15&shoprs=CAESGioYCKqEPRISCQAAAAAAoGtAEQAAAAAAoGtAGAEqCWlwaG9uZSAxNTI2CAESCDIyMSBncmFtIhoqGAiqhD0SEgkAAAAAAKBrQBEAAAAAAKBrQCoCGAE6CAiqhD0QADAGWImqIGAC"
+                }
+            ]
+        },
+        {
+            "type": "Depolama Kapasitesi",
+            "input_type": "link",
+            "options": [
+                {
+                    "text": "128 GB",
+                    "shoprs": "CAESGioYCKuEPRISCQAAAAAAAGBAEQAAAAAAAGBAGAEqCWlwaG9uZSAxNTI0CAESBjEyOCBHQiIaKhgIq4Q9EhIJAAAAAAAAYEARAAAAAAAAYEAqAhgBOggIq4Q9EAAwBliJqiBgAg",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=128+gb+iphone+15&shoprs=CAESGioYCKuEPRISCQAAAAAAAGBAEQAAAAAAAGBAGAEqCWlwaG9uZSAxNTI0CAESBjEyOCBHQiIaKhgIq4Q9EhIJAAAAAAAAYEARAAAAAAAAYEAqAhgBOggIq4Q9EAAwBliJqiBgAg"
+                },
+                {
+                    "text": "256 GB",
+                    "shoprs": "CAESGioYCKuEPRISCQAAAAAAAHBAEQAAAAAAAHBAGAEqCWlwaG9uZSAxNTI0CAESBjI1NiBHQiIaKhgIq4Q9EhIJAAAAAAAAcEARAAAAAAAAcEAqAhgBOggIq4Q9EAAwBliJqiBgAg",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=256+gb+iphone+15&shoprs=CAESGioYCKuEPRISCQAAAAAAAHBAEQAAAAAAAHBAGAEqCWlwaG9uZSAxNTI0CAESBjI1NiBHQiIaKhgIq4Q9EhIJAAAAAAAAcEARAAAAAAAAcEAqAhgBOggIq4Q9EAAwBliJqiBgAg"
+                },
+                {
+                    "text": "512 GB",
+                    "shoprs": "CAESGioYCKuEPRISCQAAAAAAAIBAEQAAAAAAAIBAGAEqCWlwaG9uZSAxNTI0CAESBjUxMiBHQiIaKhgIq4Q9EhIJAAAAAAAAgEARAAAAAAAAgEAqAhgBOggIq4Q9EAAwBliJqiBgAg",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=512+gb+iphone+15&shoprs=CAESGioYCKuEPRISCQAAAAAAAIBAEQAAAAAAAIBAGAEqCWlwaG9uZSAxNTI0CAESBjUxMiBHQiIaKhgIq4Q9EhIJAAAAAAAAgEARAAAAAAAAgEAqAhgBOggIq4Q9EAAwBliJqiBgAg"
+                },
+                {
+                    "text": "1 TB",
+                    "shoprs": "CAESGioYCKuEPRISCQAAAAAAQI9AEQAAAAAAQI9AGAEqCWlwaG9uZSAxNTIyCAESBDEgVEIiGioYCKuEPRISCQAAAAAAQI9AEQAAAAAAQI9AKgIYAToICKuEPRAAMAZYiaogYAI",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=1+tb+iphone+15&shoprs=CAESGioYCKuEPRISCQAAAAAAQI9AEQAAAAAAQI9AGAEqCWlwaG9uZSAxNTIyCAESBDEgVEIiGioYCKuEPRISCQAAAAAAQI9AEQAAAAAAQI9AKgIYAToICKuEPRAAMAZYiaogYAI"
+                }
+            ]
+        },
+        {
+            "type": "Carousel Filters",
+            "options": [
+                {
+                    "text": "MediaMarkt Türkiye",
+                    "shoprs": "CAEYAioJaXBob25lIDE1MhcIAhITTWVkaWFNYXJrdCBUw7xya2l5ZViJqiBgAQ",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=mediamarkt+t%C3%BCrkiye+iphone+15&shoprs=CAEYAioJaXBob25lIDE1MhcIAhITTWVkaWFNYXJrdCBUw7xya2l5ZViJqiBgAQ",
+                    "input_type": "link"
+                },
+                {
+                    "text": "Apple",
+                    "shoprs": "CAEYASoJaXBob25lIDE1MhUIARIFQXBwbGU6CgiD8zwQmd49MAFYiaogYAE",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=apple+iphone+15&shoprs=CAEYASoJaXBob25lIDE1MhUIARIFQXBwbGU6CgiD8zwQmd49MAFYiaogYAE",
+                    "input_type": "checkbox"
+                },
+                {
+                    "text": "Teknosa",
+                    "shoprs": "CAEYAioJaXBob25lIDE1MgsIAhIHVGVrbm9zYViJqiBgAQ",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=teknosa+iphone+15&shoprs=CAEYAioJaXBob25lIDE1MgsIAhIHVGVrbm9zYViJqiBgAQ",
+                    "input_type": "link"
+                },
+                {
+                    "text": "mavi",
+                    "shoprs": "CAEYASoJaXBob25lIDE1MhQIARIEbWF2aToKCIPzPBCg9T4wAViJqiBgAQ",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=mavi+iphone+15&shoprs=CAEYASoJaXBob25lIDE1MhQIARIEbWF2aToKCIPzPBCg9T4wAViJqiBgAQ",
+                    "input_type": "checkbox"
+                },
+                {
+                    "text": "trendyol.com",
+                    "shoprs": "CAEYAioJaXBob25lIDE1MhAIAhIMdHJlbmR5b2wuY29tWImqIGAB",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=trendyol.com+iphone+15&shoprs=CAEYAioJaXBob25lIDE1MhAIAhIMdHJlbmR5b2wuY29tWImqIGAB",
+                    "input_type": "link"
+                },
+                {
+                    "text": "Turkcell Pasaj",
+                    "shoprs": "CAEYAioJaXBob25lIDE1MhIIAhIOVHVya2NlbGwgUGFzYWpYiaogYAE",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=turkcell+pasaj+iphone+15&shoprs=CAEYAioJaXBob25lIDE1MhIIAhIOVHVya2NlbGwgUGFzYWpYiaogYAE",
+                    "input_type": "link"
+                },
+                {
+                    "text": "En yüksek ₺30.000",
+                    "shoprs": "CAESDRILEQAAAICO8BtCGAEYBSoJaXBob25lIDE1Mi0IBRIURW4gecO8a3NlayDigrozMC4wMDAYAiINEgsRAAAAgI7wG0IYASoCGAFYiaogYAE",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=%E2%82%BA30.000+ve+alt%C4%B1+iphone+15&shoprs=CAESDRILEQAAAICO8BtCGAEYBSoJaXBob25lIDE1Mi0IBRIURW4gecO8a3NlayDigrozMC4wMDAYAiINEgsRAAAAgI7wG0IYASoCGAFYiaogYAE",
+                    "input_type": "price_range"
+                },
+                {
+                    "text": "Yeni",
+                    "shoprs": "CAEYCioJaXBob25lIDE1MggIChIEWWVuaViJqiBgAQ",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=yeni+iphone+15&shoprs=CAEYCioJaXBob25lIDE1MggIChIEWWVuaViJqiBgAQ",
+                    "input_type": "link"
+                },
+                {
+                    "text": "İkinci el",
+                    "shoprs": "CAEYCioJaXBob25lIDE1Mg4IChIKxLBraW5jaSBlbFiJqiBgAQ",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=ikinci+el+iphone+15&shoprs=CAEYCioJaXBob25lIDE1Mg4IChIKxLBraW5jaSBlbFiJqiBgAQ",
+                    "input_type": "link"
+                },
+                {
+                    "text": "İndirimli",
+                    "shoprs": "CAESBEoCCAEYBioJaXBob25lIDE1MhYIBhIKxLBuZGlyaW1saRgCIgRKAggBWImqIGAB",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=iphone+15+indirim&shoprs=CAESBEoCCAEYBioJaXBob25lIDE1MhYIBhIKxLBuZGlyaW1saRgCIgRKAggBWImqIGAB",
+                    "input_type": "link"
+                },
+                {
+                    "text": "PttAVM.com",
+                    "shoprs": "CAEYAioJaXBob25lIDE1Mg4IAhIKUHR0QVZNLmNvbViJqiBgAQ",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=pttavm.com+iphone+15&shoprs=CAEYAioJaXBob25lIDE1Mg4IAhIKUHR0QVZNLmNvbViJqiBgAQ",
+                    "input_type": "link"
+                }
+            ]
+        }
+    ],
+    "serpapi_pagination": {
+        "next": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=tr&google_domain=google.com&hl=tr&q=iphone+15&start=10"
+    }
+}

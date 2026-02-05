@@ -1,0 +1,3 @@
+﻿{
+  "inline_shopping_results": []
+}

@@ -1,0 +1,47 @@
+﻿
+--- Testing Engine: google | TBM: shop ---
+Found 32 in shopping_results
+  [shopping_results 0] Title: Apple iPhone 15
+  [shopping_results 0] Source: trendyol.com
+  [shopping_results 0] Link: None
+  [shopping_results 0] Product Link: https://www.google.com/search?ibp=oshop&q=iphone 15&prds=catalogid:16108807473559459361,headlineOfferDocid:9271113198580877904,imageDocid:4492066253246781332,rds:PC_6601648695432433635|PROD_PC_6601648695432433635,gpcid:6601648695432433635,mid:576462758755759090,pvt:hg&hl=tr&gl=tr&udm=28
+  [!!!] Found 'trendyol' in raw item data.
+  [shopping_results 1] Title: Apple iPhone 15 Pro Max Titanyum
+  [shopping_results 1] Source: Teknosa
+  [shopping_results 1] Link: None
+  [shopping_results 1] Product Link: https://www.google.com/search?ibp=oshop&q=iphone 15&prds=catalogid:17443053429785486366,headlineOfferDocid:12744871916744186047,imageDocid:14368104816062554941,rds:PC_17780781309483346961|PROD_PC_17780781309483346961,gpcid:17780781309483346961,mid:576462762041588434,pvt:hg&hl=tr&gl=tr&udm=28
+  [shopping_results 2] Title: Apple iPhone 15 Pro Titanyum
+  [shopping_results 2] Source: PttAVM.com
+  [shopping_results 2] Link: None
+  [shopping_results 2] Product Link: https://www.google.com/search?ibp=oshop&q=iphone 15&prds=catalogid:15083238352665192162,headlineOfferDocid:13491718213999055866,imageDocid:10740886263954395481,rds:PC_11795796123145720151|PROD_PC_11795796123145720151,gpcid:11795796123145720151,mid:576462472968736074,pvt:hg&hl=tr&gl=tr&udm=28
+
+--- Testing Engine: google_shopping | TBM: None ---
+Found 34 in shopping_results
+  [shopping_results 0] Title: Apple iPhone 15
+  [shopping_results 0] Source: trendyol.com
+  [shopping_results 0] Link: None
+  [shopping_results 0] Product Link: https://www.google.com/search?ibp=oshop&q=iphone 15&prds=catalogid:16108807473559459361,headlineOfferDocid:9271113198580877904,imageDocid:4492066253246781332,rds:PC_6601648695432433635|PROD_PC_6601648695432433635,gpcid:6601648695432433635,mid:576462758755759090,pvt:hg&hl=tr&gl=tr&udm=28
+  [!!!] Found 'trendyol' in raw item data.
+  [shopping_results 1] Title: Apple iPhone 15 Pro Max Titanyum
+  [shopping_results 1] Source: Teknosa
+  [shopping_results 1] Link: None
+  [shopping_results 1] Product Link: https://www.google.com/search?ibp=oshop&q=iphone 15&prds=catalogid:17443053429785486366,headlineOfferDocid:12744871916744186047,imageDocid:14368104816062554941,rds:PC_17780781309483346961|PROD_PC_17780781309483346961,gpcid:17780781309483346961,mid:576462762041588434,pvt:hg&hl=tr&gl=tr&udm=28
+  [shopping_results 2] Title: Apple iPhone 15 Pro Titanyum
+  [shopping_results 2] Source: PttAVM.com
+  [shopping_results 2] Link: None
+  [shopping_results 2] Product Link: https://www.google.com/search?ibp=oshop&q=iphone 15&prds=catalogid:15083238352665192162,headlineOfferDocid:13491718213999055866,imageDocid:10740886263954395481,rds:PC_11795796123145720151|PROD_PC_11795796123145720151,gpcid:11795796123145720151,mid:576462472968736074,pvt:hg&hl=tr&gl=tr&udm=28
+
+--- Testing Engine: google | TBM: None ---
+Found 10 in organic_results
+  [organic_results 0] Title: APPLE iPhone 15 128 GB Ak²ll² Telefon Siyah MTP03TU/A
+  [organic_results 0] Source: MediaMarkt
+  [organic_results 0] Link: https://www.mediamarkt.com.tr/tr/product/_apple-iphone-15-128-gb-akilli-telefon-siyah-mtp03tua-1232435.html
+  [organic_results 0] Product Link: None
+  [organic_results 1] Title: iPhone 15 128 GB Fiyatlar², Ízellikleri ve Yorumlar²
+  [organic_results 1] Source: akakce.com
+  [organic_results 1] Link: https://www.akakce.com/cep-telefonu/en-ucuz-iphone-15-fiyati,1745758198.html
+  [organic_results 1] Product Link: None
+  [organic_results 2] Title: Apple iPhone 15 Ak²ll² Telefon Fiyat² ve Ízellikleri
+  [organic_results 2] Source: Vatan Bilgisayar
+  [organic_results 2] Link: https://www.vatanbilgisayar.com/iphone-15-akilli-telefon.html
+  [organic_results 2] Product Link: None

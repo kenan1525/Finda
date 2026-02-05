@@ -1,0 +1,47 @@
+Model: models/gemini-2.5-flash | Display: Gemini 2.5 Flash
+Model: models/gemini-2.5-pro | Display: Gemini 2.5 Pro
+Model: models/gemini-2.0-flash | Display: Gemini 2.0 Flash
+Model: models/gemini-2.0-flash-001 | Display: Gemini 2.0 Flash 001
+Model: models/gemini-2.0-flash-exp-image-generation | Display: Gemini 2.0 Flash (Image Generation) Experimental
+Model: models/gemini-2.0-flash-lite-001 | Display: Gemini 2.0 Flash-Lite 001
+Model: models/gemini-2.0-flash-lite | Display: Gemini 2.0 Flash-Lite
+Model: models/gemini-exp-1206 | Display: Gemini Experimental 1206
+Model: models/gemini-2.5-flash-preview-tts | Display: Gemini 2.5 Flash Preview TTS
+Model: models/gemini-2.5-pro-preview-tts | Display: Gemini 2.5 Pro Preview TTS
+Model: models/gemma-3-1b-it | Display: Gemma 3 1B
+Model: models/gemma-3-4b-it | Display: Gemma 3 4B
+Model: models/gemma-3-12b-it | Display: Gemma 3 12B
+Model: models/gemma-3-27b-it | Display: Gemma 3 27B
+Model: models/gemma-3n-e4b-it | Display: Gemma 3n E4B
+Model: models/gemma-3n-e2b-it | Display: Gemma 3n E2B
+Model: models/gemini-flash-latest | Display: Gemini Flash Latest
+Model: models/gemini-flash-lite-latest | Display: Gemini Flash-Lite Latest
+Model: models/gemini-pro-latest | Display: Gemini Pro Latest
+Model: models/gemini-2.5-flash-lite | Display: Gemini 2.5 Flash-Lite
+Model: models/gemini-2.5-flash-image | Display: Nano Banana
+Model: models/gemini-2.5-flash-preview-09-2025 | Display: Gemini 2.5 Flash Preview Sep 2025
+Model: models/gemini-2.5-flash-lite-preview-09-2025 | Display: Gemini 2.5 Flash-Lite Preview Sep 2025
+Model: models/gemini-3-pro-preview | Display: Gemini 3 Pro Preview
+Model: models/gemini-3-flash-preview | Display: Gemini 3 Flash Preview
+Model: models/gemini-3-pro-image-preview | Display: Nano Banana Pro
+Model: models/nano-banana-pro-preview | Display: Nano Banana Pro
+Model: models/gemini-robotics-er-1.5-preview | Display: Gemini Robotics-ER 1.5 Preview
+Model: models/gemini-2.5-computer-use-preview-10-2025 | Display: Gemini 2.5 Computer Use Preview 10-2025
+Model: models/deep-research-pro-preview-12-2025 | Display: Deep Research Pro Preview (Dec-12-2025)
+Model: models/embedding-001 | Display: Embedding 001
+Model: models/text-embedding-004 | Display: Text Embedding 004
+Model: models/gemini-embedding-001 | Display: Gemini Embedding 001
+Model: models/aqa | Display: Model that performs Attributed Question Answering.
+Model: models/imagen-4.0-generate-preview-06-06 | Display: Imagen 4 (Preview)
+Model: models/imagen-4.0-ultra-generate-preview-06-06 | Display: Imagen 4 Ultra (Preview)
+Model: models/imagen-4.0-generate-001 | Display: Imagen 4
+Model: models/imagen-4.0-ultra-generate-001 | Display: Imagen 4 Ultra
+Model: models/imagen-4.0-fast-generate-001 | Display: Imagen 4 Fast
+Model: models/veo-2.0-generate-001 | Display: Veo 2
+Model: models/veo-3.0-generate-001 | Display: Veo 3
+Model: models/veo-3.0-fast-generate-001 | Display: Veo 3 fast
+Model: models/veo-3.1-generate-preview | Display: Veo 3.1
+Model: models/veo-3.1-fast-generate-preview | Display: Veo 3.1 fast
+Model: models/gemini-2.5-flash-native-audio-latest | Display: Gemini 2.5 Flash Native Audio Latest
+Model: models/gemini-2.5-flash-native-audio-preview-09-2025 | Display: Gemini 2.5 Flash Native Audio Preview 09-2025
+Model: models/gemini-2.5-flash-native-audio-preview-12-2025 | Display: Gemini 2.5 Flash Native Audio Preview 12-2025

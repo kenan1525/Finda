@@ -1,0 +1,17 @@
+﻿[
+  {
+    "source": "trendyol.com",
+    "link": null,
+    "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15 trendyol&prds=catalogid:17954674255773722854,headlineOfferDocid:178954954557303695,imageDocid:5501096532523693646,rds:PC_6601648695432433635|PROD_PC_6601648695432433635,gpcid:6601648695432433635,mid:576462758755759090,pvt:hg&hl=tr&gl=tr&udm=28"
+  },
+  {
+    "source": "trendyol.com",
+    "link": null,
+    "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15 trendyol&prds=catalogid:9219114275555133962,headlineOfferDocid:4176034353716634316,imageDocid:11534267732440064706,rds:PC_4702526954592161872|PROD_PC_4702526954592161872,gpcid:4702526954592161872,mid:576462756293218671,pvt:hg&hl=tr&gl=tr&udm=28"
+  },
+  {
+    "source": "trendyol.com",
+    "link": null,
+    "product_link": "https://www.google.com/search?ibp=oshop&q=iphone 15 trendyol&prds=productid:9587611233503891668,headlineOfferDocid:9587611233503891668,imageDocid:7625592336429120164,pvt:hg&hl=tr&gl=tr&udm=28"
+  }
+]
