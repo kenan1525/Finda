@@ -504,6 +504,286 @@
 
         .ai-summary .ai-title { font-weight: 700; margin-bottom: 6px; color: #0f172a; }
         .ai-summary .ai-text { color: #475569; line-height: 1.45; }
+        
+        /* Compare layout styles - YENI TASARIM */
+        .products-compare { 
+            max-width: 900px; 
+            margin: 12px auto 18px auto; 
+            display: flex; 
+            flex-direction: column; 
+            gap: 14px; 
+        }
+        
+        .compare-main { 
+            display: flex; 
+            flex-direction: column;
+            gap: 12px; 
+        }
+        
+        .compare-large { 
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            gap: 20px;
+            background: linear-gradient(135deg, #ffffff 0%, #fbfdff 100%);
+            border-radius: 16px; 
+            padding: 18px; 
+            border: 1px solid rgba(37,99,235,0.08);
+            box-shadow: 0 16px 40px rgba(37,99,235,0.08);
+        }
+        
+        .compare-large .product-image { 
+            height: 320px; 
+            border-radius: 12px; 
+            overflow: hidden;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+        }
+        
+        .compare-large .product-image img { 
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover; 
+        }
+        
+        .compare-large .product-body { 
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .compare-large .product-header {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .compare-large .product-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #0f172a;
+            line-height: 1.3;
+        }
+        
+        .compare-large .product-price {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #2563eb;
+            display: flex;
+            align-items: baseline;
+            gap: 8px;
+        }
+        
+        .compare-large .product-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            padding: 10px;
+            background: rgba(37,99,235,0.04);
+            border-radius: 10px;
+        }
+        
+        .stat-item {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        
+        .stat-label {
+            font-size: 0.75rem;
+            color: #64748b;
+            font-weight: 600;
+        }
+        
+        .stat-value {
+            font-size: 0.95rem;
+            color: #0f172a;
+            font-weight: 700;
+        }
+        
+        .price-graph { 
+            height: 100px; 
+            border-radius: 10px; 
+            background: linear-gradient(135deg, #eef2ff, #f0f9ff); 
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            color: #64748b; 
+            font-weight: 600;
+            border: 1px solid rgba(37,99,235,0.1);
+        }
+        
+        /* ALTALTA THUMBNAIL CARDS */
+        .compare-thumbs { 
+            display: flex; 
+            flex-direction: row;
+            gap: 12px; 
+            padding: 0;
+        }
+        
+        .thumb-card { 
+            flex: 1;
+            background: white; 
+            border-radius: 12px; 
+            padding: 12px;
+            box-shadow: 0 6px 18px rgba(2,6,23,0.06);
+            border: 1px solid rgba(15,23,42,0.04);
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .thumb-card:hover {
+            box-shadow: 0 12px 32px rgba(37,99,235,0.12);
+            border-color: #2563eb;
+            transform: translateY(-4px);
+        }
+        
+        .thumb-card img { 
+            width: 100px; 
+            height: 100px; 
+            object-fit: cover; 
+            border-radius: 8px;
+        }
+        
+        .thumb-info {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            flex: 1;
+        }
+        
+        .thumb-title { 
+            font-size: 0.85rem; 
+            color: #1f2937; 
+            font-weight: 700;
+            text-align: center;
+            line-height: 1.2;
+        }
+        
+        .thumb-meta {
+            font-size: 0.75rem;
+            color: #64748b;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            justify-content: center;
+        }
+        
+        .thumb-meta span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+        }
+        
+        .thumb-price {
+            font-size: 1rem;
+            font-weight: 800;
+            color: #2563eb;
+            white-space: nowrap;
+        }
+        
+        .thumb-button {
+            padding: 6px 10px;
+            border-radius: 8px;
+            border: none;
+            background: #2563eb;
+            color: white;
+            font-weight: 700;
+            cursor: pointer;
+            font-size: 0.8rem;
+            transition: all 0.2s;
+            white-space: nowrap;
+            width: 100%;
+        }
+        
+        .thumb-button:hover {
+            background: #1d4ed8;
+            transform: scale(1.05);
+        }
+        
+        /* TAG STYLES */
+        .product-tags {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 6px;
+        }
+        
+        .ai-tag {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            white-space: nowrap;
+            text-align: center;
+        }
+        
+        .tag-price {
+            background: #fef3c7;
+            color: #92400e;
+            border: 1px solid #fcd34d;
+        }
+        
+        .tag-rating {
+            background: #dbeafe;
+            color: #0c4a6e;
+            border: 1px solid #7dd3fc;
+        }
+        
+        .tag-reviews {
+            background: #dcfce7;
+            color: #166534;
+            border: 1px solid #86efac;
+        }
+        
+        @media (max-width: 880px) {
+            .compare-large { 
+                grid-template-columns: 1fr;
+                padding: 14px;
+            }
+            .compare-large .product-image { 
+                height: 220px; 
+            }
+            .compare-large .product-body {
+                flex-direction: column;
+            }
+            .compare-thumbs {
+                flex-direction: column;
+            }
+            .thumb-card {
+                flex-direction: row;
+                gap: 10px;
+                text-align: left;
+                align-items: flex-start;
+            }
+            .thumb-card img {
+                width: 80px;
+                height: 80px;
+                flex-shrink: 0;
+            }
+            .thumb-info {
+                align-items: flex-start;
+            }
+            .thumb-title,
+            .thumb-meta {
+                text-align: left;
+            }
+            .thumb-meta {
+                flex-direction: row;
+                gap: 8px;
+                flex-wrap: wrap;
+            }
+        }
+            .compare-large .product-image { height: 260px; }
+            .thumb-card { width: 130px; }
+        }
     </style>
 </head>
 <body>
@@ -552,14 +832,8 @@
                 </div>
             </div>
 
-            {% if message.ai_summary %}
-            <div class="ai-summary" role="region" aria-label="AI Özet">
-                <div class="ai-title">AI Özet</div>
-                <div class="ai-text">{{ message.ai_summary.data.commentary|default:message.ai_summary.data.commentary }}</div>
-            </div>
-            {% endif %}
-
             {% if message.role == "assistant" and message.products %}
+            <!-- NORMAL GRID - Her zaman göster -->
             <div class="products-section">
                 <div class="products-grid">
                     {% for product in message.products %}
@@ -587,10 +861,17 @@
                                 <span class="review-count">({{ product.review_count }})</span>
                             </div>
                             <div class="product-actions">
-                                <button class="btn btn-primary" onclick='openProductModal({ title: "{{ product.title|escapejs }}", price: "{{ product.price|escapejs }}", image: "{{ product.image|escapejs }}", description: "{{ product.description|default_if_none:""|escapejs }}", site: "{{ product.site|escapejs }}", link: "{{ product.link|escapejs }}" })'>
+                                <button class="btn btn-primary" 
+                                    data-product-title="{{ product.title|escapejs }}"
+                                    data-product-price="{{ product.price|escapejs }}"
+                                    data-product-image="{{ product.image|escapejs }}"
+                                    data-product-description="{{ product.description|default_if_none:""|escapejs }}"
+                                    data-product-site="{{ product.site|escapejs }}"
+                                    data-product-link="{{ product.link|escapejs }}"
+                                    onclick="openProductModalFromElement(this)">
                                     Detay Gör
                                 </button>
-                                <button class="btn btn-outline" onclick="submitMessage('{{ product.title|escapejs }}')">
+                                <button class="btn btn-outline btn-deep-analysis" onclick="searchProductBySameBrand('{{ product.title|escapejs }}', '{{ product.site|escapejs }}')" title="Aynı Markada Satıcıları Karşılaştır">
                                     <i class="fas fa-search"></i>
                                 </button>
                             </div>
@@ -608,6 +889,109 @@
                     </div>
                     {% endfor %}
                 </div>
+            </div>
+            {% endif %}
+
+            <!-- COMPARE LAYOUT - Ayrı gösterilirse de gösterilir -->
+            {% if message.role == "assistant" and message.compare_products %}
+            <div class="products-section" id="compare-section-{{ forloop.counter }}">
+                <div class="products-compare">
+                    <div class="compare-main">
+                        {% with main=message.compare_products.0 %}
+                        <div class="compare-large">
+                            <div class="product-image">
+                                <img src="{{ main.image }}" alt="{{ main.title }}">
+                            </div>
+                            <div class="product-body">
+                                <div class="product-header">
+                                    <span class="site-badge badge-{{ main.site_color }}">{{ main.site }}</span>
+                                </div>
+                                <h3 class="product-title">{{ main.title }}</h3>
+                                <div class="product-price">{{ main.price }}</div>
+                                <div class="product-stats">
+                                    <div class="stat-item">
+                                        <div class="stat-label">⭐ Puan</div>
+                                        <div class="stat-value">
+                                            {% if main.rating >= 4.5 %}⭐⭐⭐⭐⭐
+                                            {% elif main.rating >= 3.5 %}⭐⭐⭐⭐
+                                            {% elif main.rating >= 2.5 %}⭐⭐⭐
+                                            {% elif main.rating >= 1.5 %}⭐⭐
+                                            {% else %}⭐{% endif %}
+                                        </div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-label">💬 Yorum</div>
+                                        <div class="stat-value">{{ main.review_count }}</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-label">🚚 Kargo</div>
+                                        <div class="stat-value">{{ main.delivery_info }}</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-label">🏪 Satıcı</div>
+                                        <div class="stat-value">{{ main.site }}</div>
+                                    </div>
+                                </div>
+                                <p style="font-size: 0.9rem; color: #475569; line-height: 1.5;">{{ main.description }}</p>
+                                <div class="price-graph">📊 Fiyat Grafiği</div>
+                                {% if main.tags %}
+                                <div class="product-tags">
+                                    {% for tag in main.tags %}
+                                    <span class="ai-tag {% if tag == 'En iyi fiyat' %}tag-price {% elif tag == 'En yüksek puan' %}tag-rating {% elif tag == 'En çok yorum' %}tag-reviews {% endif %}">
+                                        {{ tag }}
+                                    </span>
+                                    {% endfor %}
+                                </div>
+                                {% endif %}
+                                <a href="{{ main.link }}" target="_blank" class="btn btn-primary" style="width: 100%; justify-content: center; padding: 12px; font-size: 1rem;">
+                                    🛒 Mağazaya Git
+                                </a>
+                            </div>
+                        </div>
+                        {% endwith %}
+                    </div>
+
+                    <div class="compare-thumbs" role="list">
+                        {% for product in message.compare_products|slice:"1:5" %}
+                        <div class="thumb-card" role="listitem"
+                            data-product-title="{{ product.title|escapejs }}"
+                            data-product-price="{{ product.price|escapejs }}"
+                            data-product-image="{{ product.image|escapejs }}"
+                            data-product-description="{{ product.description|default_if_none:""|escapejs }}"
+                            data-product-site="{{ product.site|escapejs }}"
+                            data-product-link="{{ product.link|escapejs }}"
+                            onclick="swapMainProduct(this)">
+                            <img src="{{ product.image }}" alt="{{ product.title }}">
+                            <div class="thumb-info">
+                                <div class="thumb-title">{{ product.title|truncatewords:4 }}</div>
+                                <div class="thumb-meta">
+                                    <span>⭐ {{ product.rating|default:"?" }}</span>
+                                    <span>💬 {{ product.review_count }}</span>
+                                    <span>🏪 {{ product.site|truncatewords:1 }}</span>
+                                </div>
+                                {% if product.tags %}
+                                <div class="product-tags">
+                                    {% for tag in product.tags %}
+                                    <span class="ai-tag {% if tag == 'En iyi fiyat' %}tag-price {% elif tag == 'En yüksek puan' %}tag-rating {% elif tag == 'En çok yorum' %}tag-reviews {% endif %}">
+                                        {{ tag }}
+                                    </span>
+                                    {% endfor %}
+                                </div>
+                                {% endif %}
+                                <div class="thumb-price">{{ product.price }}</div>
+                            </div>
+                            <a href="{{ product.link }}" target="_blank" class="thumb-button">Git</a>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+
+            {% if message.ai_summary %}
+            <div class="ai-summary" role="region" aria-label="AI Özet">
+                <div class="ai-title">AI Özet</div>
+                <div class="ai-text">{{ message.ai_summary.data.commentary|default:message.ai_summary.data.commentary }}</div>
             </div>
             {% endif %}
 
@@ -667,9 +1051,28 @@
             closeProductModal();
         }
 
+        function openProductModalFromElement(element) {
+            const product = {
+                title: element.dataset.productTitle,
+                price: element.dataset.productPrice,
+                image: element.dataset.productImage,
+                description: element.dataset.productDescription,
+                site: element.dataset.productSite,
+                link: element.dataset.productLink
+            };
+            openProductModal(product);
+        }
+
+        function searchProductBySameBrand(productTitle, site) {
+            // Aynı ürünü farklı satıcılardan ara (fiyat karşılaştırması)
+            // ?compare=true ile backend 5 satıcıyı gösterecek
+            const encodedTitle = encodeURIComponent(productTitle);
+            window.location.href = `/?query=${encodedTitle}&compare=true`;
+        }
+
         // AI summary'yi tüm resimler yüklenince göster
         function showAISummaryAfterImages() {
-            const images = document.querySelectorAll('.product-image img');
+            const images = document.querySelectorAll('.product-image img, .compare-large .product-image img, .thumb-card img');
             if (images.length === 0) {
                 // Resim yoksa direkt göster
                 const summaries = document.querySelectorAll('.ai-summary');
@@ -679,33 +1082,39 @@
 
             let loadedCount = 0;
             const totalImages = images.length;
+            let showTimeout;
+
+            function showSummaries() {
+                const summaries = document.querySelectorAll('.ai-summary');
+                summaries.forEach(summary => summary.classList.add('visible'));
+            }
 
             images.forEach(img => {
                 if (img.complete) {
-                    // Zaten yüklüyse
                     loadedCount++;
                 } else {
                     img.addEventListener('load', () => {
                         loadedCount++;
                         if (loadedCount === totalImages) {
-                            const summaries = document.querySelectorAll('.ai-summary');
-                            summaries.forEach(summary => summary.classList.add('visible'));
+                            clearTimeout(showTimeout);
+                            showSummaries();
                         }
                     });
                     img.addEventListener('error', () => {
                         loadedCount++;
                         if (loadedCount === totalImages) {
-                            const summaries = document.querySelectorAll('.ai-summary');
-                            summaries.forEach(summary => summary.classList.add('visible'));
+                            clearTimeout(showTimeout);
+                            showSummaries();
                         }
                     });
                 }
             });
 
-            // Tüm resimler zaten yüklüyse
+            // Tüm resimler zaten yüklüyse veya max 2 sn sonra göster
             if (loadedCount === totalImages) {
-                const summaries = document.querySelectorAll('.ai-summary');
-                summaries.forEach(summary => summary.classList.add('visible'));
+                showSummaries();
+            } else {
+                showTimeout = setTimeout(showSummaries, 2000);
             }
         }
 
@@ -726,9 +1135,36 @@
                 type();
             });
             
-            // Resimler yüklenince AI summary'yi göster
+            // Resimler yüklenince AI summary'yi göster (HER ZAMAN)
             showAISummaryAfterImages();
+            
+            // AUTO-SCROLL: Compare section varsa aşağı kaydır
+            setTimeout(() => {
+                const compareSections = document.querySelectorAll('[id^="compare-section-"]');
+                if (compareSections.length > 0) {
+                    const lastCompare = compareSections[compareSections.length - 1];
+                    lastCompare.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            }, 300);  // Biraz bekle ki rendering tamamlanabilsin
         };
+
+        // Swap main compare product when a thumb is clicked
+        function swapMainProduct(elem) {
+            const dataset = elem.dataset;
+            const mainImage = document.querySelector('.compare-large .product-image img');
+            const mainTitle = document.querySelector('.compare-large .product-title');
+            const mainPrice = document.querySelector('.compare-large .product-price');
+            const mainDesc = document.querySelector('.compare-large .product-body > p');
+            const mainSiteBadge = document.querySelector('.compare-large .product-header .site-badge');
+            const mainLink = document.querySelector('.compare-large .btn-primary');
+
+            if (mainImage && dataset.productImage) mainImage.src = dataset.productImage;
+            if (mainTitle && dataset.productTitle) mainTitle.innerText = dataset.productTitle;
+            if (mainPrice && dataset.productPrice) mainPrice.innerText = dataset.productPrice;
+            if (mainDesc && dataset.productDescription) mainDesc.innerText = dataset.productDescription;
+            if (mainSiteBadge && dataset.productSite) mainSiteBadge.innerText = dataset.productSite;
+            if (mainLink && dataset.productLink) mainLink.href = dataset.productLink;
+        }
     </script>
 </body>
 

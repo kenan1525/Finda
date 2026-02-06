@@ -4,7 +4,7 @@ import json
 import re
 import hashlib
 import requests
-import google.generativeai as genai
+from google import genai
 
 from django.conf import settings
 from django.core.cache import cache
@@ -31,6 +31,60 @@ GROQ_HEADERS = {
     "Authorization": f"Bearer {GROQ_API_KEY}",
     "Content-Type": "application/json"
 }
+
+# Cache (in-memory + Django cache)
+MEMORY_CACHE = {}
+
+
+# =========================
+# CACHE HELPERS
+# =========================
+
+def get_cache_key(products):
+    """Ürün listesi hash'i ile cache key oluştur"""
+    products_str = json.dumps(
+        [(p.get('title'), p.get('site'), p.get('price')) for p in products],
+        sort_keys=True
+    )
+    return hashlib.md5(products_str.encode()).hexdigest()
+
+def get_cached_analysis(products):
+    """Memory cache'ten kontrol et"""
+    cache_key = get_cache_key(products)
+    
+    # 1. Memory cache (hızlı)
+    if cache_key in MEMORY_CACHE:
+        cached_time, cached_data = MEMORY_CACHE[cache_key]
+        if time.time() - cached_time < 3600:  # 1 saat geçerliliği
+            print(f"✅ MEMORY CACHE HIT: {cache_key[:8]}")
+            return cached_data
+    
+    # 2. Django cache (daha büyük)
+    try:
+        django_cache_key = f"ai_analysis_{cache_key}"
+        cached_data = cache.get(django_cache_key)
+        if cached_data:
+            print(f"✅ DJANGO CACHE HIT: {cache_key[:8]}")
+            MEMORY_CACHE[cache_key] = (time.time(), cached_data)
+            return cached_data
+    except:
+        pass
+    
+    return None
+
+def set_cached_analysis(products, data):
+    """Cache'le her iki sisteme de"""
+    cache_key = get_cache_key(products)
+    
+    # Memory cache
+    MEMORY_CACHE[cache_key] = (time.time(), data)
+    
+    # Django cache
+    try:
+        django_cache_key = f"ai_analysis_{cache_key}"
+        cache.set(django_cache_key, data, timeout=3600)
+    except:
+        pass
 
 
 # =========================
@@ -124,14 +178,10 @@ def analyze_products(products):
     
     products = tag_products(products)
 
-    try:
-        products_hash = hashlib.md5(str(products).encode()).hexdigest()
-        cache_key = f"ai_analysis_{products_hash}"
-        cached = cache.get(cache_key)
-        if cached:
-            return {"data": cached, "source": "cache"}
-    except:
-        cache_key = None
+    # Cache kontrol
+    cached_result = get_cached_analysis(products)
+    if cached_result:
+        return {"data": cached_result, "source": "cache"}
 
     products_text = build_products_text(products[:10])
     prompt = build_prompt(products_text)
@@ -140,15 +190,14 @@ def analyze_products(products):
     if GEMINI_API_KEY:
         result = ask_gemini(prompt)
         if result:
-            if cache_key: cache.set(cache_key, result, timeout=3600)
+            set_cached_analysis(products, result)
             return {"data": result, "source": "gemini"}
 
     # 2️⃣ Groq (High-Speed Fallback)
     if GROQ_API_KEY:
-        # Llama 3.3 70B is very robust
         result = ask_groq(prompt, "llama-3.3-70b-versatile")
         if result:
-            if cache_key: cache.set(cache_key, result, timeout=3600)
+            set_cached_analysis(products, result)
             return {"data": result, "source": "groq"}
 
     # 3️⃣ OpenRouter (Breadth Fallback)
@@ -161,7 +210,7 @@ def analyze_products(products):
         for model in fallback_models:
             result = ask_openrouter(prompt, model)
             if result:
-                if cache_key: cache.set(cache_key, result, timeout=3600)
+                set_cached_analysis(products, result)
                 return {"data": result, "source": "openrouter"}
 
     return {"error": "AI servisleri yoğunlukta. Lütfen biraz sonra tekrar deneyin."}

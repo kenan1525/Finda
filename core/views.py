@@ -16,6 +16,7 @@ def home(request):
 
     chat_history = request.session['chat_history']
     user_message = request.POST.get("query", "") or request.GET.get("query", "")
+    compare_mode = request.GET.get("compare") == "true"  # Deep analysis modu
 
     results = []
     ai_summary = {}
@@ -36,7 +37,7 @@ def home(request):
 
         elif analysis['intent'] == 'shopping' and analysis.get('query'):
             query = analysis['query']
-            products = get_all_products(query)
+            products = get_all_products(query, compare_mode=compare_mode)
 
             if products:
                 # 🔹 AI ürün etiketleme + analiz
@@ -45,12 +46,22 @@ def home(request):
                 results = ai_result.get("products", products)
                 ai_summary = ai_result # Full result passes 'data', 'error', etc.
 
-                chat_history.append({
-                    'role': 'assistant',
-                    'content': analysis['response'] or f'"{query}" için {len(results)} ürün buldum:',
-                    'products': results,
-                    'ai_summary': ai_summary
-                })
+                if compare_mode:
+                    # COMPARE MODE: Sonuncu assistant message'ına compare_products ekle
+                    # Böyle orijinal products kaybolmaz
+                    for msg in reversed(chat_history):
+                        if msg.get('role') == 'assistant' and msg.get('products'):
+                            msg['compare_products'] = results
+                            msg['compare_ai_summary'] = ai_summary
+                            break
+                else:
+                    # NORMAL MODE: Yeni message oluştur
+                    chat_history.append({
+                        'role': 'assistant',
+                        'content': analysis['response'] or f'"{query}" için {len(results)} ürün buldum:',
+                        'products': results,
+                        'ai_summary': ai_summary
+                    })
 
             else:
                 chat_history.append({
@@ -71,5 +82,6 @@ def home(request):
         "chat_history": chat_history,
         "results": results,      # etiketli ürünler
         "ai_summary": ai_summary,  # AI JSON (highlights, pros, cons, verdict)
-        "user_message": user_message
+        "user_message": user_message,
+        "compare_mode": compare_mode
     })

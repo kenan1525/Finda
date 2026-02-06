@@ -160,32 +160,49 @@ def fetch_demo_products(query):
     return results
 
 # -------------------------
+# DEDUPLICATION LOGIC
+# -------------------------
+def deduplicate_products(products):
+    """Farklı mağazalardan gelen aynı ürünleri kaldır (başlığa göre)"""
+    seen = set()
+    unique = []
+    
+    for p in products:
+        # Sadece title'a göre normalize et (site fark etmez)
+        title_normalized = normalize_title(p.get("title", ""))
+        
+        # İlk 50 karakteri al (ürün ismi gerçekten benzerse algılanabilmesi için)
+        key = title_normalized[:50]
+        
+        if key not in seen and key:  # Boş title almamak için
+            seen.add(key)
+            unique.append(p)
+    
+    return unique
+
+
+# -------------------------
 # MAIN ENTRY
 # -------------------------
-# def get_all_products(query):
-#     results = []
-#     serp_results = fetch_serp_products(query)
-#     results.extend(serp_results)
-#     if len(results) < 5:
-#         results.extend(fetch_demo_products(query))
-#     return results
-
-
-
-
-def get_all_products(query):
+def get_all_products(query, compare_mode=False):
+    """
+    query: Aranacak ürün/başlık
+    compare_mode: True = Aynı ürün farklı satıcılardan (5 satıcı), 
+                  False = Benzersiz ürünler (dedupe)
+    """
     now = time.time()
 
     # cache varsa ve süresi geçmediyse
-    if query in CACHE:
-        cached_data, cached_time = CACHE[query]
+    cache_key = f"{query}_{compare_mode}"
+    if cache_key in CACHE:
+        cached_data, cached_time = CACHE[cache_key]
         if now - cached_time < 600:
-            print("✅ CACHE'DEN GELDİ:", query)
+            print("✅ CACHE'DEN GELDİ:", query, f"(compare_mode={compare_mode})")
             return cached_data
         else:
-            del CACHE[query]
+            del CACHE[cache_key]
 
-    print("🌐 API'DEN GELDİ:", query)
+    print("🌐 API'DEN GELDİ:", query, f"(compare_mode={compare_mode})")
 
     results = []
     serp_results = fetch_serp_products(query)
@@ -194,5 +211,19 @@ def get_all_products(query):
     if len(results) < 5:
         results.extend(fetch_demo_products(query))
 
-    CACHE[query] = (results, now)
+    if compare_mode:
+        # COMPARE MODE: Aynı ürünü satıcılardan getir (max 5)
+        results = results[:5]  # İlk 5 satıcıyı al
+        print(f"📊 COMPARE MODE: {len(results)} satıcı bulundu")
+    else:
+        # NORMAL MODE: Duplicate ürünleri kaldır
+        results = deduplicate_products(results)
+    
+    # Sıra karıştır ama en iyileri yukarıya al (rating + review'e göre)
+    results.sort(key=lambda x: (
+        float(x.get("rating", 0)) or 0,
+        int(str(x.get("review_count", 0)).replace(",", "")) or 0
+    ), reverse=True)
+
+    CACHE[cache_key] = (results, now)
     return results

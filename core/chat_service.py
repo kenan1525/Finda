@@ -2,7 +2,7 @@ import os
 import json
 import re
 import requests
-import google.generativeai as genai
+from google import genai
 from django.conf import settings
 
 # =========================
