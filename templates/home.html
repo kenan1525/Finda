@@ -1,794 +1,71 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
+{% load static %}
 <html lang="tr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finda AI - Akıllı Alışveriş Asistanı</title>
-
-    <!-- Google Fonts -->
+    <title>Finda AI - Akıllı Arama</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+    <link rel="stylesheet" href="{% static 'core/css/home.css' %}">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        /* Single page flow */
+        .section-box { margin: 20px 0; }
 
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            background: #f5f7fa;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            color: #333;
-        }
+        /* Product Cards - Minimal */
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; margin-top: 16px; }
+        .product-card { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.08); border: 1px solid #f0f0f0; transition: all 0.2s; }
+        .product-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.12); border-color: #2563eb; }
+        .product-image { width: 100%; height: 140px; object-fit: cover; background: #f5f5f5; display: flex; align-items: center; justify-content: center; }
+        .product-image img { width: 100%; height: 100%; object-fit: cover; }
+        .product-info { padding: 10px; }
+        .product-title { font-size: 13px; font-weight: 600; color: #1f2937; line-height: 1.3; margin-bottom: 6px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+        .product-price { font-size: 14px; font-weight: 700; color: #2563eb; margin-bottom: 6px; }
+        .product-store { font-size: 11px; color: #6b7280; margin-bottom: 6px; }
+        .product-rating { font-size: 12px; color: #f59e0b; margin-bottom: 8px; }
+        .product-link { display: inline-block; padding: 6px 12px; background: #2563eb; color: white; text-decoration: none; border-radius: 4px; font-size: 12px; font-weight: 600; transition: all 0.2s; }
+        .product-link:hover { background: #1d4ed8; }
+        .product-search-btn { display: inline-block; margin-left: 8px; padding: 6px 10px; background: #eef2ff; color: #1f2937; text-decoration: none; border-radius: 4px; font-size: 12px; font-weight: 600; border: 1px solid #e6e9f8; }
+        .product-search-btn:hover { background: #e0e7ff; }
 
-        /* Header */
-        .header {
-            background: white;
-            padding: 1rem 2rem;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
+        /* Flight Results */
+        .flight-form-box { background: white; padding: 16px; border-radius: 8px; margin: 12px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+        .flight-form-box h3 { margin-bottom: 12px; font-size: 16px; }
+        .flight-form { display: flex; gap: 10px; flex-wrap: wrap; align-items: flex-end; }
+        .flight-form-group { display: flex; flex-direction: column; gap: 4px; }
+        .flight-form-group label { font-size: 12px; font-weight: 600; color: #666; }
+        .flight-form-group input { padding: 8px 10px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px; }
+        .flight-form button { padding: 8px 16px; background: #2563eb; color: white; border: none; border-radius: 4px; font-weight: 600; cursor: pointer; }
+        .flight-form button:hover { background: #1d4ed8; }
 
-        .logo {
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #2563eb;
-        }
-
-        .logo i {
-            font-size: 2rem;
-            color: #2563eb;
-        }
-
-        .new-chat-btn {
-            background: #2563eb;
-            color: white;
-            border: none;
-            padding: 0.6rem 1.2rem;
-            border-radius: 12px;
-            font-weight: 600;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            transition: transform 0.2s;
-            font-size: 0.95rem;
-        }
-
-        .new-chat-btn:hover {
-            background: #1d4ed8;
-            transform: translateY(-2px);
-        }
-
-        /* Main Content */
-        .main-content {
-            flex: 1;
-            overflow-y: auto;
-            padding: 2rem;
-            padding-bottom: 10rem; /* alanın sabit prompt ile örtüşmesini önlemek için boşluk */
-            max-width: 1200px;
-            width: 100%;
-            margin: 0 auto;
-        }
-
-        /* Welcome Screen */
-        .welcome-screen {
-            text-align: center;
-            padding: 3rem 1rem;
-            color: #1f2937;
-        }
-
-        .welcome-screen h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-            font-weight: 700;
-        }
-
-        .welcome-screen p {
-            font-size: 1.2rem;
-            opacity: 0.9;
-            margin-bottom: 2rem;
-        }
-
-        .suggestions {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1rem;
-            margin-top: 2rem;
-        }
-
-        .suggestion-card {
-            background: white;
-            border: 1px solid #e5e7eb;
-            padding: 1.5rem;
-            border-radius: 16px;
-            cursor: pointer;
-            transition: all 0.3s;
-            text-align: left;
-        }
-
-        .suggestion-card:hover {
-            border-color: #2563eb;
-            transform: translateY(-4px);
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-        }
-
-        .suggestion-card i {
-            font-size: 1.5rem;
-            margin-bottom: 0.75rem;
-            display: block;
-            color: #2563eb;
-        }
-
-        .suggestion-card h3 {
-            font-size: 1.1rem;
-            margin-bottom: 0.5rem;
-            color: #1f2937;
-        }
-
-        .suggestion-card p {
-            font-size: 0.9rem;
-            color: #6b7280;
-        }
-
-        /* Chat container */
-        .chat-container {
-            max-width: 900px;
-            margin: 2rem auto;
-        }
-
-        .chat-message {
-            display: flex;
-            margin-bottom: 2rem;
-            animation: slideIn 0.3s ease-out;
-            position: relative;
-        }
-
-        @keyframes slideIn {
-            from {
-                opacity: 0;
-                transform: translateY(10px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .chat-message.user {
-            justify-content: flex-end;
-        }
-
-        .chat-message.assistant {
-            justify-content: flex-start;
-        }
-
-        .message-bubble {
-            max-width: 80%;
-            padding: 1.25rem 1.5rem;
-            border-radius: 20px;
-            font-size: 0.95rem;
-            line-height: 1.6;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-            position: relative;
-        }
-
-        .user .message-bubble {
-            background: linear-gradient(135deg, #2563eb, #1d4ed8);
-            color: white;
-            border-bottom-right-radius: 4px;
-        }
-
-        .assistant .message-bubble {
-            background: white;
-            color: #1f2937;
-            border: 1px solid #f3f4f6;
-            border-bottom-left-radius: 4px;
-        }
-
-        .message-avatar {
-            width: 36px;
-            height: 36px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.1rem;
-            flex-shrink: 0;
-        }
-
-        .user .message-avatar {
-            background: #dbeafe;
-            color: #2563eb;
-            margin-left: 0.75rem;
-            order: 2;
-        }
-
-        .assistant .message-avatar {
-            background: #f3f4f6;
-            color: #6b7280;
-            margin-right: 0.75rem;
-        }
-
-        /* Product Grid */
-        .products-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-            gap: 1rem;
-            margin-bottom: 2rem;
-        }
-
-        .product-card {
-            background: white;
-            border-radius: 16px;
-            overflow: hidden;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            display: flex;
-            flex-direction: column;
-            cursor: pointer;
-            border: 1px solid #f3f4f6;
-        }
-
-        .product-card:hover {
-            transform: translateY(-8px) scale(1.02);
-            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
-            border-color: #2563eb;
-        }
-
-        .product-image {
-            height: 220px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden;
-            border-bottom: 1px solid #f3f4f6;
-        }
-
-        .product-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .product-body {
-            padding: 1rem;
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            gap: 0.5rem;
-        }
-
-        .product-title {
-            font-size: 0.85rem;
-            font-weight: 600;
-            color: #1f2937;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-
-        .product-price {
-            font-size: 1.1rem;
-            font-weight: 700;
-            color: #2563eb;
-            margin-bottom: 0.5rem;
-        }
-
-        .product-actions {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 0.4rem;
-            margin-top: auto;
-        }
-
-        .btn {
-            padding: 0.5rem;
-            border-radius: 8px;
-            font-weight: 600;
-            font-size: 0.75rem;
-            cursor: pointer;
-            transition: all 0.2s;
-            border: none;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 0.3rem;
-            text-decoration: none;
-        }
-
-        .btn-primary {
-            background: #2563eb;
-            color: white;
-        }
-
-        .btn-primary:hover {
-            background: #1d4ed8;
-            transform: scale(1.05);
-        }
-
-        .btn-outline {
-            background: white;
-            border: 2px solid #e5e7eb;
-            color: #6b7280;
-        }
-
-        .btn-outline:hover {
-            border-color: #2563eb;
-            color: #2563eb;
-        }
-        /* Sabit prompt (input) stili */
-        .prompt-container {
-            position: fixed;
-            left: 50%;
-            transform: translateX(-50%);
-            bottom: 24px;
-            width: calc(100% - 32px);
-            max-width: 900px;
-            z-index: 1100;
-            display: flex;
-            justify-content: center;
-            pointer-events: none;
-        }
-
-        .prompt-container form {
-            pointer-events: auto;
-            width: 100%;
-            display: flex;
-            gap: 0.5rem;
-            align-items: center;
-            background: rgba(255,255,255,0.98);
-            padding: 10px;
-            border-radius: 14px;
-            box-shadow: 0 10px 30px rgba(16,24,40,0.12);
-            border: 1px solid rgba(15,23,42,0.06);
-            backdrop-filter: blur(6px);
-        }
-
-        #search-input {
-            flex: 1;
-            padding: 12px 16px;
-            font-size: 1rem;
-            border-radius: 10px;
-            border: 1px solid #e5e7eb;
-            outline: none;
-            box-shadow: none;
-            background: white;
-        }
-
-        .prompt-container button {
-            background: #2563eb;
-            color: #fff;
-            border: none;
-            padding: 10px 14px;
-            border-radius: 10px;
-            cursor: pointer;
-            font-weight: 700;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 6px 18px rgba(37,99,235,0.25);
-        }
-
-        .prompt-container button:hover {
-            background: #1d4ed8;
-            transform: translateY(-1px);
-        }
-
-        @media (max-width: 520px) {
-            .prompt-container { bottom: 16px; width: calc(100% - 20px); }
-            .prompt-container form { padding: 8px; border-radius: 12px; }
-            #search-input { padding: 10px; font-size: 0.95rem; }
-        }
-        /* Modal (ürün detay) stili - modern kart görünümü */
-        .modal {
-            position: fixed;
-            inset: 0;
-            display: none; /* JS ile flex yapılır */
-            align-items: center;
-            justify-content: center;
-            background: rgba(2,6,23,0.5);
-            z-index: 1200;
-            padding: 24px;
-            backdrop-filter: blur(4px);
-        }
-
-        .modal-content {
-            width: 100%;
-            max-width: 840px;
-            background: linear-gradient(180deg, #ffffff, #fbfdff);
-            border-radius: 16px;
-            box-shadow: 0 30px 80px rgba(2,6,23,0.2);
-            padding: 20px;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 16px;
-            align-items: start;
-            border: 1px solid rgba(15,23,42,0.06);
-        }
-
-        .modal .close-btn {
-            position: absolute;
-            right: 28px;
-            top: 20px;
-            background: transparent;
-            border: none;
-            font-size: 1.6rem;
-            cursor: pointer;
-            color: #374151;
-        }
-
-        .modal img#modalImage {
-            width: 100%;
-            height: auto;
-            border-radius: 12px;
-            object-fit: cover;
-            max-height: 420px;
-            box-shadow: 0 12px 30px rgba(37,99,235,0.06);
-        }
-
-        .modal .modal-body {
-            padding: 6px 4px;
-        }
-
-        .modal h2#modalTitle {
-            margin: 0 0 8px 0;
-            font-size: 1.25rem;
-            color: #0f172a;
-        }
-
-        .modal p { color: #475569; margin: 6px 0; }
-
-        /* modal içindeki input/textarea ve butonlar prompt ile aynı hisse sahip */
-        .modal input,
-        .modal textarea,
-        .modal select {
-            width: 100%;
-            padding: 10px 12px;
-            border-radius: 10px;
-            border: 1px solid #e5e7eb;
-            background: #fff;
-            font-size: 1rem;
-            outline: none;
-        }
-
-        .modal .btn {
-            width: 100%;
-            padding: 12px 14px;
-            border-radius: 10px;
-            font-weight: 700;
-            box-shadow: 0 10px 28px rgba(37,99,235,0.14);
-        }
-
-        .modal .btn-outline {
-            width: auto;
-            padding: 10px 12px;
-        }
-
-        @media (max-width: 880px) {
-            .modal-content { grid-template-columns: 1fr; max-width: 720px; }
-            .modal .close-btn { right: 20px; top: 14px; }
-        }
-        /* AI özet kartı */
-        .ai-summary {
-            background: white;
-            border-radius: 12px;
-            padding: 12px 14px;
-            box-shadow: 0 10px 30px rgba(2,6,23,0.06);
-            border: 1px solid rgba(15,23,42,0.04);
-            max-width: 840px;
-            margin: 12px auto 18px auto;
-            color: #0f172a;
-            font-size: 0.97rem;
-            opacity: 0;
-            transition: opacity 0.5s ease-out;
-        }
-
-        .ai-summary.visible {
-            opacity: 1;
-        }
-
-        .ai-summary .ai-title { font-weight: 700; margin-bottom: 6px; color: #0f172a; }
-        .ai-summary .ai-text { color: #475569; line-height: 1.45; }
+        /* Flight List */
+        .flights-list { display: flex; flex-direction: column; gap: 8px; margin-top: 12px; }
+        .flight-row { display: flex; justify-content: space-between; align-items: center; padding: 14px 12px; border: 1px solid #e5e7eb; border-radius: 6px; background: white; transition: all 0.2s; }
+        .flight-row:hover { background: #f9fafb; border-color: #2563eb; }
         
-        /* Compare layout styles - YENI TASARIM */
-        .products-compare { 
-            max-width: 900px; 
-            margin: 12px auto 18px auto; 
-            display: flex; 
-            flex-direction: column; 
-            gap: 14px; 
-        }
-        
-        .compare-main { 
-            display: flex; 
-            flex-direction: column;
-            gap: 12px; 
-        }
-        
-        .compare-large { 
-            display: grid;
-            grid-template-columns: 280px 1fr;
-            gap: 20px;
-            background: linear-gradient(135deg, #ffffff 0%, #fbfdff 100%);
-            border-radius: 16px; 
-            padding: 18px; 
-            border: 1px solid rgba(37,99,235,0.08);
-            box-shadow: 0 16px 40px rgba(37,99,235,0.08);
-        }
-        
-        .compare-large .product-image { 
-            height: 320px; 
-            border-radius: 12px; 
-            overflow: hidden;
-            box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-        }
-        
-        .compare-large .product-image img { 
-            width: 100%; 
-            height: 100%; 
-            object-fit: cover; 
-        }
-        
-        .compare-large .product-body { 
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
-        
-        .compare-large .product-header {
-            display: flex;
-            gap: 8px;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-        
-        .compare-large .product-title {
-            font-size: 1.2rem;
-            font-weight: 700;
-            color: #0f172a;
-            line-height: 1.3;
-        }
-        
-        .compare-large .product-price {
-            font-size: 1.5rem;
-            font-weight: 800;
-            color: #2563eb;
-            display: flex;
-            align-items: baseline;
-            gap: 8px;
-        }
-        
-        .compare-large .product-stats {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 10px;
-            padding: 10px;
-            background: rgba(37,99,235,0.04);
-            border-radius: 10px;
-        }
-        
-        .stat-item {
-            display: flex;
-            flex-direction: column;
-            gap: 4px;
-        }
-        
-        .stat-label {
-            font-size: 0.75rem;
-            color: #64748b;
-            font-weight: 600;
-        }
-        
-        .stat-value {
-            font-size: 0.95rem;
-            color: #0f172a;
-            font-weight: 700;
-        }
-        
-        .price-graph { 
-            height: 100px; 
-            border-radius: 10px; 
-            background: linear-gradient(135deg, #eef2ff, #f0f9ff); 
-            display: flex;
-            align-items: center;
-            justify-content: center; 
-            color: #64748b; 
-            font-weight: 600;
-            border: 1px solid rgba(37,99,235,0.1);
-        }
-        
-        /* ALTALTA THUMBNAIL CARDS */
-        .compare-thumbs { 
-            display: flex; 
-            flex-direction: row;
-            gap: 12px; 
-            padding: 0;
-        }
-        
-        .thumb-card { 
-            flex: 1;
-            background: white; 
-            border-radius: 12px; 
-            padding: 12px;
-            box-shadow: 0 6px 18px rgba(2,6,23,0.06);
-            border: 1px solid rgba(15,23,42,0.04);
-            cursor: pointer;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            align-items: center;
-            text-align: center;
-            transition: all 0.3s ease;
-        }
-        
-        .thumb-card:hover {
-            box-shadow: 0 12px 32px rgba(37,99,235,0.12);
-            border-color: #2563eb;
-            transform: translateY(-4px);
-        }
-        
-        .thumb-card img { 
-            width: 100px; 
-            height: 100px; 
-            object-fit: cover; 
-            border-radius: 8px;
-        }
-        
-        .thumb-info {
-            display: flex;
-            flex-direction: column;
-            gap: 4px;
-            flex: 1;
-        }
-        
-        .thumb-title { 
-            font-size: 0.85rem; 
-            color: #1f2937; 
-            font-weight: 700;
-            text-align: center;
-            line-height: 1.2;
-        }
-        
-        .thumb-meta {
-            font-size: 0.75rem;
-            color: #64748b;
-            display: flex;
-            flex-direction: column;
-            gap: 4px;
-            justify-content: center;
-        }
-        
-        .thumb-meta span {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 4px;
-        }
-        
-        .thumb-price {
-            font-size: 1rem;
-            font-weight: 800;
-            color: #2563eb;
-            white-space: nowrap;
-        }
-        
-        .thumb-button {
-            padding: 6px 10px;
-            border-radius: 8px;
-            border: none;
-            background: #2563eb;
-            color: white;
-            font-weight: 700;
-            cursor: pointer;
-            font-size: 0.8rem;
-            transition: all 0.2s;
-            white-space: nowrap;
-            width: 100%;
-        }
-        
-        .thumb-button:hover {
-            background: #1d4ed8;
-            transform: scale(1.05);
-        }
-        
-        /* TAG STYLES */
-        .product-tags {
-            display: flex;
-            gap: 6px;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin-top: 6px;
-        }
-        
-        .ai-tag {
-            display: inline-block;
-            padding: 4px 8px;
-            border-radius: 6px;
-            font-size: 0.7rem;
-            font-weight: 700;
-            white-space: nowrap;
-            text-align: center;
-        }
-        
-        .tag-price {
-            background: #fef3c7;
-            color: #92400e;
-            border: 1px solid #fcd34d;
-        }
-        
-        .tag-rating {
-            background: #dbeafe;
-            color: #0c4a6e;
-            border: 1px solid #7dd3fc;
-        }
-        
-        .tag-reviews {
-            background: #dcfce7;
-            color: #166534;
-            border: 1px solid #86efac;
-        }
-        
-        @media (max-width: 880px) {
-            .compare-large { 
-                grid-template-columns: 1fr;
-                padding: 14px;
-            }
-            .compare-large .product-image { 
-                height: 220px; 
-            }
-            .compare-large .product-body {
-                flex-direction: column;
-            }
-            .compare-thumbs {
-                flex-direction: column;
-            }
-            .thumb-card {
-                flex-direction: row;
-                gap: 10px;
-                text-align: left;
-                align-items: flex-start;
-            }
-            .thumb-card img {
-                width: 80px;
-                height: 80px;
-                flex-shrink: 0;
-            }
-            .thumb-info {
-                align-items: flex-start;
-            }
-            .thumb-title,
-            .thumb-meta {
-                text-align: left;
-            }
-            .thumb-meta {
-                flex-direction: row;
-                gap: 8px;
-                flex-wrap: wrap;
-            }
-        }
-            .compare-large .product-image { height: 260px; }
-            .thumb-card { width: 130px; }
-        }
+        .flight-airline { flex: 1; min-width: 80px; font-weight: 600; font-size: 13px; }
+        .flight-times { flex: 1.7; min-width: 150px; font-size: 14px; font-weight: 600; }
+        .flight-meta { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 6px; font-size: 11px; font-weight: 500; color: #6b7280; }
+        .flight-meta span { background: #f8fafc; border: 1px solid #e2e8f0; padding: 2px 6px; border-radius: 6px; }
+        .flight-duration { flex: 0.8; min-width: 60px; text-align: center; font-size: 12px; color: #666; }
+        .flight-route { flex: 0.8; min-width: 70px; text-align: center; font-size: 12px; color: #666; }
+        .flight-price { flex: 1; min-width: 100px; text-align: right; font-size: 16px; font-weight: 700; color: #2563eb; }
+
+        /* Alerts */
+        .alert { padding: 12px 14px; border-radius: 6px; margin: 12px 0; font-size: 14px; }
+        .alert-info { background: #dbeafe; border: 1px solid #93c5fd; color: #0c4a6e; }
+        .alert.error { background: #fee2e2; border: 1px solid #fecaca; color: #991b1b; }
+
+        /* Form styles */
+        .search-input-group { display: flex; gap: 8px; margin: 16px 0; }
+        .search-input-group input { flex: 1; padding: 10px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; }
+        .search-input-group button { padding: 10px 20px; background: #2563eb; color: white; border: none; border-radius: 6px; font-weight: 600; cursor: pointer; }
+        .search-input-group button:hover { background: #1d4ed8; }
     </style>
 </head>
 <body>
     <!-- HEADER -->
-    <div class="header">
+       <div class="header">
         <div class="logo">
             <i class="fas fa-shopping-bag"></i>
             <span>Finda AI</span>
@@ -799,223 +76,266 @@
     </div>
 
     <!-- MAIN CONTENT -->
-    <div class="main-content" id="chat-content">
-        {% if not chat_history %}
-        <!-- WELCOME -->
-        <div class="welcome-screen">
-            <h1>👋 Merhaba!</h1>
-            <p>Size nasıl yardımcı olabilirim?</p>
-            <div class="suggestions">
-                <div class="suggestion-card" onclick="submitMessage('en iyi telefon modelleri')">📱 Telefon</div>
-                <div class="suggestion-card" onclick="submitMessage('ucuz uçak bileti')">✈️ Seyahat</div>
-                <div class="suggestion-card" onclick="submitMessage('market ürünleri')">🛒 Market</div>
-                <div class="suggestion-card" onclick="submitMessage('spor ayakkabı')">👟 Moda</div>
-            </div>
-        </div>
-        {% else %}
-        <div class="chat-container">
-            {% for message in chat_history %}
-            <div class="chat-message {{ message.role }}">
-                <div class="message-avatar">
-                    {% if message.role == "user" %}
-                    <i class="fas fa-user"></i>
-                    {% else %}
-                    <i class="fas fa-robot"></i>
-                    {% endif %}
-                </div>
-                <div class="message-bubble {% if message.role == 'assistant' and forloop.last %}typing-target{% endif %}" {% if message.role == 'assistant' and forloop.last %} data-text="{{ message.content|escapejs }}" {% endif %}>
-                    {% if message.role == "assistant" and forloop.last %}
-                    <!-- typing effect -->
-                    {% else %}
-                    {{ message.content }}
-                    {% endif %}
-                </div>
+    <div class="main-content">
+        <!-- FLIGHT SECTION (shown after flight intent or flight search) -->
+        {% if show_flight_section or flight_intent_detected or flight_results %}
+        <div class="section-box">
+            <div class="flight-form-box">
+                <h3>✈️ Uçuş Ara</h3>
+                <form method="post" action="{% url 'home' %}" class="flight-form" id="flight-form">
+                    {% csrf_token %}
+                    <div class="flight-form-group">
+                        <label>Kalkış (IATA)</label>
+                        <input type="text" name="origin" placeholder="IST" maxlength="3" value="{{ flight_form_data.origin }}" required>
+                    </div>
+                    <div class="flight-form-group">
+                        <label>Varış (IATA)</label>
+                        <input type="text" name="destination" placeholder="ANK" maxlength="3" value="{{ flight_form_data.destination }}" required>
+                    </div>
+                    <div class="flight-form-group">
+                        <label>Tarih</label>
+                        <input type="text" name="date" placeholder="YYYY-MM-DD" value="{{ flight_form_data.date }}" required>
+                    </div>
+                    <div class="flight-form-group">
+                        <label>Yolcu</label>
+                        <input type="number" name="adults" min="1" value="{{ flight_form_data.adults|default:'1' }}">
+                    </div>
+                    <button type="submit">Ara</button>
+                </form>
             </div>
 
-            {% if message.role == "assistant" and message.products %}
-            <!-- NORMAL GRID - Her zaman göster -->
-            <div class="products-section">
-                <div class="products-grid">
-                    {% for product in message.products %}
-                    <div class="product-card">
-                        <div class="product-image">
-                            <img src="{{ product.image }}" alt="{{ product.title }}">
+            <!-- FLIGHT RESULTS -->
+            {% if flight_results %}
+            <div id="flight-results" style="background: white; padding: 16px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.08);">
+                {% if flight_results.error %}
+                <div class="alert error">
+                    <strong>Hata:</strong> {{ flight_results.error }}
+                </div>
+                {% elif flight_results.data %}
+                <h3 style="margin-bottom: 12px;">{{ flight_results.data|length }} Uçuş Bulundu</h3>
+                <div class="flights-list">
+                    {% for offer in flight_results.data %}
+                    <div class="flight-row">
+                        <div class="flight-airline">
+                            {% if offer.validatingAirlineCodes %}
+                            {{ offer.validatingAirlineCodes.0 }}
+                            {% else %}
+                            Airline
+                            {% endif %}
                         </div>
-                        <div class="product-body">
-                            <div class="product-header">
-                                <span class="site-badge badge-{{ product.site_color }}">{{ product.site }}</span>
-                                <span class="delivery-info">
-                                    <i class="fas fa-truck"></i> {{ product.delivery_info }}
-                                </span>
-                            </div>
-                            <h3 class="product-title">{{ product.title }}</h3>
-                            <div class="product-price">{{ product.price }}</div>
-                            <div class="product-rating">
-                                <span class="stars">
-                                    {% if product.rating >= 4.5 %}⭐⭐⭐⭐⭐
-                                    {% elif product.rating >= 3.5 %}⭐⭐⭐⭐
-                                    {% elif product.rating >= 2.5 %}⭐⭐⭐
-                                    {% elif product.rating >= 1.5 %}⭐⭐
-                                    {% else %}⭐{% endif %}
-                                </span>
-                                <span class="review-count">({{ product.review_count }})</span>
-                            </div>
-                            <div class="product-actions">
-                                <button class="btn btn-primary" 
-                                    data-product-title="{{ product.title|escapejs }}"
-                                    data-product-price="{{ product.price|escapejs }}"
-                                    data-product-image="{{ product.image|escapejs }}"
-                                    data-product-description="{{ product.description|default_if_none:""|escapejs }}"
-                                    data-product-site="{{ product.site|escapejs }}"
-                                    data-product-link="{{ product.link|escapejs }}"
-                                    onclick="openProductModalFromElement(this)">
-                                    Detay Gör
-                                </button>
-                                <button class="btn btn-outline btn-deep-analysis" onclick="searchProductBySameBrand('{{ product.title|escapejs }}', '{{ product.site|escapejs }}')" title="Aynı Markada Satıcıları Karşılaştır">
-                                    <i class="fas fa-search"></i>
-                                </button>
-                            </div>
 
-                            {% if product.tags %}
-                            <div class="product-tags">
-                                {% for tag in product.tags %}
-                                <span class="ai-tag {% if tag == 'En iyi fiyat' %}tag-price {% elif tag == 'En yüksek puan' %}tag-rating {% elif tag == 'En çok yorum' %}tag-reviews {% endif %}">
-                                    {{ tag }}
+                        <div class="flight-times">
+                            {% if offer.itineraries.0.segments.0 %}
+                            {{ offer.itineraries.0.segments.0.departure.at|slice:"11:16" }} → 
+                            {% with seg=offer.itineraries.0.segments|last %}
+                            {{ seg.arrival.at|slice:"11:16" }}
+                            {% endwith %}
+                            {% endif %}
+                            <div class="flight-meta">
+                                {% if offer.validatingAirlineCodes %}
+                                <span>Firma: {{ offer.validatingAirlineCodes.0 }}</span>
+                                {% endif %}
+                                {% if offer.itineraries.0.segments.0 %}
+                                <span>Uçuş: {{ offer.itineraries.0.segments.0.carrierCode }}{{ offer.itineraries.0.segments.0.number }}</span>
+                                {% endif %}
+                                {% if offer.itineraries.0.segments %}
+                                <span>Aktarma: {{ offer.itineraries.0.segments|length|add:"-1" }}</span>
+                                {% endif %}
+                                {% if offer.travelerPricings.0.fareDetailsBySegment.0.cabin %}
+                                <span>Kabin: {{ offer.travelerPricings.0.fareDetailsBySegment.0.cabin }}</span>
+                                {% endif %}
+                                {% if offer.travelerPricings.0.fareDetailsBySegment.0.includedCheckedBags %}
+                                <span>Bagaj:
+                                    {% if offer.travelerPricings.0.fareDetailsBySegment.0.includedCheckedBags.weight %}
+                                    {{ offer.travelerPricings.0.fareDetailsBySegment.0.includedCheckedBags.weight }}{{ offer.travelerPricings.0.fareDetailsBySegment.0.includedCheckedBags.weightUnit }}
+                                    {% elif offer.travelerPricings.0.fareDetailsBySegment.0.includedCheckedBags.quantity %}
+                                    {{ offer.travelerPricings.0.fareDetailsBySegment.0.includedCheckedBags.quantity }} parça
+                                    {% endif %}
                                 </span>
-                                {% endfor %}
+                                {% endif %}
                             </div>
+                        </div>
+
+                        <div class="flight-duration">
+                            {% if offer.itineraries.0.duration %}
+                            {{ offer.itineraries.0.duration|slice:"2:" }}
+                            {% else %}
+                            --
+                            {% endif %}
+                        </div>
+
+                        <div class="flight-route">
+                            {% if offer.itineraries.0.segments.0 %}
+                            {{ offer.itineraries.0.segments.0.departure.iataCode }} → 
+                            {% with seg=offer.itineraries.0.segments|last %}
+                            {{ seg.arrival.iataCode }}
+                            {% endwith %}
+                            {% endif %}
+                        </div>
+
+                        <div class="flight-price">
+                            {% if offer.price.total %}
+                            {{ offer.price.total }} {{ offer.price.currency }}
+                            {% else %}
+                            --
                             {% endif %}
                         </div>
                     </div>
                     {% endfor %}
                 </div>
+                {% else %}
+                <p style="text-align: center; color: #666; padding: 20px;">Uçuş bulunamadı.</p>
+                {% endif %}
+            </div>
+            {% endif %}
+        </div>
+        {% endif %}
+
+        <!-- PRODUCT + CHAT SECTION -->
+        <div class="section-box">
+            {% if flight_intent_detected %}
+            <div class="alert alert-info">
+                <strong>✈️ Uçuş mu arıyorsunuz?</strong> "{{ flight_query }}" uçuş ile ilgili görünüyor. Uçuş sekmesinden detaylı arama yapabilirsiniz.
             </div>
             {% endif %}
 
-            <!-- COMPARE LAYOUT - Ayrı gösterilirse de gösterilir -->
-            {% if message.role == "assistant" and message.compare_products %}
-            <div class="products-section" id="compare-section-{{ forloop.counter }}">
-                <div class="products-compare">
-                    <div class="compare-main">
-                        {% with main=message.compare_products.0 %}
-                        <div class="compare-large">
-                            <div class="product-image">
-                                <img src="{{ main.image }}" alt="{{ main.title }}">
-                            </div>
-                            <div class="product-body">
-                                <div class="product-header">
-                                    <span class="site-badge badge-{{ main.site_color }}">{{ main.site }}</span>
-                                </div>
-                                <h3 class="product-title">{{ main.title }}</h3>
-                                <div class="product-price">{{ main.price }}</div>
-                                <div class="product-stats">
-                                    <div class="stat-item">
-                                        <div class="stat-label">⭐ Puan</div>
-                                        <div class="stat-value">
-                                            {% if main.rating >= 4.5 %}⭐⭐⭐⭐⭐
-                                            {% elif main.rating >= 3.5 %}⭐⭐⭐⭐
-                                            {% elif main.rating >= 2.5 %}⭐⭐⭐
-                                            {% elif main.rating >= 1.5 %}⭐⭐
-                                            {% else %}⭐{% endif %}
-                                        </div>
-                                    </div>
-                                    <div class="stat-item">
-                                        <div class="stat-label">💬 Yorum</div>
-                                        <div class="stat-value">{{ main.review_count }}</div>
-                                    </div>
-                                    <div class="stat-item">
-                                        <div class="stat-label">🚚 Kargo</div>
-                                        <div class="stat-value">{{ main.delivery_info }}</div>
-                                    </div>
-                                    <div class="stat-item">
-                                        <div class="stat-label">🏪 Satıcı</div>
-                                        <div class="stat-value">{{ main.site }}</div>
-                                    </div>
-                                </div>
-                                <p style="font-size: 0.9rem; color: #475569; line-height: 1.5;">{{ main.description }}</p>
-                                <div class="price-graph">📊 Fiyat Grafiği</div>
-                                {% if main.tags %}
-                                <div class="product-tags">
-                                    {% for tag in main.tags %}
-                                    <span class="ai-tag {% if tag == 'En iyi fiyat' %}tag-price {% elif tag == 'En yüksek puan' %}tag-rating {% elif tag == 'En çok yorum' %}tag-reviews {% endif %}">
-                                        {{ tag }}
-                                    </span>
-                                    {% endfor %}
-                                </div>
-                                {% endif %}
-                                <a href="{{ main.link }}" target="_blank" class="btn btn-primary" style="width: 100%; justify-content: center; padding: 12px; font-size: 1rem;">
-                                    🛒 Mağazaya Git
-                                </a>
-                            </div>
-                        </div>
-                        {% endwith %}
+            {% if not chat_history and not show_flight_section and not flight_intent_detected %}
+            <div class="welcome-screen">
+                <h1>👋 Merhaba!</h1>
+                <p>Size nasıl yardımcı olabilirim?</p>
+                <div class="suggestions">
+                    <div class="suggestion-card" onclick="document.querySelector('#product-search-input').value='en iyi telefon modelleri';document.querySelector('#product-form').submit();">📱 Telefon</div>
+                    <div class="suggestion-card" onclick="document.querySelector('#product-search-input').value='ucuz laptop';document.querySelector('#product-form').submit();">💻 Laptop</div>
+                    <div class="suggestion-card" onclick="document.querySelector('#product-search-input').value='kulaklık';document.querySelector('#product-form').submit();">🎧 Kulaklık</div>
+                    <div class="suggestion-card" onclick="document.querySelector('#product-search-input').value='ayakkabı';document.querySelector('#product-form').submit();">👟 Ayakkabı</div>
+                </div>
+            </div>
+            {% else %}
+            <div class="chat-container">
+                {% for message in chat_history %}
+                <div class="chat-message {{ message.role }}">
+                    <div class="message-avatar">
+                        {% if message.role == "user" %}
+                        <i class="fas fa-user"></i>
+                        {% else %}
+                        <i class="fas fa-robot"></i>
+                        {% endif %}
                     </div>
+                    <div class="message-bubble">{{ message.content }}</div>
+                </div>
 
-                    <div class="compare-thumbs" role="list">
-                        {% for product in message.compare_products|slice:"1:5" %}
-                        <div class="thumb-card" role="listitem"
-                            data-product-title="{{ product.title|escapejs }}"
-                            data-product-price="{{ product.price|escapejs }}"
-                            data-product-image="{{ product.image|escapejs }}"
-                            data-product-description="{{ product.description|default_if_none:""|escapejs }}"
-                            data-product-site="{{ product.site|escapejs }}"
-                            data-product-link="{{ product.link|escapejs }}"
-                            onclick="swapMainProduct(this)">
-                            <img src="{{ product.image }}" alt="{{ product.title }}">
-                            <div class="thumb-info">
-                                <div class="thumb-title">{{ product.title|truncatewords:4 }}</div>
-                                <div class="thumb-meta">
-                                    <span>⭐ {{ product.rating|default:"?" }}</span>
-                                    <span>💬 {{ product.review_count }}</span>
-                                    <span>🏪 {{ product.site|truncatewords:1 }}</span>
-                                </div>
+                {% if message.role == "assistant" and message.products %}
+                <div class="products-section">
+                    <div class="products-grid">
+                        {% for product in message.products %}
+                        <div class="product-card">
+                            {% if product.image %}
+                            <img src="{{ product.image }}" alt="{{ product.title }}" class="product-image">
+                            {% else %}
+                            <div class="product-image"><i class="fas fa-image" style="font-size:32px;color:#ccc;"></i></div>
+                            {% endif %}
+                            <div class="product-info">
+                                <div class="product-title">{{ product.title }}</div>
+                                <div class="product-price">{{ product.price }}</div>
+                                <div class="product-store">{{ product.site|default:"Store" }}</div>
+                                {% if product.rating %}
+                                <div class="product-rating">⭐ {{ product.rating }}</div>
+                                {% endif %}
                                 {% if product.tags %}
                                 <div class="product-tags">
                                     {% for tag in product.tags %}
-                                    <span class="ai-tag {% if tag == 'En iyi fiyat' %}tag-price {% elif tag == 'En yüksek puan' %}tag-rating {% elif tag == 'En çok yorum' %}tag-reviews {% endif %}">
-                                        {{ tag }}
-                                    </span>
+                                    <span class="ai-tag {% if 'fiyat' in tag|lower %}tag-price{% elif 'puan' in tag|lower %}tag-rating{% elif 'yorum' in tag|lower %}tag-reviews{% else %}tag-price{% endif %}">{{ tag }}</span>
                                     {% endfor %}
                                 </div>
                                 {% endif %}
-                                <div class="thumb-price">{{ product.price }}</div>
+                                {% if product.link %}
+                                <a href="{{ product.link }}" target="_blank" class="product-link">İncele</a>
+                                {% endif %}
+                                {% if product.title %}
+                                <a href="javascript:void(0)" class="product-search-btn" onclick="searchProductBySameBrand('{{ product.title|escapejs }}','{{ product.site|escapejs }}')" title="Aynı ürünü farklı mağazalardan göster">Ara</a>
+                                {% endif %}
                             </div>
-                            <a href="{{ product.link }}" target="_blank" class="thumb-button">Git</a>
                         </div>
                         {% endfor %}
                     </div>
                 </div>
+                {% if message.ai_summary and message.ai_summary.data and message.ai_summary.data.commentary %}
+                <div class="ai-summary">
+                    <div class="ai-title">AI Yorumu</div>
+                    <div class="ai-text">{{ message.ai_summary.data.commentary }}</div>
+                </div>
+                {% endif %}
+                {% if message.compare_products %}
+                <div class="products-section compare-section" id="compare-section-{{ forloop.counter }}" style="margin-top:14px;">
+                    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;">
+                        <div style="font-weight:700;color:#111">Aynı ürünü farklı mağazalardan (karşılaştırma)</div>
+                        <div style="font-size:12px;color:#6b7280">{{ message.compare_products|length }} teklif</div>
+                    </div>
+                    <div class="products-grid">
+                        {% for product in message.compare_products %}
+                        <div class="product-card">
+                            {% if product.image %}
+                            <img src="{{ product.image }}" alt="{{ product.title }}" class="product-image">
+                            {% else %}
+                            <div class="product-image"><i class="fas fa-image" style="font-size:32px;color:#ccc;"></i></div>
+                            {% endif %}
+                            <div class="product-info">
+                                <div class="product-title">{{ product.title }}</div>
+                                <div class="product-price">{{ product.price }}</div>
+                                <div class="product-store">{{ product.site|default:"Store" }}</div>
+                                {% if product.rating %}
+                                <div class="product-rating">⭐ {{ product.rating }}</div>
+                                {% endif %}
+                                {% if product.tags %}
+                                <div class="product-tags">
+                                    {% for tag in product.tags %}
+                                    <span class="ai-tag {% if 'fiyat' in tag|lower %}tag-price{% elif 'puan' in tag|lower %}tag-rating{% elif 'yorum' in tag|lower %}tag-reviews{% else %}tag-price{% endif %}">{{ tag }}</span>
+                                    {% endfor %}
+                                </div>
+                                {% endif %}
+                                {% if product.link %}
+                                <a href="{{ product.link }}" target="_blank" class="product-link">İncele</a>
+                                {% endif %}
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% if message.compare_ai_summary and message.compare_ai_summary.data and message.compare_ai_summary.data.commentary %}
+                <div class="ai-summary">
+                    <div class="ai-title">AI Yorumu (Karşılaştırma)</div>
+                    <div class="ai-text">{{ message.compare_ai_summary.data.commentary }}</div>
+                </div>
+                {% endif %}
+                {% endif %}
+                {% endif %}
+                {% endfor %}
             </div>
             {% endif %}
 
-            {% if message.ai_summary %}
-            <div class="ai-summary" role="region" aria-label="AI Özet">
-                <div class="ai-title">AI Özet</div>
-                <div class="ai-text">{{ message.ai_summary.data.commentary|default:message.ai_summary.data.commentary }}</div>
+            <!-- PRODUCT SEARCH PROMPT -->
+            <div class="prompt-container">
+                <form method="post" id="product-form" action="{% url 'home' %}">
+                    {% csrf_token %}
+                    <div class="quick-actions">
+                        <button type="button" class="quick-actions-btn" aria-label="Hızlı seçenekler">+</button>
+                        <div class="quick-actions-menu">
+                            <button type="button">Barkodla arama</button>
+                            <button type="button">Resim ile arama</button>
+                        </div>
+                    </div>
+                    <input type="text" name="query" id="product-search-input" placeholder="Mesaj yazın...">
+                    <button type="submit">➤</button>
+                </form>
             </div>
-            {% endif %}
-
-            {% endfor %}
         </div>
-        {% endif %}
-    </div>
-
-    <!-- PROMPT -->
-    <div class="prompt-container">
-        <form method="post" id="search-form">
-            {% csrf_token %}
-            <input type="text" name="query" id="search-input" placeholder="Mesaj yazın...">
-            <button type="submit">➤</button>
-        </form>
     </div>
 
     <!-- MODAL -->
     <div id="productModal" class="modal">
         <div class="modal-content">
-            <button onclick="closeProductModal()" class="close-btn" aria-label="Kapat">&times;</button>
-            <div>
-                <img id="modalImage" src="" alt="Ürün görseli">
-            </div>
+            <button onclick="closeProductModal()" class="close-btn">&times;</button>
+            <div><img id="modalImage" src="" alt=""></div>
             <div class="modal-body">
                 <h2 id="modalTitle"></h2>
                 <p id="modalPrice" class="price"></p>
@@ -1023,152 +343,23 @@
                 <p id="modalSite"></p>
                 <div style="display:flex;gap:8px;margin-top:12px;">
                     <a id="modalLink" target="_blank" class="btn btn-primary">Mağazaya Git</a>
-                    <button id="addToCartBtn" class="btn btn-outline" onclick="addToCart()">Sepete Ekle</button>
                 </div>
             </div>
         </div>
     </div>
 
+    <script src="{% static 'core/js/home.js' %}"></script>
     <script>
-        function openProductModal(product) {
-            document.getElementById("modalImage").src = product.image;
-            document.getElementById("modalTitle").innerText = product.title;
-            document.getElementById("modalPrice").innerText = product.price;
-            document.getElementById("modalDescription").innerText = product.description;
-            document.getElementById("modalSite").innerText = "Mağaza: " + product.site;
-            document.getElementById("modalLink").href = product.link;
-            document.getElementById("productModal").style.display = "flex";
-        }
-
-        function closeProductModal() {
-            document.getElementById("productModal").style.display = "none";
-        }
-
-        function addToCart() {
-            // placeholder: sepete ekleme işlemi burada yapılabilir
-            const title = document.getElementById('modalTitle').innerText;
-            alert(title + ' sepete eklendi.');
-            closeProductModal();
-        }
-
-        function openProductModalFromElement(element) {
-            const product = {
-                title: element.dataset.productTitle,
-                price: element.dataset.productPrice,
-                image: element.dataset.productImage,
-                description: element.dataset.productDescription,
-                site: element.dataset.productSite,
-                link: element.dataset.productLink
-            };
-            openProductModal(product);
-        }
-
-        function searchProductBySameBrand(productTitle, site) {
-            // Aynı ürünü farklı satıcılardan ara (fiyat karşılaştırması)
-            // ?compare=true ile backend 5 satıcıyı gösterecek
-            const encodedTitle = encodeURIComponent(productTitle);
-            window.location.href = `/?query=${encodedTitle}&compare=true`;
-        }
-
-        // AI summary'yi tüm resimler yüklenince göster
-        function showAISummaryAfterImages() {
-            const images = document.querySelectorAll('.product-image img, .compare-large .product-image img, .thumb-card img');
-            if (images.length === 0) {
-                // Resim yoksa direkt göster
-                const summaries = document.querySelectorAll('.ai-summary');
-                summaries.forEach(summary => summary.classList.add('visible'));
-                return;
-            }
-
-            let loadedCount = 0;
-            const totalImages = images.length;
-            let showTimeout;
-
-            function showSummaries() {
-                const summaries = document.querySelectorAll('.ai-summary');
-                summaries.forEach(summary => summary.classList.add('visible'));
-            }
-
-            images.forEach(img => {
-                if (img.complete) {
-                    loadedCount++;
-                } else {
-                    img.addEventListener('load', () => {
-                        loadedCount++;
-                        if (loadedCount === totalImages) {
-                            clearTimeout(showTimeout);
-                            showSummaries();
-                        }
-                    });
-                    img.addEventListener('error', () => {
-                        loadedCount++;
-                        if (loadedCount === totalImages) {
-                            clearTimeout(showTimeout);
-                            showSummaries();
-                        }
-                    });
-                }
-            });
-
-            // Tüm resimler zaten yüklüyse veya max 2 sn sonra göster
-            if (loadedCount === totalImages) {
-                showSummaries();
-            } else {
-                showTimeout = setTimeout(showSummaries, 2000);
-            }
-        }
-
-        // typing effect & AI summary trigger
-        window.onload = function () {
-            const targets = document.querySelectorAll(".typing-target");
-            targets.forEach(target => {
-                const text = target.dataset.text;
-                let i = 0;
-                target.innerHTML = "";
-                function type() {
-                    if (i < text.length) {
-                        target.innerHTML += text.charAt(i);
-                        i++;
-                        setTimeout(type, 20);
-                    }
-                }
-                type();
-            });
-            
-            // Resimler yüklenince AI summary'yi göster (HER ZAMAN)
-            showAISummaryAfterImages();
-            
-            // AUTO-SCROLL: Compare section varsa aşağı kaydır
+        // Single page flow (no tabs)
+        {% if flight_scroll %}
+        const flightResults = document.getElementById('flight-results');
+        if (flightResults) {
             setTimeout(() => {
-                const compareSections = document.querySelectorAll('[id^="compare-section-"]');
-                if (compareSections.length > 0) {
-                    const lastCompare = compareSections[compareSections.length - 1];
-                    lastCompare.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                }
-            }, 300);  // Biraz bekle ki rendering tamamlanabilsin
-        };
-
-        // Swap main compare product when a thumb is clicked
-        function swapMainProduct(elem) {
-            const dataset = elem.dataset;
-            const mainImage = document.querySelector('.compare-large .product-image img');
-            const mainTitle = document.querySelector('.compare-large .product-title');
-            const mainPrice = document.querySelector('.compare-large .product-price');
-            const mainDesc = document.querySelector('.compare-large .product-body > p');
-            const mainSiteBadge = document.querySelector('.compare-large .product-header .site-badge');
-            const mainLink = document.querySelector('.compare-large .btn-primary');
-
-            if (mainImage && dataset.productImage) mainImage.src = dataset.productImage;
-            if (mainTitle && dataset.productTitle) mainTitle.innerText = dataset.productTitle;
-            if (mainPrice && dataset.productPrice) mainPrice.innerText = dataset.productPrice;
-            if (mainDesc && dataset.productDescription) mainDesc.innerText = dataset.productDescription;
-            if (mainSiteBadge && dataset.productSite) mainSiteBadge.innerText = dataset.productSite;
-            if (mainLink && dataset.productLink) mainLink.href = dataset.productLink;
+                flightResults.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 120);
         }
+        {% endif %}
     </script>
 </body>
-
-
-
-
 </html>
+     

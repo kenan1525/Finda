@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FindaFly - Flight Search</title>
+</head>
+<body>
+
+<h2>Flight Search</h2>
+
+<form method="post">
+    {% csrf_token %}
+    <input type="text" name="origin" placeholder="From (IST)" required>
+    <input type="text" name="destination" placeholder="To (PAR)" required>
+    <input type="date" name="date" required>
+    <button type="submit">Search</button>
+</form>
+
+<hr>
+
+{% if results %}
+    <h3>Results</h3>
+    <pre>{{ results|safe }}</pre>
+{% endif %}
+
+</body>
+</html>
